@@ -1,4 +1,4 @@
-import NavBar from "../navbar/navBar"
+import NavBar from "../navbar/navbar"
 import {Outlet} from "react-router-dom"
 
 const Master = ()=>{
