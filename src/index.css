@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+overflow-x: hidden;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+  border: solid 1px yellow !important;
+  border-radius: 10px !important;
+
+}
+
+.slick-dots li button:before {
+  color:white !important;
+}
+
+.slick-dots {
+  bottom: -40px !important;
+}
