@@ -10,65 +10,75 @@ import separator from '../../assets/images/separator.webp'
 function Experience() {
   return (
     <div id="experience">
-      <div className="bg-black bg-opacity-95" style={{fontFamily:"cursive"}}>
-        <h1 className="text-4xl text-center py-10 text-green-600">Experience</h1>
-        <VerticalTimeline>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
-            contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
-            <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2022"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2021 - 2021"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
-              Full-stack Development, API Development, User Experience
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-            <p>
-              Automation, Data Governance, Statistical Analysis
-            </p>
-          </VerticalTimelineElement>
-        </VerticalTimeline>
-      </div>
+    <div className="bg-black bg-opacity-95" style={{ fontFamily: "cursive" }}>
+      <h1 className="text-4xl text-center py-10 text-green-600">Experience</h1>
+      <VerticalTimeline>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+          contentArrowStyle={{ borderRight: '7px solid white' }}
+          date="2024 - Present"
+          iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+          icon={<FontAwesomeIcon icon={faBriefcase} />}
+        >
+          <h3 className="vertical-timeline-element-title">Front-End Developer</h3>
+          <h4 className="vertical-timeline-element-subtitle">Freelance</h4>
+          <p>
+            Developing web interfaces using React.js, Tailwind CSS, and JavaScript.
+            Enhancing user experience (UX/UI) and website performance.
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2023 - 2024"
+          iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+          icon={<FontAwesomeIcon icon={faBriefcase} />}
+        >
+          <h3 className="vertical-timeline-element-title">Front-End Developer</h3>
+          <h4 className="vertical-timeline-element-subtitle">Dashboard Project</h4>
+          <p>
+            Developed a user dashboard with login functionality.
+            Integrated with an API for data management.
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2023 - 2024"
+          iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+          icon={<FontAwesomeIcon icon={faBriefcase} />}
+        >
+          <h3 className="vertical-timeline-element-title">Front-End Developer</h3>
+          <h4 className="vertical-timeline-element-subtitle">Car E-Commerce Platform</h4>
+          <p>
+            Built an online car marketplace with search and pagination features.
+            Fetched and displayed data dynamically from an API.
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2022 - 2023"
+          iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+          icon={<FontAwesomeIcon icon={faBriefcase} />}
+        >
+          <h3 className="vertical-timeline-element-title">Front-End Developer</h3>
+          <h4 className="vertical-timeline-element-subtitle">Bookstore (Full Stack)</h4>
+          <p>
+            Developed an online bookstore using React, Node.js, and MongoDB.
+            Built CRUD functionalities and API handling.
+          </p>
+        </VerticalTimelineElement>
+      </VerticalTimeline>
+    </div>
+
+
+
 
 <div>
-            <img src={separator} alt=""  className='w-full h-5'/>
-        </div>
+   <img src={separator} alt=""  className='w-full h-5'/>
+</div>
 
     </div>
   );
