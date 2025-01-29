@@ -1,4 +1,5 @@
 import About from "./about/about"
+import Contact from "./contact/Contact"
 import Experience from "./experience/experience"
 import Home from "./home/home"
 import Projects from "./projects/projects"
@@ -13,7 +14,8 @@ const BigHome = () => {
         <About/>
         {/* <Skills/> */}
         <Projects/>
-        {/* <Experience/> */}
+        <Experience/>
+        <Contact/>
         
         </>  
     )

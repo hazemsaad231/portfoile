@@ -11,7 +11,7 @@ import dashboard from '../assets/images/dashboard.jpeg'
 
 
 
-const Data = [
+export const Data = [
     {
         id: 1,
         title: "HTML",
@@ -22,47 +22,47 @@ const Data = [
         title: "CSS",
         img: "https://img.icons8.com/color/48/000000/css3.png",
     },
-    {
-        id: 3,
-        title: "Javascript",
-        img: "https://img.icons8.com/color/48/000000/javascript.png",
-    },
-    {
-        id: 4,
-        title: "Typescript",
-        img: "https://img.icons8.com/color/48/000000/typescript.png",
-    },
-    {
-        id: 5,
-        title: "Tailwind",
-        img: "https://img.icons8.com/color/48/000000/tailwindcss.png",
-    },
-    {
-        id: 6,
-        title: "Material UI",
-        img: "https://img.icons8.com/color/48/000000/material-ui.png",
-    },
-    {
-        id: 7,
-        title: "React",
-        img: "https://img.icons8.com/color/48/000000/react-native.png",
-    },
+//     {
+//         id: 3,
+//         title: "Javascript",
+//         img: "https://img.icons8.com/color/48/000000/javascript.png",
+//     },
+//     {
+//         id: 4,
+//         title: "Typescript",
+//         img: "https://img.icons8.com/color/48/000000/typescript.png",
+//     },
+//     {
+//         id: 5,
+//         title: "Tailwind",
+//         img: "https://img.icons8.com/color/48/000000/tailwindcss.png",
+//     },
+//     {
+//         id: 6,
+//         title: "Material UI",
+//         img: "https://img.icons8.com/color/48/000000/material-ui.png",
+//     },
+//     {
+//         id: 7,
+//         title: "React",
+//         img: "https://img.icons8.com/color/48/000000/react-native.png",
+//     },
  
-    {
-        id: 8,
-        title: "Figma",
-        img: "https://img.icons8.com/color/48/000000/figma.png",
-    },
-   {
-        id: 9,
-        title: "Github",
-        img: "https://img.icons8.com/color/48/000000/github.png",
-   },
-    {
-        id: 9,
-        title: "Redux",
-        img: "https://img.icons8.com/color/48/000000/redux.png",
-    },
+//     {
+//         id: 8,
+//         title: "Figma",
+//         img: "https://img.icons8.com/color/48/000000/figma.png",
+//     },
+//    {
+//         id: 9,
+//         title: "Github",
+//         img: "https://img.icons8.com/color/48/000000/github.png",
+//    },
+//     {
+//         id: 10,
+//         title: "Redux",
+//         img: "https://img.icons8.com/color/48/000000/redux.png",
+//     },
 
   
    

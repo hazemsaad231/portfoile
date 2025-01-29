@@ -1,31 +1,71 @@
+import React from "react";
+import '@fortawesome/free-regular-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+import './Timeline.scss'
 
-
-const Experience = () => {
-
-    return (
-        <div className=" bg-black bg-opacity-95 text-white w-full text-start flex justify-center flex-col items-center h-[100vh]" id="experience">
-             
-            <div className="flex flex-col justify-center items-center h-[100%] gap-5">
-            <h1 className="text-start text-lg sm:text-lg md:text-xl lg:text-xl xl:text-2xl font-serif mb-3">Work Experience</h1>
-                <div className="w-[60%]  h-fit  bg-yellow-200 hover:bg-yellow-400 rounded-xl">
-                    <h1 className='text-start font-serif p-2 text-md sm:text-md md:text-md lg:text-xl xl:text-xl' >full stack</h1>
-                    <p className="text-start p-2 text-[.5rem] sm:text-sm md:text-md lg:text-md xl:text-lg"> Full Stack Development refers to the development of both the front-end (client side) and back-end (server side) of a web application. A Full Stack Developer is skilled in handling all aspects of the web development process, from designing and building user interfaces . </p>
-                </div>
-                <div className="w-[60%]  h-fit  bg-red-200 hover:bg-red-400 rounded-xl">
-                    <h1 className='text-start font-serif p-2 text-xl sm:text-xl md:text-xl lg:text-xl' >front end </h1>
-                    <p className="text-start p-2 text-[.5rem] sm:text-sm md:text-lg lg:text-xl xl:text-lg"> Front-End Development is a part of web development that focuses on designing and developing the visual and user-facing portion of websites and applications. Front-End developers work with elements such as buttons, menus, images, and colors that users interact with directly. 
-                         and JavaScript for adding interactivity and dynamic behavior to the website. </p></div>
-                <div className="w-[60%]  h-fit  bg-green-200 hover:bg-green-400 rounded-xl">
-                    <h1 className='text-start font-serif p-2 text-xl sm:text-xl md:text-2xl lg:text-xl xl:text-xl' >ui ux design</h1>
-                    <p className="text-start p-2 text-[.5rem] sm:text-sm md:text-lg lg:text-lg xl:text-lg"> UI design refers to the visual elements and interaction components of a product or application that users interact with directly. It focuses on the aesthetics and the layout of the interface, ensuring that the design is visually appealing, intuitive, and easy to use.  </p>
-                </div>
-              
-              
-               
-            </div>
-        </div>
-    )
+function Experience() {
+  return (
+    <div id="experience">
+      <div className="bg-black bg-opacity-95" style={{fontFamily:"cursive"}}>
+        <h1 className="text-4xl text-center py-10 text-green-600">Experience</h1>
+        <VerticalTimeline>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="2022 - present"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
+            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <p>
+              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2020 - 2022"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <p>
+              Frontend Development, Backend Development, User Experience, Team Leading
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2021 - 2021"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <p>
+              Full-stack Development, API Development, User Experience
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2020 - 2020"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <p>
+              Automation, Data Governance, Statistical Analysis
+            </p>
+          </VerticalTimelineElement>
+        </VerticalTimeline>
+      </div>
+    </div>
+  );
 }
 
-
-export default Experience
+export default Experience;
