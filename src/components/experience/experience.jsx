@@ -9,7 +9,7 @@ function Experience() {
   return (
     <div id="experience">
     <div style={{ fontFamily: "serif" }}>
-      <h1 className="text-4xl text-center py-20 text-blue-700">Experience</h1>
+      <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl text-center py-24 text-blue-700">Experience</h1>
       <VerticalTimeline lineColor="#2563EB">
         <VerticalTimelineElement
           date="2024 - Present"

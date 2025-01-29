@@ -30,7 +30,7 @@ function Contact() {
     <div id="contact" className='py-40 px-8' style={{fontFamily:"serif"}}>
       <div className=" flex flex-col justify-center items-center gap-4">
         <div className="">
-          <h1 className='text-5xl text-blue-700 py-5'>Contact Me</h1>
+          <h1 className='text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl text-center text-blue-700 py-12'>Contact Me</h1>
           <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
           <Box
             ref={form}
@@ -87,7 +87,7 @@ function Contact() {
               error={messageError}
               helperText={messageError ? "Please enter the message" : ""}
             />
-            <Button variant="contained"  endIcon={<SendIcon />} onClick={sendEmail}>
+            <Button variant="contained"  endIcon={<SendIcon />} onClick={sendEmail} className='bg-blue-600 hover:bg-blue-800'>
               Send
             </Button>
            

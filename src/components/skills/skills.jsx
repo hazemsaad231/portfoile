@@ -21,7 +21,7 @@ const Skills = () => {
    <div className="py-24" id="skills">
      <h1 className='font-bold text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl text-center text-blue-700 tracking-[8px] m-8' data-aos="fade-up" style={{ fontFamily: "serif" }}>Skills</h1>
 
-     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 p-4 sm:p-6 md:p-10 lg:p-12 xl:p-12 gap-12" data-aos="fade-up">
+     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 p-4 sm:p-6 md:p-16 lg:p-20 xl:p-20 gap-20" data-aos="fade-up">
       {Icons.map(({ name, icon: Icon }) => (
      <div
       key={name}
