@@ -1,7 +1,7 @@
 import Slider from "react-slick";
 import { GoArrowLeft } from "react-icons/go";
 import 'aos/dist/aos.css';
-import {Data} from '../data';
+import {Data} from '../Data/data';
 import React from "react";
 
 

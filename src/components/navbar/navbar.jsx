@@ -4,7 +4,7 @@ const NavBar = () => {
         
         <>
 
-{/* <div className="fixed top-0 bg-white bg-opacity-5 text-white p-3 w-full rounded-full">
+<div className="fixed top-0 bg-white bg-opacity-5 text-white p-3 w-full rounded-full">
 
 
         <div className=' flex items-center justify-around w-full' style={{fontFamily:"cursive"}}>
@@ -27,7 +27,7 @@ const NavBar = () => {
             </div>
 
             </div>
-        </div> */}
+        </div>
 
         
         </>

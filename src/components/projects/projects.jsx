@@ -1,6 +1,6 @@
 import separator from '../../assets/images/separator.webp'
 import React from 'react';
-import { Data2 } from '../data';
+import { Data2 } from '../Data/data';
 import { motion } from 'framer-motion';
 import { HiExternalLink } from "react-icons/hi";
 import Aos from "aos";
@@ -30,11 +30,11 @@ const Projects = () => {
 
 
 
-<div className='flex flex-col justify-between items-between'>
+<div className='flex flex-col justify-between items-between p-5'>
   {Data2.map((item, index) => (
     <div 
       key={index} 
-      className={`flex gap-5 my-8 ${index % 2 === 0 ? "flex-row-reverse" : ""}`}
+      className={`flex gap-5 ${index % 2 === 0 ? "flex-row-reverse" : ""}`}
       data-aos="fade-up"
     >
       <motion.div

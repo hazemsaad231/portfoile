@@ -1,11 +1,11 @@
-import Ecommerce from '../assets/images/e-commerce.png';
-import Crud from "../assets/images/Screenshot 2024-09-28 124435.png";
-import XO from "../assets/images/Screenshot 2024-09-28 124052.png";
-import Edit from '../assets/images/Screenshot 2024-09-28 124619.png';
-import Quiz from '../assets/images/Screenshot 2024-09-28 124729.png'
-import rentCar from '../assets/images/rentCar.jpeg'
-import bookStore from '../assets/images/bookStore.jpeg'
-import dashboard from '../assets/images/dashboard.jpeg'
+import Ecommerce from '../../assets/images/e-commerce.png';
+import Crud from "../../assets/images/Screenshot 2024-09-28 124435.png";
+// import XO from "../assets/images/Screenshot 2024-09-28 124052.png";
+// import Edit from '../assets/images/Screenshot 2024-09-28 124619.png';
+import Quiz from '../../assets/images/Screenshot 2024-09-28 124729.png'
+import rentCar from '../../assets/images/rentCar.jpeg'
+import bookStore from '../../assets/images/bookStore.jpeg'
+import dashboard from '../../assets/images/dashboard.jpeg'
 
 
 

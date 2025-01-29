@@ -1,30 +1,25 @@
-
-import Master from './components/layout/layout'
-import './App.css'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import BigHome from '../src/components/BigHome'
+import NavBar from './components/navbar/navbar'
+import Home from './components/home/home'
+import About from './components/about/about'
+import Skills from './components/skills/skills'
+import Projects from './components/projects/projects'
+import Experience from './components/experience/experience'
+import Contact from './components/contact/Contact'
 
 
 function App() {
 
-const zamlek = createBrowserRouter([
-  {
 
-    path: '/',
-    element:<Master/>,
-    errorElement:<div>this page not found</div>,
-    children:[
-      {index:true,element:<BigHome/>},
-
-    ]
-  }
-])
   
   return (
     <>
-<div className='flex'>
-<RouterProvider router={zamlek} ></RouterProvider>
-</div>
+<NavBar/>
+<Home/>
+<About/>
+{/* <Skills/> */}
+<Projects/>
+<Experience/>
+<Contact/>
 
     </>
   )

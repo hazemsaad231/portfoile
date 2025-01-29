@@ -5,6 +5,7 @@ import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import './Timeline.scss'
+import separator from '../../assets/images/separator.webp'
 
 function Experience() {
   return (
@@ -64,6 +65,11 @@ function Experience() {
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
+
+<div>
+            <img src={separator} alt=""  className='w-full h-5'/>
+        </div>
+
     </div>
   );
 }
