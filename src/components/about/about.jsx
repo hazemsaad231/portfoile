@@ -20,11 +20,11 @@ const About = () => {
     
     return (
         <>
-        <div className="flex flex-col gap-10 sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center h-full px-4 py-20" id='about'style={{fontFamily:"cursive"}} >
+        <div className="flex flex-col gap-10 sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center h-full px-4 py-28" id='about'style={{fontFamily:"cursive"}} >
           
-          <div>
+          <div data-aos="fade-left">
 
-            <h1 className="text-green-600 text-center text-2xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-5xl">About Me</h1>
+            <h1 className="text-blue-600 text-center text-2xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-5xl">About Me</h1>
             
             <p className="text-gray-400 w-64 sm:w-64 md:w-80 lg:w-96 xl:w-96 mt-6 p-3">
             I'm Hazem Saad, a front-end expert in React.js, with experience in building modern, interactive, experimental UIs. He worked on developing free dynamic web applications.

@@ -22,9 +22,9 @@ const Projects = () => {
             <div className="flex flex-col items-center justify-center w-full h-full text-white py-24" id='projects' style={{fontFamily:"cursive"}}>
 
                       <div className='flex flex-col justify-center items-center' data-aos="fade-up">
-                    <h1 className="text-3xl text-green-600 sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl"><span className=" mx-4">Latest</span>PROJECTS</h1>
+                    <h1 className="text-3xl text-blue-600 sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl"><span className=" mx-4">Latest</span>PROJECTS</h1>
 
-                    <p className="text-gray-300 my-6 text-sm sm:text-md md:text-xl lg:text-xl xl-text-xl">
+                    <p className="text-gray-500 my-6 text-sm sm:text-md md:text-xl lg:text-xl xl-text-xl">
                         I have created many projects in my free time
                     </p>
 
@@ -54,8 +54,8 @@ const Projects = () => {
           {item.title}
         </h1>
 
-        <a href={item.link} className="text-green-600 flex gap-1 text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px]"> Live <HiExternalLink size={20}/> </a>
-        <a href={item.gitHub} className="text-green-600 flex gap-2 text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px] ">GitHub <FaGithub size={20}/> </a>
+        <a href={item.link} className="text-blue-600 flex gap-1 text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px]"> Live <HiExternalLink size={20}/> </a>
+        <a href={item.gitHub} className="text-blue-600 flex gap-2 text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px] ">GitHub <FaGithub size={20}/> </a>
       
        
       </div>

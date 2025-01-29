@@ -1,5 +1,4 @@
 import React, { useRef, useState } from 'react';
-import './Contact.scss';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
@@ -28,24 +27,27 @@ function Contact() {
   };
 
   return (
-    <div id="contact" className='py-12' style={{fontFamily:"cursive"}}>
-      <div className="items-container">
-        <div className="contact_wrapper">
-          <h1 className='text-5xl p-5'>Contact Me</h1>
+    <div id="contact" className='py-32 px-8' style={{fontFamily:"cursive"}}>
+      <div className=" flex flex-col justify-center items-center gap-4">
+        <div className="">
+          <h1 className='text-5xl py-5'>Contact Me</h1>
           <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
           <Box
             ref={form}
             component="form"
             noValidate
             autoComplete="off"
-            className='contact-form'
+          
           >
-            <div className='form-flex'>
+           
+            <div className='flex flex-col justify-center gap-5 w-full'>
+            <div className='flex flex-col gap-5 my-5 '>
               <TextField
                 required
                 id="outlined-required"
                 label="Your Name"
                 placeholder="What's your name?"
+                sx={{bgcolor:"#F5F5F5"}}
                 value={name}
                 onChange={(e) => {
                   setName(e.target.value);
@@ -59,6 +61,8 @@ function Contact() {
                 label="Email / Phone"
                 placeholder="How can I reach you?"
                 value={email}
+                sx={{bgcolor:"#F5F5F5"}}
+
                 onChange={(e) => {
                   setEmail(e.target.value);
                 }}
@@ -66,6 +70,8 @@ function Contact() {
                 helperText={emailError ? "Please enter your email or phone number" : ""}
               />
             </div>
+
+
             <TextField
               required
               id="outlined-multiline-static"
@@ -73,17 +79,20 @@ function Contact() {
               placeholder="Send me any inquiries or questions"
               multiline
               rows={10}
-              className="body-form"
               value={message}
+              sx={{bgcolor:"#F5F5F5"}}
               onChange={(e) => {
                 setMessage(e.target.value);
               }}
               error={messageError}
               helperText={messageError ? "Please enter the message" : ""}
             />
-            <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
+            <Button variant="contained"  endIcon={<SendIcon />} onClick={sendEmail}>
               Send
             </Button>
+           
+            </div>
+           
           </Box>
         </div>
       </div>

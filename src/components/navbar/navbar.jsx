@@ -7,14 +7,17 @@ const NavBar = () => {
 
     const toggleMode = () => {
         if (isDarkMode) {
-        document.body.style.backgroundColor = 'white';
-        document.body.style.color = 'black';
-        document.body.style.transition = 'background-color 0.7s ease, color 0.7s ease';
+
+          document.body.style.backgroundColor = 'white';
+          document.body.style.color = 'black';
+          document.body.style.transition = 'background-color 0.7s ease, color 0.7s ease';
+        
          
         } else {
           document.body.style.backgroundColor = 'black';
           document.body.style.color = 'white';
           document.body.style.transition = 'background-color 0.7s ease, color 0.7s ease';
+          
         }
         setIsDarkMode(!isDarkMode); // تحديث الحالة
       };
@@ -37,11 +40,11 @@ const NavBar = () => {
 
 
 
-           <h1 className="tracking-[15px] text-green-600">
+           <h1 className="tracking-[15px] text-blue-700">
             hazem
            </h1>
        <div className="hidden sm:hidden md:hidden lg:block xl:block">
-            <ul className="flex gap-6 text-md sm:text-md md:text-md lg:text-md p-4">
+            <ul className="flex gap-6 text-md sm:text-md md:text-md lg:text-md p-4 text-blue-600">
            <li><a href="#home" className="relative transition duration-500 ease-in-out"> Home</a></li>
                 <li> <a  href='#about' className="relative transition duration-500 ease-in-out">About</a></li>
                 <li> <a  href='#skills' className="relative transition duration-500 ease-in-out">skills</a></li>
