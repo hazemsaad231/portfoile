@@ -57,7 +57,6 @@ const NavBar = () => {
          :
          <MdOutlineDarkMode className='text-2xl mt-1 cursor-pointer' onClick={toggleMode} />}
 
-
 <AnimatePresence>
       {isNavbarVisible && (
         <motion.div
@@ -65,15 +64,14 @@ const NavBar = () => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -100 }} // ❌ تأثير الاختفاء
           transition={{ duration: 0.5, ease: "easeInOut" }}
-          className="bg-black fixed inset-0 z-50 text-white h-[30%] w-[30%] sm:block md:hidden lg:hidden xl:hidden"
+          className="bg-blue-900 fixed inset-0 text-white h-[32%] w-[32%] sm:block md:hidden lg:hidden xl:hidden"
 
         >
           <div className="flex flex-col items-center w-full">
-            {/* 🔹 الروابط */}
 
-            <ul className="flex flex-col font-semibold gap-y-4 my-8 mx-4">
-              {["home", "about", "skills", "projects", "experience", "contact"].map((item) => (
-                <motion.li
+          <ul className="flex flex-col font-semibold gap-y-4 my-8 mx-4">
+          {["home", "about", "skills", "projects", "experience", "contact"].map((item) => (
+            <motion.li
                   key={item}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -91,21 +89,16 @@ const NavBar = () => {
               ))}
             </ul>
 
-            {/* 🔹 زر الإغلاق */}
             <button
-              onClick={toggleNavbar}
-              className="text-red-500 font-bold text-xl absolute top-2 right-2"
-            >
-              ✖
-            </button>
-          </div>
-        </motion.div>
-      )}
-    </AnimatePresence>
-  
-
-  
-
+        onClick={toggleNavbar}
+        className="text-red-500 font-bold text-xl absolute top-2 right-2"
+       >
+        ✖
+      </button>
+     </div>
+  </motion.div>
+  )}
+ </AnimatePresence> 
 
 
 
@@ -117,7 +110,6 @@ const NavBar = () => {
                 <li> <a  href='#skills' className="relative transition duration-500 ease-in-out">skills</a></li>
                 <li> <a href='#projects' className="relative transition duration-500 ease-in-out">projects</a></li>
                 <li> <a  href='#experience' className="relative transition duration-500 ease-in-out">experience</a></li>
-
                 <li> <a href='#contact' className="mx-8 relative transition duration-500 ease-in-out">contact me</a></li>
 
             </ul>
@@ -135,3 +127,6 @@ const NavBar = () => {
 export default NavBar
 
 
+
+
+         
