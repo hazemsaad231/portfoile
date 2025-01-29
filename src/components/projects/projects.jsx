@@ -19,12 +19,12 @@ const Projects = () => {
 
     return (
      <>
-            <div className="bg-black bg-opacity-95 flex flex-col items-center justify-center w-full h-full text-white py-24" id='projects' style={{fontFamily:"cursive"}}>
+            <div className="flex flex-col items-center justify-center w-full h-full text-white py-24" id='projects' style={{fontFamily:"cursive"}}>
 
                       <div className='flex flex-col justify-center items-center' data-aos="fade-up">
-                    <h1 className="text-3xl text-green-600 sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl"><span className="text-white mx-4">Latest</span>PROJECTS</h1>
+                    <h1 className="text-3xl text-green-600 sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl"><span className=" mx-4">Latest</span>PROJECTS</h1>
 
-                    <p className="text-gray-300 m-6 text-sm sm:text-md md:text-xl lg:text-xl xl-text-xl">
+                    <p className="text-gray-300 my-6 text-sm sm:text-md md:text-xl lg:text-xl xl-text-xl">
                         I have created many projects in my free time
                     </p>
 
@@ -73,10 +73,6 @@ const Projects = () => {
           
                  
                 </div>
-
-             <div>
-                  <img src={separator} alt=""  className='w-[100vw] h-3'/>
-              </div>
 
 
                 </>

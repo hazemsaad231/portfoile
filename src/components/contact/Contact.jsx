@@ -28,7 +28,7 @@ function Contact() {
   };
 
   return (
-    <div id="contact" className='bg-black opacity-95' style={{fontFamily:"cursive"}}>
+    <div id="contact" className='py-12' style={{fontFamily:"cursive"}}>
       <div className="items-container">
         <div className="contact_wrapper">
           <h1 className='text-5xl p-5'>Contact Me</h1>

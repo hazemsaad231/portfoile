@@ -20,7 +20,7 @@ const About = () => {
     
     return (
         <>
-        <div className="bg-black bg-opacity-95 flex flex-col gap-10 sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center h-full px-4 py-8" id='about'style={{fontFamily:"cursive"}} >
+        <div className="flex flex-col gap-10 sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center h-full px-4 py-20" id='about'style={{fontFamily:"cursive"}} >
           
           <div>
 
@@ -37,10 +37,6 @@ const About = () => {
             </div>
 
             </div>
-
-        <div>
-            <img src={separator} alt=""  className='w-full h-3'/>
-        </div>
 
         </>
     )

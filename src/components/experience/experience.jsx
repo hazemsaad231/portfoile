@@ -10,8 +10,8 @@ import separator from '../../assets/images/separator.webp'
 function Experience() {
   return (
     <div id="experience">
-    <div className="bg-black bg-opacity-95" style={{ fontFamily: "cursive" }}>
-      <h1 className="text-4xl text-center py-10 text-green-600">Experience</h1>
+    <div className="" style={{ fontFamily: "cursive" }}>
+      <h1 className="text-4xl text-center py-16 text-green-600">Experience</h1>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -72,13 +72,6 @@ function Experience() {
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
-
-
-
-
-<div>
-   <img src={separator} alt=""  className='w-full h-5'/>
-</div>
 
     </div>
   );
