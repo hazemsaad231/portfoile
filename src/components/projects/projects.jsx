@@ -1,6 +1,6 @@
 import separator from '../../assets/images/separator.webp'
 import React from 'react';
-import { Data2 } from '../Data/data';
+import  Data2  from '../Data/data';
 import { motion } from 'framer-motion';
 import { HiExternalLink } from "react-icons/hi";
 import Aos from "aos";

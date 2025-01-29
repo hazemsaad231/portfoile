@@ -1,75 +1,68 @@
 import Ecommerce from '../../assets/images/e-commerce.png';
 import Crud from "../../assets/images/Screenshot 2024-09-28 124435.png";
-// import XO from "../assets/images/Screenshot 2024-09-28 124052.png";
-// import Edit from '../assets/images/Screenshot 2024-09-28 124619.png';
 import Quiz from '../../assets/images/Screenshot 2024-09-28 124729.png'
 import rentCar from '../../assets/images/rentCar.jpeg'
 import bookStore from '../../assets/images/bookStore.jpeg'
 import dashboard from '../../assets/images/dashboard.jpeg'
+import { FaHtml5 } from "react-icons/fa";
+import { SiCss3 } from "react-icons/si";
+import { SiJavascript } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { SiRedux } from "react-icons/si";
+import { FaFigma } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { SiFirebase } from "react-icons/si";
 
 
 
 
-
-export const Data = [
+export const Icons = [
     {
-        id: 1,
-        title: "HTML",
-        img: "https://img.icons8.com/color/48/000000/html-5.png",
+        name: "HTML",
+        icon: FaHtml5,
     },
     {
-        id: 2,
-        title: "CSS",
-        img: "https://img.icons8.com/color/48/000000/css3.png",
+        name: "CSS",
+        icon: SiCss3,
     },
-//     {
-//         id: 3,
-//         title: "Javascript",
-//         img: "https://img.icons8.com/color/48/000000/javascript.png",
-//     },
-//     {
-//         id: 4,
-//         title: "Typescript",
-//         img: "https://img.icons8.com/color/48/000000/typescript.png",
-//     },
-//     {
-//         id: 5,
-//         title: "Tailwind",
-//         img: "https://img.icons8.com/color/48/000000/tailwindcss.png",
-//     },
-//     {
-//         id: 6,
-//         title: "Material UI",
-//         img: "https://img.icons8.com/color/48/000000/material-ui.png",
-//     },
-//     {
-//         id: 7,
-//         title: "React",
-//         img: "https://img.icons8.com/color/48/000000/react-native.png",
-//     },
- 
-//     {
-//         id: 8,
-//         title: "Figma",
-//         img: "https://img.icons8.com/color/48/000000/figma.png",
-//     },
-//    {
-//         id: 9,
-//         title: "Github",
-//         img: "https://img.icons8.com/color/48/000000/github.png",
-//    },
-//     {
-//         id: 10,
-//         title: "Redux",
-//         img: "https://img.icons8.com/color/48/000000/redux.png",
-//     },
-
+    {
+        name: "JavaScript",
+        icon: SiJavascript,
+    },
+    {
+        name: "Tailwind",
+        icon: RiTailwindCssFill,
+    },
+    {
+        name: "TypeScript",
+        icon: SiTypescript,
+    },
+    {
+        name: "React",
+        icon: FaReact ,
+    },
+    {
+        name: "Redux",
+        icon: SiRedux ,
+    },
+    {
+        name: "Figma",
+        icon: FaFigma,
+    },
+    {
+        name: "GitHub",
+        icon: FaGithub ,
+    },
+    {
+        name: "Firebase",
+        icon: SiFirebase,
+    },
+];
   
-   
-
-]
-
-export const Data2 = [
+  
+const Data2 = [
     {
         id: 1,
         title: "RentCars",
@@ -114,4 +107,4 @@ export const Data2 = [
     },
 ]
 
-export default Data
+export default Data2
