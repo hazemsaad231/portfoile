@@ -40,11 +40,11 @@ const NavBar = () => {
 
 
 
-           <h1 className="tracking-[15px] text-blue-700">
+           <h1 className="tracking-[15px] text-blue-700 font-bold text-xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl">
             hazem
            </h1>
        <div className="hidden sm:hidden md:hidden lg:block xl:block">
-            <ul className="flex gap-6 text-md sm:text-md md:text-md lg:text-md p-4 text-blue-600">
+            <ul className="flex gap-6 text-md sm:text-md md:text-md lg:text-xl xl:text-xl p-4 text-blue-600">
            <li><a href="#home" className="relative transition duration-500 ease-in-out"> Home</a></li>
                 <li> <a  href='#about' className="relative transition duration-500 ease-in-out">About</a></li>
                 <li> <a  href='#skills' className="relative transition duration-500 ease-in-out">skills</a></li>
