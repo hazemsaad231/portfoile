@@ -10,7 +10,7 @@ import myimage from '../../assets/images/myProfile.jpg'
 const Home = () => {
   return (
     <>
-    <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center h-full py-52 w-screen' id='home' style={{fontFamily:"cursive"}}>
+    <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center h-full py-52 w-screen' id='home' style={{fontFamily:"serif"}}>
 
     <div className='py-20 '>
         <motion.h1 className='text-2xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-4xl text-blue-700 mb-4' animate={{marginBottom:"20px"}} transition={{ duration: 1 }}>

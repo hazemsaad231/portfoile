@@ -19,7 +19,7 @@ const Projects = () => {
 
     return (
      <>
-            <div className="flex flex-col items-center justify-center w-full h-full text-white py-24" id='projects' style={{fontFamily:"cursive"}}>
+            <div className="flex flex-col items-center justify-center w-full h-full text-white py-24" id='projects' style={{fontFamily:"serif"}}>
 
                       <div className='flex flex-col justify-center items-center' data-aos="fade-up">
                     <h1 className="text-3xl text-blue-600 sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl"><span className=" mx-4">Latest</span>PROJECTS</h1>

@@ -27,7 +27,7 @@ function Contact() {
   };
 
   return (
-    <div id="contact" className='py-32 px-8' style={{fontFamily:"cursive"}}>
+    <div id="contact" className='py-32 px-8' style={{fontFamily:"serif"}}>
       <div className=" flex flex-col justify-center items-center gap-4">
         <div className="">
           <h1 className='text-5xl py-5'>Contact Me</h1>

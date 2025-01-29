@@ -8,7 +8,7 @@ import 'react-vertical-timeline-component/style.min.css';
 function Experience() {
   return (
     <div id="experience">
-    <div style={{ fontFamily: "cursive" }}>
+    <div style={{ fontFamily: "serif" }}>
       <h1 className="text-4xl text-center py-20 text-blue-700">Experience</h1>
       <VerticalTimeline lineColor="#2563EB">
         <VerticalTimelineElement
