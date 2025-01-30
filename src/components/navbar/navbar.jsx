@@ -57,6 +57,7 @@ const NavBar = () => {
          :
          <MdOutlineDarkMode className='text-2xl mt-1 cursor-pointer' onClick={toggleMode} />}
 
+{/* {القاءمه المنسدله} */}
 <AnimatePresence>
       {isNavbarVisible && (
         <motion.div
@@ -64,8 +65,7 @@ const NavBar = () => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -100 }} // ❌ تأثير الاختفاء
           transition={{ duration: 0.5, ease: "easeInOut" }}
-          className="bg-blue-900 fixed inset-0 text-white h-[32%] w-[32%] sm:block md:hidden lg:hidden xl:hidden"
-
+          className="fixed top-0 left-0 w-[30%] h-[30%] bg-black text-yellow-50 z-10"
         >
           <div className="flex flex-col items-center w-full">
 
@@ -77,6 +77,7 @@ const NavBar = () => {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }} // ❌ تأثير اختفاء كل عنصر
                   transition={{ duration: 0.3, delay: Math.random() * 0.3 }}
+
                 >
                   <a
                     href={`#${item}`}
@@ -99,7 +100,6 @@ const NavBar = () => {
   </motion.div>
   )}
  </AnimatePresence> 
-
 
 
 

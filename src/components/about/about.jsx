@@ -26,7 +26,7 @@ const About = () => {
 
             <h1 className="text-blue-600 text-center text-2xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-5xl">About Me</h1>
             
-            <p className="text-gray-500 w-64 sm:w-64 md:w-80 lg:w-96 xl:w-96 mt-6 p-2 text-lg">
+            <p className="text-gray-500 w-64 sm:w-64 md:w-80 lg:w-96 xl:w-96 mt-6 p-2 text-lg z-10">
             I'm Hazem Mahisin Saad, a front-end expert in React.js, with experience in building modern, interactive, experimental UIs. He worked on developing free dynamic web applications.
             I've built online stores, control panels, and data management systems, and I'm interested in improving performance and user experience.
             </p>
