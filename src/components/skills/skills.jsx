@@ -25,9 +25,9 @@ const Skills = () => {
       {Icons.map(({ name, icon: Icon }) => (
      <div
       key={name}
-      className="border border-gray-300 rounded-lg p-4 bg-transparent transition-all duration-500 hover:bg-blue-700 flex items-center justify-center relative group"
+      className="border border-gray-300 rounded-lg p-3 w-max bg-transparent transition-all duration-500 hover:bg-blue-700 flex items-center justify-center relative group"
     >
-      <Icon size={80} className="text-blue-700" />
+      <Icon size={70} className="text-blue-700" />
       <span className="absolute opacity-0 group-hover:opacity-100 transition-opacity duration-500 text-lg font-bold text-white">
         {name}
       </span>

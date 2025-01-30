@@ -50,7 +50,7 @@ const toggleAll = () => {
      <>
             <div className="flex flex-col w-full h-full text-white py-28" id='projects' style={{fontFamily:"serif"}}>
           
-            <div className='flex flex-col justify-center items-center gap-6'>
+            <div className='flex flex-col justify-center items-center gap-2'>
                     <h1 className="text-2xl text-blue-600 sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl tracking-[8px]">PROJECTS</h1>
                     <ul className='flex gap-14 py-4 text-blue-600 text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl cursor-pointer'>
                       <li onClick={toggleReact}>react</li>
@@ -58,7 +58,7 @@ const toggleAll = () => {
                       <li onClick={toggleJs}>js</li>
                     </ul>
 
-                    <p className="text-gray-500 my-6 text-sm sm:text-md md:text-xl lg:text-xl xl-text-xl">
+                    <p className="text-gray-500 my-2 text-sm sm:text-md md:text-xl lg:text-xl xl-text-xl">
                         I have created many projects in my free time
                     </p>
                     </div>
