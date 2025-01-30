@@ -20,13 +20,21 @@ const [isJs, setIsJs] = useState(false);
 
 
 const toggleReact = () => {
-  setIsReact(!isReact);
-  setIsJs(!isJs)
+  
+  setIsReact(true);
+  setIsJs(false);
+  
 };
 
 const toggleJs = () => {  
-  setIsJs(!isJs);
-  setIsReact(!isReact)
+ 
+  setIsJs(true);
+  setIsReact(false);
+};
+
+const toggleAll = () => {
+  setIsJs(true);
+  setIsReact(true);
 };
 
 
@@ -40,20 +48,24 @@ const toggleJs = () => {
 
     return (
      <>
-            <div className="flex flex-col items-center justify-center w-full h-full text-white py-28" id='projects' style={{fontFamily:"serif"}}>
-
-                      <div className='flex flex-col justify-center items-center' data-aos="fade-up">
+            <div className="flex flex-col w-full h-full text-white py-28" id='projects' style={{fontFamily:"serif"}}>
+          
+            <div className='flex flex-col justify-center items-center gap-6'>
                     <h1 className="text-2xl text-blue-600 sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl tracking-[8px]">PROJECTS</h1>
-                    <ul className='flex gap-10 p-4 text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl cursor-pointer'>
+                    <ul className='flex gap-14 py-4 text-blue-600 text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl cursor-pointer'>
                       <li onClick={toggleReact}>react</li>
-                      <li onClick={toggleJs}>Js</li>
+                      <li onClick={toggleAll}>all</li>
+                      <li onClick={toggleJs}>js</li>
                     </ul>
 
                     <p className="text-gray-500 my-6 text-sm sm:text-md md:text-xl lg:text-xl xl-text-xl">
                         I have created many projects in my free time
                     </p>
+                    </div>
 
+                      <div className='flex flex-col justify-center items-center' data-aos="fade-up">
 
+                
                     {isReact && (
 <div className='flex flex-col justify-between items-between p-2'>
 
