@@ -9,12 +9,12 @@ function Experience() {
   return (
     <div id="experience">
     <div style={{ fontFamily: "serif" }} className="py-24">
-      <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl text-center p-12 text-blue-700 tracking-[8px]">Experience</h1>
-      <VerticalTimeline lineColor="#2563EB">
+      <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl text-center p-12 text-[#4A90E2] tracking-[8px]">Experience</h1>
+      <VerticalTimeline lineColor="#4A90E2">
         <VerticalTimelineElement
           date="2024 - Present"
-          icon={<FontAwesomeIcon icon={faBriefcase} color="blue" />}
-          className="text-blue-700 "
+          icon={<FontAwesomeIcon icon={faBriefcase} color="#4A90E2" />}
+          className="text-[#4A90E2] "
         >
           <div className="">
           <h3>Front-End Developer</h3>
@@ -29,9 +29,9 @@ function Experience() {
 
 
         <VerticalTimelineElement
-          className=" text-blue-700"
+          className=" text-[#4A90E2]"
           date="2023 - 2024"
-          icon={<FontAwesomeIcon icon={faBriefcase} color="blue" />}
+          icon={<FontAwesomeIcon icon={faBriefcase} color="#4A90E2" />}
         >
           <h3 className="">Front-End Developer</h3>
           <h4 className="">Car E-Commerce Platform</h4>
@@ -42,9 +42,9 @@ function Experience() {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="text-blue-700"
+          className="text-[#4A90E2]"
           date="2023 - 2024"
-          icon={<FontAwesomeIcon icon={faBriefcase} color="blue" />}
+          icon={<FontAwesomeIcon icon={faBriefcase} color="#4A90E2" />}
         >
           <h3 className="">Front-End Developer</h3>
           <h4 className="">Bookstore (Full Stack)</h4>

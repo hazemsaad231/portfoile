@@ -48,7 +48,7 @@ const NavBar = () => {
 
 
 
-           <h1 className="tracking-[15px] text-blue-700 font-bold text-xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl">
+           <h1 className="tracking-[15px] text-[#4A90E2] font-bold text-xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl">
             hazem
            </h1>
 
@@ -65,7 +65,7 @@ const NavBar = () => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -100 }} // ❌ تأثير الاختفاء
           transition={{ duration: 0.5, ease: "easeInOut" }}
-          className="fixed top-0 left-0 inset-0 w-[30%] h-max p-1 bg-blue-800 text-yellow-50 z-10"
+          className="fixed top-0 left-0 inset-0 w-[30%] h-max p-1 bg-[#4A90E2] text-yellow-50 z-10"
         >
           <div className="flex flex-col items-center w-full">
 
@@ -104,7 +104,7 @@ const NavBar = () => {
 
 
        <div className="hidden sm:hidden md:hidden lg:block xl:block">
-            <ul className="flex gap-6 text-md sm:text-md md:text-md lg:text-xl xl:text-xl p-4 text-blue-600">
+            <ul className="flex gap-6 text-md sm:text-md md:text-md lg:text-xl xl:text-xl p-4 text-[#4A90E2]">
            <li><a href="#home" className="relative transition duration-500 ease-in-out"> Home</a></li>
                 <li> <a  href='#about' className="relative transition duration-500 ease-in-out">About</a></li>
                 <li> <a  href='#skills' className="relative transition duration-500 ease-in-out">skills</a></li>

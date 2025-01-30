@@ -51,23 +51,24 @@ const toggleAll = () => {
             <div className="flex flex-col w-full h-full text-white py-32" id='projects' style={{fontFamily:"serif"}}>
           
             <div className='flex flex-col justify-center items-center gap-2'>
-                    <h1 className="text-2xl text-blue-600 sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl tracking-[8px]">PROJECTS</h1>
-                    <ul className='flex gap-14 py-4 text-blue-600 text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl cursor-pointer'>
-                      <li onClick={toggleReact}>react</li>
-                      <li onClick={toggleAll}>all</li>
-                      <li onClick={toggleJs}>js</li>
-                    </ul>
-
-                    <p className="text-gray-500 my-2 text-sm sm:text-md md:text-xl lg:text-xl xl-text-xl">
+                    <h1 className="text-xl text-[#4A90E2] sm:text-xl md:text-xl lg:text-4xl xl:text-4xl tracking-[8px]">PROJECTS</h1>
+                    <p className="text-gray-500 text-sm sm:text-md md:text-xl lg:text-xl xl-text-xl mb-4">
                         I have created many projects in my free time
                     </p>
+                    <ul className='flex gap-20 sm:gap-20 md:gap-24 lg:gap-28 xl:gap-28 text-[#4A90E2] text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl cursor-pointer'>
+                      <li onClick={toggleReact}>React</li>
+                      <li onClick={toggleJs}>js</li>
+                      <li onClick={toggleAll}>All</li>
+                    </ul>
+
+                   
                     </div>
 
                       <div className='flex flex-col justify-center items-center' data-aos="fade-up">
 
                 
                     {isReact && (
-<div className='flex flex-col justify-between items-between p-2'>
+<div className='flex flex-col justify-between items-between py-20'>
 
   
   {Data.map((item, index) => (
@@ -93,8 +94,8 @@ const toggleAll = () => {
           {item.title}
         </h1>
 
-        <a href={item.link} className="text-blue-600 flex gap-1 text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px]"> Live <HiExternalLink size={20}/> </a>
-        <a href={item.gitHub} className="text-blue-600 flex gap-2 text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px] ">GitHub <FaGithub size={20}/> </a>
+        <a href={item.link} className="text-[#4A90E2] flex gap-1 text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px]"> Live <HiExternalLink size={20}/> </a>
+        <a href={item.gitHub} className="text-[#4A90E2] flex gap-2 text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px] ">GitHub <FaGithub size={20}/> </a>
       
        
       </div>
@@ -133,8 +134,8 @@ const toggleAll = () => {
           {item.title}
         </h1>
 
-        <a href={item.link} className="text-blue-600 flex gap-1 text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px]"> Live <HiExternalLink size={20}/> </a>
-        <a href={item.gitHub} className="text-blue-600 flex gap-2 text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px] ">GitHub <FaGithub size={20}/> </a>
+        <a href={item.link} className="text-[#4A90E2] flex gap-1 text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px]"> Live <HiExternalLink size={20}/> </a>
+        <a href={item.gitHub} className="text-[#4A90E2] flex gap-2 text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px] ">GitHub <FaGithub size={20}/> </a>
       
        
       </div>

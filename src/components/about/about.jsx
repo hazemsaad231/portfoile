@@ -24,7 +24,7 @@ const About = () => {
           
           <div data-aos="fade-left">
 
-            <h1 className="text-blue-600 text-center text-2xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-5xl tracking-[8px]">About Me</h1>
+            <h1 className="text-[#4A90E2] text-center text-2xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-5xl tracking-[8px]">About Me</h1>
             
             <p className="text-gray-500 w-64 sm:w-64 md:w-80 lg:w-96 xl:w-96 mt-6 p-2 text-lg z-1">
             I'm Hazem Mahisin Saad, a front-end expert in React.js, with experience in building modern, interactive, experimental UIs. He worked on developing free dynamic web applications.
