@@ -39,7 +39,9 @@ const Home = () => {
 
         </p>
         <div className='flex '>
-        <button className='text-md bg-blue-600 hover:bg-blue-500 px-4 py-2'>Download cv <i className="fas fa-download"></i></button>
+
+        <a href="/CV.pdf" download="HazemSaad_CV.pdf"><button className='text-md bg-blue-600 hover:bg-blue-500 px-4 py-2'>Download cv <i className="fas fa-download"></i></button></a>
+
         <a href="https://github.com/dashboard"><FaGithub className='text-4xl mx-4 hover:text-blue-600'/></a>
         <a href="https://www.linkedin.com/in/hazem-saad-719083282"><FaLinkedin className='text-4xl hover:text-blue-600'/></a>
         <a href="https://www.facebook.com/hazem.mahisin"> <FaFacebookSquare className='text-4xl mx-4 text-blue-600'/></a>

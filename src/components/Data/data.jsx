@@ -32,13 +32,14 @@ export const Icons = [
         icon: SiJavascript,
     },
     {
-        name: "Tailwind",
-        icon: RiTailwindCssFill,
-    },
-    {
         name: "TypeScript",
         icon: SiTypescript,
     },
+    {
+        name: "Tailwind",
+        icon: RiTailwindCssFill,
+    },
+   
     {
         name: "React",
         icon: FaReact ,

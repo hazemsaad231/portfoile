@@ -3,6 +3,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import TextField from '@mui/material/TextField';
+import emailjs from '@emailjs/browser';
 
 function Contact() {
 
@@ -22,7 +23,15 @@ function Contact() {
     setNameError(name === '');
     setEmailError(email === '');
     setMessageError(message === '');
-
+    if (form.current) {
+      emailjs.sendForm("service_d4zl58r","template_88st5sc",form.current,"4FaHP8sRoJMBOwwjc")
+        .then(() => alert("message sent successfully"))
+        .catch((error) => console.error("Error sending email:", error));
+        setEmail('');
+        setMessage('');
+        setName('');
+      
+    }
    
   };
 
@@ -33,17 +42,17 @@ function Contact() {
           <h1 className='text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl text-center text-blue-700 py-12'>Contact Me</h1>
           <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
           <Box
-            ref={form}
-            component="form"
             noValidate
             autoComplete="off"
           
           >
+            <form onSubmit={sendEmail} ref={form}>
            
             <div className='flex flex-col justify-center gap-5 w-full'>
             <div className='flex flex-col gap-5 my-5 '>
               <TextField
                 required
+                name='name'
                 id="outlined-required"
                 label="Your Name"
                 placeholder="What's your name?"
@@ -57,6 +66,7 @@ function Contact() {
               />
               <TextField
                 required
+                name='email'
                 id="outlined-required"
                 label="Email / Phone"
                 placeholder="How can I reach you?"
@@ -75,6 +85,7 @@ function Contact() {
             <TextField
               required
               id="outlined-multiline-static"
+              name='message'
               label="Message"
               placeholder="Send me any inquiries or questions"
               multiline
@@ -87,12 +98,12 @@ function Contact() {
               error={messageError}
               helperText={messageError ? "Please enter the message" : ""}
             />
-            <Button variant="contained"  endIcon={<SendIcon />} onClick={sendEmail} className='bg-blue-600 hover:bg-blue-800'>
+            <Button type='submit' variant="contained"  endIcon={<SendIcon />}className='bg-blue-600 hover:bg-blue-800'>
               Send
             </Button>
            
             </div>
-           
+           </form>
           </Box>
         </div>
       </div>
@@ -101,3 +112,4 @@ function Contact() {
 }
 
 export default Contact;
+
