@@ -65,7 +65,7 @@ const NavBar = () => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -100 }} // ❌ تأثير الاختفاء
           transition={{ duration: 0.5, ease: "easeInOut" }}
-          className="fixed top-0 left-0 w-[30%] h-[30%] bg-black text-yellow-50 z-10"
+          className="fixed top-0 left-0 w-[30%] h-max p-1 bg-blue-800 text-yellow-50 z-10"
         >
           <div className="flex flex-col items-center w-full">
 

@@ -1,10 +1,11 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import TextField from '@mui/material/TextField';
 import emailjs from '@emailjs/browser';
-
+import Aos from "aos";
+import 'aos/dist/aos.css';
 function Contact() {
 
   const [name, setName] = useState('');
@@ -14,6 +15,16 @@ function Contact() {
   const [nameError, setNameError] = useState(false);
   const [emailError, setEmailError] = useState(false);
   const [messageError, setMessageError] = useState(false);
+
+
+    useEffect(() => {
+        Aos.init({
+          duration: 1000,  // مدة التأثير
+          once: true,  // التأثير يتم مرة واحدة فقط عند التمرير
+        });
+      }, []);
+
+
 
   const form = useRef();
 
@@ -37,7 +48,7 @@ function Contact() {
 
   return (
     <div id="contact" className='py-40 px-8' style={{fontFamily:"serif"}}>
-      <div className=" flex flex-col justify-center items-center gap-4">
+      <div className=" flex flex-col justify-center items-center gap-4" data-aos="fade-up">
         <div className="">
           <h1 className='text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl text-center text-blue-700 py-12'>Contact Me</h1>
           <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
