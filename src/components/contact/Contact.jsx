@@ -6,6 +6,8 @@ import TextField from '@mui/material/TextField';
 import emailjs from '@emailjs/browser';
 import Aos from "aos";
 import 'aos/dist/aos.css';
+import { Toaster, toast } from 'react-hot-toast';
+
 function Contact() {
 
   const [name, setName] = useState('');
@@ -36,8 +38,9 @@ function Contact() {
     setMessageError(message === '');
     if (form.current) {
       emailjs.sendForm("service_d4zl58r","template_88st5sc",form.current,"4FaHP8sRoJMBOwwjc")
-        .then(() => alert("message sent successfully"))
-        .catch((error) => console.error("Error sending email:", error));
+        .then(() =>toast.success("Email sent successfully"))
+        .catch((error) => console.error("Error sending email:", error),
+        );
         setEmail('');
         setMessage('');
         setName('');
@@ -47,6 +50,8 @@ function Contact() {
   };
 
   return (
+    <>
+    <Toaster/>
     <div id="contact" className='py-40 px-8' style={{fontFamily:"serif"}}>
       <div className=" flex flex-col justify-center items-center gap-4" data-aos="fade-up">
         <div className="">
@@ -119,6 +124,7 @@ function Contact() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
