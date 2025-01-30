@@ -8,8 +8,8 @@ import 'react-vertical-timeline-component/style.min.css';
 function Experience() {
   return (
     <div id="experience">
-    <div style={{ fontFamily: "serif" }}>
-      <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl text-center py-24 text-blue-700 tracking-[8px]">Experience</h1>
+    <div style={{ fontFamily: "serif" }} className="py-24">
+      <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl text-center p-12 text-blue-700 tracking-[8px]">Experience</h1>
       <VerticalTimeline lineColor="#2563EB">
         <VerticalTimelineElement
           date="2024 - Present"

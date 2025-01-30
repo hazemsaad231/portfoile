@@ -36,7 +36,7 @@ const NavBar = () => {
         
         <>
 
-<div className="fixed top-0 p-3 w-full rounded-full">
+<div className="fixed top-0 p-3 w-full rounded-full z-50">
 
 
         <div className=' flex items-center justify-around w-full' style={{fontFamily:"serif"}}>

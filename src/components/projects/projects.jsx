@@ -48,7 +48,7 @@ const toggleAll = () => {
 
     return (
      <>
-            <div className="flex flex-col w-full h-full text-white py-28" id='projects' style={{fontFamily:"serif"}}>
+            <div className="flex flex-col w-full h-full text-white py-32" id='projects' style={{fontFamily:"serif"}}>
           
             <div className='flex flex-col justify-center items-center gap-2'>
                     <h1 className="text-2xl text-blue-600 sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl tracking-[8px]">PROJECTS</h1>
