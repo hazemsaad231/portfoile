@@ -19,7 +19,7 @@ const Skills = () => {
     return (
 
    <div className="py-24" id="skills">
-     <h1 className='font-bold text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl text-center text-blue-700 tracking-[8px]' data-aos="fade-up" style={{ fontFamily: "serif" }}>Skills</h1>
+     <h1 className='font-bold text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl text-center text-blue-700 tracking-[12px]' data-aos="fade-up" style={{ fontFamily: "serif" }}>Skills</h1>
 
      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 px-12 sm:px-16 md:px-24 lg:px-36 xl:px-40 mt-16 cursor-pointer gap-10" data-aos="fade-up">
       {Icons.map(({ name, icon: Icon }) => (

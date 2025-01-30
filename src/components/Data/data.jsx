@@ -63,7 +63,7 @@ export const Icons = [
 ];
   
   
-const Data2 = [
+const Data = [
     {
         id: 1,
         title: "RentCars",
@@ -85,27 +85,34 @@ const Data2 = [
         link: "https://dashboard25-azk2.vercel.app/",
         gitHub: "https://github.com/hazemsaad231/Dashboard"
     },
+    
+]
+
+export default Data
+
+
+
+export const Data2 = [
+
     {
-        id: 4,
+        id: 1,
         title: "e-commerce",
         img: Ecommerce,
         link: "https://hazemsaad231.github.io/E-commerce/",
         gitHub: "https://github.com/hazemsaad231/e-commerce"
     },
     {
-        id: 5,
+        id: 2,
         title: "CRUD",
         img: Crud,
         link: "https://hazemsaad231.github.io/cruds/",
         gitHub: "https://github.com/hazemsaad231/cruds"
     },
     {
-        id: 6,
+        id: 3,
         title: "Quiz",
         img: Quiz,
         link: "https://quiz-rouge.vercel.app/",
         gitHub: "https://github.com/hazemsaad231/Quiz-app"
     },
 ]
-
-export default Data2
