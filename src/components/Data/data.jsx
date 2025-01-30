@@ -4,9 +4,7 @@ import Quiz from '../../assets/images/Screenshot 2024-09-28 124729.png'
 import rentCar from '../../assets/images/rentCar.jpeg'
 import bookStore from '../../assets/images/bookStore.jpeg'
 import dashboard from '../../assets/images/dashboard.jpeg'
-import { FaHtml5 } from "react-icons/fa";
 import { SiCss3 } from "react-icons/si";
-import { SiJavascript } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
@@ -14,22 +12,26 @@ import { SiRedux } from "react-icons/si";
 import { FaFigma } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SiFirebase } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io";
+import { LiaHtml5 } from "react-icons/lia";
+import { ImHtmlFive } from "react-icons/im";
 
 
 
 
 export const Icons = [
+    
     {
         name: "HTML",
-        icon: FaHtml5,
+        icon: ImHtmlFive,
     },
     {
         name: "CSS",
         icon: SiCss3,
-    },
+    }, 
     {
         name: "JavaScript",
-        icon: SiJavascript,
+        icon: IoLogoJavascript,
     },
     {
         name: "TypeScript",
