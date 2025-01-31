@@ -13,7 +13,6 @@ import { FaFigma } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SiFirebase } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
-import { LiaHtml5 } from "react-icons/lia";
 import { ImHtmlFive } from "react-icons/im";
 
 

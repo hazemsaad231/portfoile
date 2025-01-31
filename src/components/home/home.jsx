@@ -8,10 +8,12 @@ import { TypeAnimation } from 'react-type-animation';
 import myimage from '../../assets/images/myProfile.jpg'
 import { FaWhatsapp } from "react-icons/fa";
 
+
+
 const Home = () => {
   return (
     <>
-    <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center h-full py-52 w-screen' id='home' style={{fontFamily:"serif"}}>
+    <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center py-48' id='home' style={{fontFamily:"serif"}}>
 
     <div className='py-20 '>
         <motion.h1 className='text-2xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-4xl text-blue-[#4A90E2]  mb-4' animate={{marginBottom:"20px"}} transition={{ duration: 1 }}>
@@ -55,7 +57,7 @@ const Home = () => {
 
     <div className="flex items-center justify-center">
     <motion.div
-  className="relative w-60 sm:w-60 md:w-68 lg:w-72 xl:w-72 h-60 sm:h-60 md:h-68 lg:h-72 xl:h-72 rounded-full bg-gradient-to-r from-blue-100 to-blue-50 shadow-lg"
+  className="relative w-60 sm:w-60 md:w-68 lg:w-72 xl:w-72 h-60 sm:h-60 md:h-68 lg:h-72 xl:h-72 rounded-full shadow-xl"
   animate={{
     clipPath: [
       "circle(50% at 40% 40%)", 

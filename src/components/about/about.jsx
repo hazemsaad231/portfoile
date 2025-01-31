@@ -3,7 +3,6 @@ import Aos from "aos";
 import 'aos/dist/aos.css';
 import img from '../../assets/images/about-me.jpg'
 import { useEffect } from 'react';
-import separator from '../../assets/images/separator.webp'
 
 
 
@@ -20,7 +19,7 @@ const About = () => {
     
     return (
         <>
-        <div className="flex flex-col gap-10 sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center h-full px-4 py-36" id='about'style={{fontFamily:"serif"}} >
+        <div className="flex flex-col gap-10 sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center px-4 py-40" id='about'style={{fontFamily:"serif"}} >
           
           <div data-aos="fade-left">
 
