@@ -68,7 +68,7 @@ const toggleAll = () => {
 
                 
                     {isReact && (
-<div className='flex flex-col justify-between items-between py-20'>
+<div className='flex flex-col justify-between items-between py-24'>
 
   
   {Data.map((item, index) => (
@@ -108,7 +108,7 @@ const toggleAll = () => {
 )}
 
 {isJs && (
-<div className='flex flex-col justify-between items-between p-2'>
+<div className='flex flex-col justify-between items-between py-24'>
 
   
   {Data2.map((item, index) => (

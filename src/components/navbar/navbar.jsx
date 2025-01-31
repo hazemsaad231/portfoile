@@ -103,7 +103,7 @@ const NavBar = () => {
 
 
 
-       <div className="hidden sm:hidden md:hidden lg:block xl:block">
+       <div className="hidden sm:hidden md:block lg:block xl:block">
             <ul className="flex gap-6 text-md sm:text-md md:text-md lg:text-xl xl:text-xl p-4 text-[#4A90E2]">
            <li><a href="#home" className="relative transition duration-500 ease-in-out"> Home</a></li>
                 <li> <a  href='#about' className="relative transition duration-500 ease-in-out">About</a></li>

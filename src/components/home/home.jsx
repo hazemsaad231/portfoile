@@ -58,11 +58,11 @@ const Home = () => {
   className="relative w-60 sm:w-60 md:w-68 lg:w-72 xl:w-72 h-60 sm:h-60 md:h-68 lg:h-72 xl:h-72 rounded-full bg-gradient-to-r from-blue-100 to-blue-50 shadow-lg"
   animate={{
     clipPath: [
-      "circle(55% at 55% 55%)", 
-      "circle(55% at 55% 55%)", // تموج باتجاه اليمين
-      "circle(50% at 55% 50%)", // العودة إلى الدائرة المثالية
-      "circle(60% at 65% 50%)", // تموج باتجاه اليسار
-      "circle(55% at 65% 55%)" // العودة إلى الدائرة المثالية
+      "circle(50% at 40% 40%)", 
+      "circle(50% at 45% 45%)", // تموج باتجاه اليمين
+      "circle(50% at 50% 50%)", // العودة إلى الدائرة المثالية
+      "circle(50% at 55% 55%)", // تموج باتجاه اليسار
+      "circle(50% at 60% 60%)" // العودة إلى الدائرة المثالية
     ],
   }}
   transition={{
