@@ -1,30 +1,12 @@
-import { MdOutlineLightMode } from "react-icons/md";
-import { MdOutlineDarkMode } from "react-icons/md";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { motion, AnimatePresence } from 'framer-motion';
 
 const NavBar = () => {
 
-    const [isDarkMode, setIsDarkMode] = useState(false);
     const [isNavbarVisible, setNavbarVisible] = useState(false);
 
-    const toggleMode = () => {
-        if (isDarkMode) {
-
-          document.body.style.backgroundColor = 'white';
-          document.body.style.color = 'black';
-          document.body.style.transition = 'background-color 0.7s ease, color 0.7s ease';
-        
-         
-        } else {
-          document.body.style.backgroundColor = 'black';
-          document.body.style.color = 'white';
-          document.body.style.transition = 'background-color 0.7s ease, color 0.7s ease';
-          
-        }
-        setIsDarkMode(!isDarkMode); // تحديث الحالة
-      };
+   
 
       const toggleNavbar = () => {
         setNavbarVisible(!isNavbarVisible);
@@ -36,7 +18,7 @@ const NavBar = () => {
         
         <>
 
-<div className="fixed top-0 p-3 w-full rounded-full z-50">
+<div className="fixed top-0 p-4 w-full rounded-full z-50">
 
 
         <div className=' flex items-center justify-around w-full' style={{fontFamily:"serif"}}>
@@ -48,14 +30,11 @@ const NavBar = () => {
 
 
 
-           <h1 className="tracking-[15px] text-[#4A90E2] font-bold text-xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl">
+           <h1 className="tracking-[15px] font-bold text-xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl">
             hazem
            </h1>
 
-           {isDarkMode ?
-         <MdOutlineLightMode className='text-2xl mt-1 cursor-pointer' onClick={toggleMode} />
-         :
-         <MdOutlineDarkMode className='text-2xl mt-1 cursor-pointer' onClick={toggleMode} />}
+         
 
 {/* {القاءمه المنسدله} */}
 <AnimatePresence>
@@ -104,12 +83,12 @@ const NavBar = () => {
 
 
        <div className="hidden sm:hidden md:block lg:block xl:block">
-            <ul className="flex gap-6 text-md sm:text-md md:text-md lg:text-xl xl:text-xl p-4 text-[#4A90E2]">
+            <ul className="flex gap-6 text-md sm:text-md md:text-md lg:text-xl xl:text-xl p-4">
            <li><a href="#home" className="relative transition duration-500 ease-in-out"> Home</a></li>
                 <li> <a  href='#about' className="relative transition duration-500 ease-in-out">About</a></li>
                 <li> <a  href='#skills' className="relative transition duration-500 ease-in-out">skills</a></li>
-                <li> <a href='#projects' className="relative transition duration-500 ease-in-out">projects</a></li>
                 <li> <a  href='#experience' className="relative transition duration-500 ease-in-out">experience</a></li>
+                <li> <a href='#projects' className="relative transition duration-500 ease-in-out">projects</a></li>
                 <li> <a href='#contact' className="mx-8 relative transition duration-500 ease-in-out">contact me</a></li>
 
             </ul>

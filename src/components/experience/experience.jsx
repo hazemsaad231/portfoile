@@ -4,19 +4,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import { border } from "@chakra-ui/react";
 
 function Experience() {
   return (
     <div id="experience">
     <div style={{ fontFamily: "serif" }} className="py-24">
-      <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl text-center p-12 text-[#4A90E2] tracking-[8px]">Experience</h1>
-      <VerticalTimeline lineColor="#4A90E2">
+      <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl text-center p-12 bg-gradient-to-r from-indigo-700 to-gray-100 bg-clip-text text-transparent tracking-[8px]">Experience</h1>
+      <VerticalTimeline lineColor="white">
         <VerticalTimelineElement
           date="2024 - Present"
-          icon={<FontAwesomeIcon icon={faBriefcase} color="#4A90E2" />}
-          className="text-[#4A90E2] "
+          icon={<FontAwesomeIcon icon={faBriefcase} className="text-white" />}
+          contentStyle={{ background: "transparent" }}
         >
-          <div className="">
+          <div className="bg-gradient-to-r from-indigo-500 to-gray-100 bg-clip-text text-transparent">
           <h3>Front-End Developer</h3>
           <h4>Freelance</h4>
           <p>
@@ -29,10 +30,12 @@ function Experience() {
 
 
         <VerticalTimelineElement
-          className=" text-[#4A90E2]"
+          className=" text-white"
           date="2023 - 2024"
-          icon={<FontAwesomeIcon icon={faBriefcase} color="#4A90E2" />}
+          icon={<FontAwesomeIcon icon={faBriefcase} color="white" />}
+          contentStyle={{ background: "transparent" }}
         >
+          <div className="bg-gradient-to-r from-indigo-500 to-gray-100 bg-clip-text text-transparent">
           <h3 className="">Front-End Developer</h3>
           <h4 className="">Car E-Commerce Platform</h4>
           <p>
@@ -43,19 +46,25 @@ function Experience() {
 
 
           </p>
+          </div>
+         
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="text-[#4A90E2]"
+          className="text-white" 
           date="2023 - 2024"
-          icon={<FontAwesomeIcon icon={faBriefcase} color="#4A90E2" />}
+          icon={<FontAwesomeIcon icon={faBriefcase} color="white" />}
+          contentStyle={{ background: "transparent"}}
         >
+          <div className="bg-gradient-to-r from-indigo-500 to-gray-100 bg-clip-text text-transparent">
           <h3 className="">Front-End Developer</h3>
           <h4 className="">Bookstore (Full Stack)</h4>
           <p>
             Developed an online bookstore using React, Node.js, and MongoDB.
             Built CRUD functionalities and API handling.
           </p>
+          </div>
+         
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

@@ -61,13 +61,14 @@ export const Icons = [
         name: "Firebase",
         icon: SiFirebase,
     },
+  
 ];
   
   
 const Data = [
     {
         id: 1,
-        title: "RentCars",
+        title: "Rent cars",
         img: rentCar,
         link: "https://cars-project-tk9d.vercel.app/",
         gitHub: "https://github.com/hazemsaad231/cars-project"
@@ -81,7 +82,7 @@ const Data = [
     },
     {
         id: 3,
-        title: "Dashboard",
+        title: "user dashboard",
         img: dashboard,
         link: "https://dashboard25-azk2.vercel.app/",
         gitHub: "https://github.com/hazemsaad231/Dashboard"
@@ -97,21 +98,21 @@ export const Data2 = [
 
     {
         id: 1,
-        title: "e-commerce",
+        title: "Shoes e-commerce",
         img: Ecommerce,
         link: "https://hazemsaad231.github.io/E-commerce/",
         gitHub: "https://github.com/hazemsaad231/e-commerce"
     },
     {
         id: 2,
-        title: "CRUD",
+        title: "Crud system",
         img: Crud,
         link: "https://hazemsaad231.github.io/cruds/",
         gitHub: "https://github.com/hazemsaad231/cruds"
     },
     {
         id: 3,
-        title: "Quiz",
+        title: "Quiz app",
         img: Quiz,
         link: "https://quiz-rouge.vercel.app/",
         gitHub: "https://github.com/hazemsaad231/Quiz-app"

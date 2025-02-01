@@ -13,13 +13,13 @@ import { FaWhatsapp } from "react-icons/fa";
 const Home = () => {
   return (
     <>
-    <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center py-48' id='home' style={{fontFamily:"serif"}}>
+    <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center px-10 py-48' id='home' style={{fontFamily:"serif"}}>
 
-    <div className='py-20 '>
-        <motion.h1 className='text-2xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-4xl text-blue-[#4A90E2]  mb-4' animate={{marginBottom:"20px"}} transition={{ duration: 1 }}>
+    <div className='mb-12'>
+        <motion.h1 className='text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-bold  bg-gradient-to-r from-indigo-700 to-gray-100 bg-clip-text text-transparent  mb-4' animate={{marginBottom:"20px"}} transition={{ duration: 1 }}>
            Hello I'm <span>Hazem mahisin</span>
         </motion.h1>
-        <h1 className='text-3xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-6xl mb-3 text-[#4A90E2]'>
+        <h1 className='text-3xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-6xl mb-3'>
 
           
           <TypeAnimation
@@ -36,19 +36,19 @@ const Home = () => {
 
           </h1>
 
-        <p className='text-sm text-gray-500 sm:text-sm md:text-base lg:text-lg xl:text-xl w-80 mb-4 '>
+        <p className='text-sm text-gray-300 sm:text-sm md:text-base lg:text-lg xl:text-xl w-80 mb-4 '>
 
         I'm professional web developer 
 
         </p>
         <div className='flex '>
 
-        <a href="/CV.pdf" download="HazemSaad_CV.pdf"><button className='text-md bg-[#4A90E2] rounded-full hover:bg-blue-500 px-4 py-2'>Download cv <i className="fas fa-download"></i></button></a>
+        <a href="/CV.pdf" download="HazemSaad_CV.pdf"><button className='text-md rounded-full bg-gradient-to-r from-indigo-700 to-gray-100 px-4 py-2'>Download cv <i className="fas fa-download"></i></button></a>
 
-        <a href="https://github.com/dashboard"><FaGithub className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl mx-3 hover:text-blue-600'/></a>
-        <a href="https://www.linkedin.com/in/hazem-saad-719083282"><FaLinkedin className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl hover:text-blue-600'/></a>
-        <a href="https://www.facebook.com/hazem.mahisin"> <FaFacebookSquare className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl mx-3 text-[#4A90E2]'/></a>
-        <a href="https://wa.me/201062588052"> <FaWhatsapp className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl text-[#4A90E2]'/></a>
+        <a href="https://github.com/dashboard"><FaGithub className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl mx-3 text-indigo-700'/></a>
+        <a href="https://www.linkedin.com/in/hazem-saad-719083282"><FaLinkedin className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl'/></a>
+        <a href="https://www.facebook.com/hazem.mahisin"> <FaFacebookSquare className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl mx-3 text-indigo-700'/></a>
+        <a href="https://wa.me/201062588052"> <FaWhatsapp className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl text-indigo-700'/></a>
 
 
         </div>
