@@ -69,7 +69,7 @@ const toggleAll = () => {
 
                 
                     {isReact && (
-<div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 mb-10 gap-10'>
+<div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 mb-10 gap-10 opacity-98 hover:opacity-100'>
 
   
   {Data.map((item, index) => (
