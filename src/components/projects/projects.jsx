@@ -55,7 +55,7 @@ const toggleAll = () => {
                     <p className="text-gray-500 text-sm sm:text-md md:text-xl lg:text-xl xl-text-xl mb-4">
                         I have created many projects in my free time
                     </p>
-                    <ul className='flex gap-20 sm:gap-20 md:gap-24 lg:gap-28 xl:gap-28 text-[#4A90E2] text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl cursor-pointer'>
+                    <ul className='flex gap-20 sm:gap-20 md:gap-24 lg:gap-28 xl:gap-28 text-[#4A90E2] text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl cursor-pointer'>
                       <li onClick={toggleReact}>React</li>
                       <li onClick={toggleJs}>js</li>
                       <li onClick={toggleAll}>All</li>

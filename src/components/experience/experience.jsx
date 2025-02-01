@@ -36,8 +36,12 @@ function Experience() {
           <h3 className="">Front-End Developer</h3>
           <h4 className="">Car E-Commerce Platform</h4>
           <p>
-            Built an online car marketplace with search and pagination features.
-            Fetched and displayed data dynamically from an API.
+          Developed an online car marketplace with features for both admin and user roles.
+           Implemented dynamic search and pagination. Integrated Firebase for data storage,
+            allowing real-time updates and secure data management. Retrieved and displayed 
+            car data via API for seamless user  interaction.
+
+
           </p>
         </VerticalTimelineElement>
 
