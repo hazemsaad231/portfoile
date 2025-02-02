@@ -19,7 +19,7 @@ const About = () => {
     
     return (
         <>
-        <div className="flex flex-col gap-10 sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center px-4 py-40" id='about'style={{fontFamily:"serif"}} >
+        <div className="flex flex-col gap-10 sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center px-4 py-20" id='about'style={{fontFamily:"serif"}} >
           
           <div data-aos="fade-left">
 
