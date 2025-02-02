@@ -2,7 +2,7 @@ import Ecommerce from '../../assets/images/e-commerce.png';
 import Crud from "../../assets/images/Screenshot 2024-09-28 124435.png";
 import Quiz from '../../assets/images/Screenshot 2024-09-28 124729.png'
 import rentCar from '../../assets/images/rentCar.jpeg'
-import bookStore from '../../assets/images/bookStore.jpeg'
+import bookStore from '../../assets/images/bookstore.jpeg'
 import dashboard from '../../assets/images/dashboard.jpeg'
 import { SiCss3 } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
