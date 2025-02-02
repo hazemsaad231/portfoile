@@ -25,11 +25,11 @@ const Skills = () => {
       {Icons.map(({ name, icon: Icon }) => (
      <div
       key={name}
-      className="rounded-lg p-4 w-max bg-transparent transition-all duration-500 bg-gradient-to-r from-indigo-700 to-gray-100 flex items-center justify-center relative group"
+      className="rounded-lg p-4 w-24 h-24 bg-transparent transition-all duration-500 bg-gradient-to-r from-indigo-700 to-gray-100 flex items-center justify-center relative group"
     >
       <Icon size={50} />
-      <span className="absolute opacity-0 group-hover:opacity-100 transition-opacity duration-500 text-lg font-bold text-white">
-      
+      <span className="absolute opacity-0 group-hover:opacity-100 rounded-lg transition-opacity duration-500 bg-gradient-to-l w-24 h-24 from-indigo-700 to-gray-100 text-lg font-bold text-white">
+      {name}
       </span>
     </div>
   ))}
