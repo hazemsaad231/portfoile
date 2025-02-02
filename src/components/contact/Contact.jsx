@@ -55,10 +55,10 @@ function Contact() {
   return (
     <>
     <Toaster/>
-    <div id="contact" className='py-40 px-8 z-0' style={{fontFamily:"serif"}}>
+    <div id="contact" className='py-28 px-8 z-0' style={{fontFamily:"serif"}}>
       <div className=" flex flex-col justify-center items-center gap-4" data-aos="fade-up">
         <div className="">
-          <h1 className='text-2xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-5xl bg-gradient-to-r from-indigo-700 to-gray-100 bg-clip-text text-transparent text-center py-12 tracking-[8px]'>Contact Me</h1>
+          <h1 className='text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl bg-gradient-to-r from-indigo-700 to-gray-100 bg-clip-text text-transparent text-center py-12 tracking-[8px]'>Contact Me</h1>
            <div className='flex justify-center items-center gap-2 pb-4 '>
                     
                   <a href="https://github.com/dashboard"><FaGithub className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl mx-3 text-indigo-700'/></a>

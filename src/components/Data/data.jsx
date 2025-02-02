@@ -14,6 +14,8 @@ import { FaGithub } from "react-icons/fa";
 import { SiFirebase } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { ImHtmlFive } from "react-icons/im";
+import { SiReactquery } from "react-icons/si";
+import { SiFramer } from "react-icons/si";
 
 
 
@@ -40,10 +42,18 @@ export const Icons = [
         name: "Tailwind",
         icon: RiTailwindCssFill,
     },
+    {
+        name: "Framer Motion",
+        icon: SiFramer,
+    },
    
     {
         name: "React",
         icon: FaReact ,
+    },
+    {
+        name: "React Query",
+        icon: SiReactquery,
     },
     {
         name: "Redux",

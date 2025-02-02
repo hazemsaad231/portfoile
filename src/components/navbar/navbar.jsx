@@ -44,7 +44,7 @@ const NavBar = () => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -100 }} // ❌ تأثير الاختفاء
           transition={{ duration: 0.5, ease: "easeInOut" }}
-          className="fixed top-0 left-0 inset-0 w-[30%] h-max p-1 bg-[#4A90E2] text-yellow-50 z-10"
+          className="fixed top-0 left-0 inset-0 w-[30%] h-max p-1 bg-indigo-800 z-10"
         >
           <div className="flex flex-col items-center w-full">
 
@@ -71,7 +71,7 @@ const NavBar = () => {
 
             <button
         onClick={toggleNavbar}
-        className="text-red-500 font-bold text-xl absolute top-2 right-2"
+        className="text-white font-bold text-xl absolute top-2 right-2"
        >
         ✖
       </button>

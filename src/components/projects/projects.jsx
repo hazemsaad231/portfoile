@@ -52,14 +52,14 @@ const toggleAll = () => {
             <div className="py-32" id='projects' style={{fontFamily:"serif"}}>
           
             <div className='flex flex-col justify-center items-center  gap-2'>
-                    <h1 className=" bg-gradient-to-r from-indigo-700 to-white bg-clip-text text-transparent text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl tracking-[8px]">My PROJECTS</h1>
+                    <h1 className=" bg-gradient-to-r from-indigo-700 to-white bg-clip-text text-transparent text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl tracking-[8px]">My PROJECTS</h1>
                     <p className="text-gray-500 text-sm sm:text-md md:text-xl lg:text-xl xl-text-xl mb-4">
                         I have created many projects in my free time
                     </p>
-                    <ul className='flex  gap-1 sm:gap-2 md:gap-24 lg:gap-28 xl:gap-28 text-white text-xl cursor-pointer'>
-                      <li className='bg-gradient-to-r from-indigo-700 to-white w-28 text-center rounded-full' onClick={toggleReact}>React</li>
-                      <li className='bg-gradient-to-r from-indigo-700 to-white w-28 text-center rounded-full' onClick={toggleJs}>js</li>
-                      <li className='bg-gradient-to-r from-indigo-700 to-white w-28 text-center rounded-full' onClick={toggleAll}>All</li>
+                    <ul className='flex  gap-1 sm:gap-2 md:gap-20 lg:gap-20 xl:gap-20 p-2 text-white text-xl cursor-pointer'>
+                      <li className='bg-gradient-to-r from-indigo-700 to-white w-24 text-center rounded-full' onClick={toggleReact}>React</li>
+                      <li className='bg-gradient-to-r from-indigo-700 to-white w-24 text-center rounded-full' onClick={toggleJs}>js</li>
+                      <li className='bg-gradient-to-r from-indigo-700 to-white w-24 text-center rounded-full' onClick={toggleAll}>All</li>
                     </ul>
 
                    
