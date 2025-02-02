@@ -76,15 +76,15 @@ const toggleAll = () => {
     <div 
       key={index} 
       data-aos="fade-up"
-      className='bg-black opacity-95 shadow-2xl hover:opacity-100 hover:border-2 hover:border-indigo-800 transition duration-300 pb-2 rounded-xl '
+      className='bg-black opacity-95 shadow-2xl hover:opacity-100 border border-indigo-800 hover:border-2 hover:border-indigo-800 transition duration-300 pb-2 rounded-xl '
     >
       <motion.div
         initial={{ opacity: 0, x: -100}}  // العنصر يبدأ غير مرئي ويبدأ من اليسار
         animate={{ opacity: 1, x: 0 }}     // العنصر يظهر ويعود إلى مكانه الطبيعي
         whileInView={{ opacity: 2, x: 0 }} // عند التمرير، العنصر يظهر تدريجياً
         whileHover={{ scale: 1, rotate: 1 }}  // عند المرور تكبير العنصر وتدويره
-        whileTap={{ scale: 0.95 }}          // عند الضغط، العنصر يصغر قليلاً
-        transition={{ duration: 0.4 }}
+        whileTap={{ scale: 0.99 }}          // عند الضغط، العنصر يصغر قليلاً
+        transition={{ duration: 0.6, ease: "easeInOut" }}
 
       >
         <img src={item.img} alt="" className="w-68 sm:w-88 md:w-88 lg:w-96 xl:w-96 h-60 sm:h-88 md:h-88 lg:h-96 xl:h-96 opacity-95 object-center hover:scale-110 hover:opacity-100 transition duration-300" />
@@ -95,7 +95,7 @@ const toggleAll = () => {
           {item.title}
         </h1>
 
-        <a href={item.link} className="text-[#4A90E2] flex gap-1 text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px]"> Live <GoArrowRight size={20} className='mt-1'/> </a>
+        <a href={item.link} className="text-indigo-600 flex gap-1 text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px]"> Live <GoArrowRight size={20} className='mt-1'/> </a>
         {/* <a href={item.gitHub} className="text-[#4A90E2] flex gap-2 text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px] ">GitHub <FaGithub size={20}/> </a> */}
       
        
@@ -116,7 +116,7 @@ const toggleAll = () => {
     <div 
       key={index} 
       data-aos="fade-up"
-      className='bg-black opacity-95 shadow-2xl hover:opacity-100 hover:border-2 hover:border-indigo-800 transition duration-300 pb-2 rounded-xl '
+      className='bg-black opacity-95 shadow-2xl hover:opacity-100 border border-indigo-800 hover:border-2 hover:border-indigo-800 transition duration-300 pb-2 rounded-xl '
     >
       <motion.div
         initial={{ opacity: 0, x: -100}}  // العنصر يبدأ غير مرئي ويبدأ من اليسار

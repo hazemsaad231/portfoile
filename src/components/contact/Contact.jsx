@@ -7,7 +7,10 @@ import emailjs from '@emailjs/browser';
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import { Toaster, toast } from 'react-hot-toast';
-
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaW } from "react-icons/fa6";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 function Contact() {
 
   const [name, setName] = useState('');
@@ -56,6 +59,15 @@ function Contact() {
       <div className=" flex flex-col justify-center items-center gap-4" data-aos="fade-up">
         <div className="">
           <h1 className='text-2xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-5xl bg-gradient-to-r from-indigo-700 to-gray-100 bg-clip-text text-transparent text-center py-12 tracking-[8px]'>Contact Me</h1>
+           <div className='flex justify-center items-center gap-2 pb-4 '>
+                    
+                  <a href="https://github.com/dashboard"><FaGithub className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl mx-3 text-indigo-700'/></a>
+                  <a href="https://www.linkedin.com/in/hazem-saad-719083282"><FaLinkedin className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl'/></a>
+                  <a href="https://www.facebook.com/hazem.mahisin"> <FaFacebookSquare className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl mx-3 text-indigo-700'/></a>
+                  <a href="https://wa.me/201062588052"> <FaWhatsapp className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl text-indigo-700'/></a>
+          
+          
+                  </div>
           <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
           <Box
             noValidate
