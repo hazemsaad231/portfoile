@@ -55,7 +55,7 @@ function Contact() {
   return (
     <>
     <Toaster/>
-    <div id="contact" className='py-28 px-8 z-0' style={{fontFamily:"serif"}}>
+    <div id="contact" className='py-20 px-8 z-0' style={{fontFamily:"serif"}}>
       <div className=" flex flex-col justify-center items-center gap-4" data-aos="fade-up">
         <div className="">
           <h1 className='text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl bg-gradient-to-r from-indigo-700 to-gray-100 bg-clip-text text-transparent text-center py-12 tracking-[8px]'>Contact Me</h1>
