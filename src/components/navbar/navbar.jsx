@@ -21,19 +21,19 @@ const NavBar = () => {
 <div className="fixed top-0 p-4 w-full rounded-full z-50">
 
 
-        <div className=' flex items-center justify-around w-full' style={{fontFamily:"serif"}}>
+        <div className=' flex items-center justify-around w-full p-3' style={{fontFamily:"serif"}}>
 
+        <h1 className="tracking-[10px] font-bold text-2xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-3xl">
+            Hazem
+           </h1>
 
-        <GiHamburgerMenu className='text-2xl mt-1 cursor-pointer flex sm:flex md:hidden lg:hidden xl:hidden' onClick={toggleNavbar} />
+        <GiHamburgerMenu className='text-2xl mt-1 cursor-pointer block sm:block md:hidden lg:hidden xl:hidden' onClick={toggleNavbar} />
 
        
 
 
 
-           <h1 className="tracking-[15px] font-bold text-xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl">
-            hazem
-           </h1>
-
+           
          
 
 {/* {القاءمه المنسدله} */}

@@ -84,8 +84,8 @@ function Contact() {
                 id="outlined-required"
                 label="Your Name"
                 placeholder="What's your name?"
-                sx={{bgcolor:"#F5F5F5"}}
                 value={name}
+                sx={{bgcolor:"white",borderRadius:"15px"}}
                 onChange={(e) => {
                   setName(e.target.value);
                 }}
@@ -99,8 +99,7 @@ function Contact() {
                 label="Email / Phone"
                 placeholder="How can I reach you?"
                 value={email}
-                sx={{bgcolor:"#F5F5F5"}}
-
+                sx={{bgcolor:"white",borderRadius:"15px"}}
                 onChange={(e) => {
                   setEmail(e.target.value);
                 }}
@@ -119,14 +118,14 @@ function Contact() {
               multiline
               rows={10}
               value={message}
-              sx={{bgcolor:"#F5F5F5"}}
+              sx={{bgcolor:"white",borderRadius:"15px"}}
               onChange={(e) => {
                 setMessage(e.target.value);
               }}
               error={messageError}
               helperText={messageError ? "Please enter the message" : ""}
             />
-            <Button type='submit' variant = 'contained'  endIcon={<SendIcon />}className='bg-gradient-to-r from-indigo-700 to-gray-100'>
+            <Button type='submit' variant = 'contained'  endIcon={<SendIcon />}className='bg-gradient-to-r from-indigo-700 to-gray-100 rounded-full'>
               Send
             </Button>
            

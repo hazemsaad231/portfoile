@@ -16,7 +16,7 @@ const Home = () => {
     <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center px-10 py-48' id='home' style={{fontFamily:"serif"}}>
 
     <div className='mb-12'>
-        <motion.h1 className='text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-bold  bg-gradient-to-r from-indigo-700 to-gray-100 bg-clip-text text-transparent  mb-4' animate={{marginBottom:"20px"}} transition={{ duration: 1 }}>
+        <motion.h1 className='text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold  bg-gradient-to-r from-indigo-600 to-white bg-clip-text text-transparent  mb-4' animate={{marginBottom:"20px"}} transition={{ duration: 1 }}>
            Hello I'm <span>Hazem mahisin</span>
         </motion.h1>
         <h1 className='text-3xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-6xl mb-3'>
@@ -36,14 +36,14 @@ const Home = () => {
 
           </h1>
 
-        <p className='text-sm text-gray-300 sm:text-sm md:text-base lg:text-lg xl:text-xl w-80 mb-4 '>
+        <p className='text-md text-gray-200 sm:text-md md:text-md lg:text-lg xl:text-xl w-80 mb-4 '>
 
         I'm professional web developer 
 
         </p>
         <div className='flex '>
 
-        <a href="/CV.pdf" download="HazemSaad_CV.pdf"><button className='text-md rounded-full bg-gradient-to-r from-indigo-700 to-gray-100 px-4 py-2'>Download cv <i className="fas fa-download"></i></button></a>
+        <a href="/CV.pdf" download="HazemSaad_CV.pdf"><button className='text-md rounded-full bg-gradient-to-r from-indigo-700 to-gray-100 hover:bg-gradient-to-l hover:from-indigo-700 hover:to-gray-100 px-4 py-2'>Download cv <i className="fas fa-download"></i></button></a>
 
         <a href="https://github.com/dashboard"><FaGithub className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl mx-3 text-indigo-700'/></a>
         <a href="https://www.linkedin.com/in/hazem-saad-719083282"><FaLinkedin className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl'/></a>
