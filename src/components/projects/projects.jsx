@@ -80,7 +80,7 @@ const toggleAll = () => {
     >
       <motion.div
         initial={{ opacity: 0, x: -100}}  // العنصر يبدأ غير مرئي ويبدأ من اليسار
-        animate={{ opacity: 1, x: 50 }}     // العنصر يظهر ويعود إلى مكانه الطبيعي
+        animate={{ opacity: 1, y: 0 }}     // العنصر يظهر ويعود إلى مكانه الطبيعي
         whileInView={{ opacity: 2, x: 0 }} // عند التمرير، العنصر يظهر تدريجياً
         whileHover={{ scale: 1, rotate: 1 }}  // عند المرور تكبير العنصر وتدويره
         whileTap={{ scale: 1 }}          // عند الضغط، العنصر يصغر قليلاً
@@ -121,7 +121,7 @@ const toggleAll = () => {
     >
       <motion.div
         initial={{ opacity: 0, x: -100}}  // العنصر يبدأ غير مرئي ويبدأ من اليسار
-        animate={{ opacity: 1, x: 50 }}     // العنصر يظهر ويعود إلى مكانه الطبيعي
+        animate={{ opacity: 1, y: 0 }}     // العنصر يظهر ويعود إلى مكانه الطبيعي
         whileInView={{ opacity: 2, x: 0 }} // عند التمرير، العنصر يظهر تدريجياً
         whileHover={{ scale: 1, rotate: 1 }}  // عند المرور تكبير العنصر وتدويره
         whileTap={{ scale: 1 }}          // عند الضغط، العنصر يصغر قليلاً

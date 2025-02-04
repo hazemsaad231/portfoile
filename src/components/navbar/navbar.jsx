@@ -44,12 +44,12 @@ const NavBar = () => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -100 }} // ❌ تأثير الاختفاء
           transition={{ duration: 0.5, ease: "easeInOut" }}
-          className="fixed top-0 left-0 inset-0 w-[30%] h-max p-1 bg-indigo-800 z-10"
+          className="fixed top-0 right-0 inset-0 w-[40%] h-max p-1 bg-indigo-800 z-10"
         >
           <div className="flex flex-col items-center w-full">
 
           <ul className="flex flex-col font-semibold gap-y-4 my-8 mx-4">
-          {["home", "about", "skills", "projects", "experience", "contact"].map((item) => (
+          {["home", "about", "skills", "experience", "projects", "contact"].map((item) => (
             <motion.li
                   key={item}
                   initial={{ opacity: 0, y: 20 }}
@@ -88,7 +88,7 @@ const NavBar = () => {
                 <li> <a  href='#about' className="relative transition duration-500 ease-in-out">About</a></li>
                 <li> <a  href='#skills' className="relative transition duration-500 ease-in-out">skills</a></li>
                 <li> <a  href='#experience' className="relative transition duration-500 ease-in-out">experience</a></li>
-                <li> <a href='#projects' className="relative transition duration-500 ease-in-out">projects</a></li>
+                <li> <a  href='#projects' className="relative transition duration-500 ease-in-out">projects</a></li>
                 <li> <a href='#contact' className="mx-8 relative transition duration-500 ease-in-out">contact me</a></li>
 
             </ul>

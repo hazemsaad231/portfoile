@@ -43,7 +43,7 @@ const Home = () => {
         </p>
         <div className='flex '>
 
-        <a href="/CV.pdf" download="HazemSaad_CV.pdf"><button className='text-md rounded-full bg-gradient-to-r from-indigo-700 to-gray-100 hover:bg-gradient-to-l hover:from-indigo-700 hover:to-gray-100 px-4 py-2'>Download cv <i className="fas fa-download"></i></button></a>
+        <a href="/CV.pdf" download="HazemSaad_CV.pdf"><button className='text-md rounded-full bg-gradient-to-r from-indigo-800 to-indigo-100 hover:bg-gradient-to-l hover:from-indigo-700 hover:to-gray-100 px-4 py-2'>Download cv <i className="fas fa-download"></i></button></a>
 
         <a href="https://github.com/dashboard"><FaGithub className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl mx-3 text-indigo-700'/></a>
         <a href="https://www.linkedin.com/in/hazem-saad-719083282"><FaLinkedin className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl'/></a>
