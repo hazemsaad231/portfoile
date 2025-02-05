@@ -56,7 +56,7 @@ const toggleAll = () => {
                     <p className="text-gray-500 text-sm sm:text-md md:text-xl lg:text-xl xl-text-xl mb-4">
                         I have created many projects in my free time
                     </p>
-                    <ul className='flex  gap-1 sm:gap-2 md:gap-20 lg:gap-20 xl:gap-20 p-10 text-white text-xl cursor-pointer'>
+                    <ul className='flex  gap-1 sm:gap-2 md:gap-20 lg:gap-20 xl:gap-20 p-4 text-white text-xl cursor-pointer'>
                       <li className='bg-gradient-to-r from-indigo-700 to-white w-24 text-center rounded-full' onClick={toggleReact}>React</li>
                       <li className='bg-gradient-to-r from-indigo-700 to-white w-24 text-center rounded-full' onClick={toggleJs}>js</li>
                       <li className='bg-gradient-to-r from-indigo-700 to-white w-24 text-center rounded-full' onClick={toggleAll}>All</li>
@@ -65,26 +65,26 @@ const toggleAll = () => {
                    
                     </div>
 
-                      <div className='flex flex-col justify-center items-center px-10 py-10' data-aos="fade-up">
+                      <div className='flex flex-col justify-center items-center px-8 py-10' data-aos="fade-up">
 
                 
                     {isReact && (
-<div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 mb-10 gap-10 opacity-98 hover:opacity-100'>
+<div className='grid grid-cols-1 sm:grid-cols-1 rounded-xl md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 mb-10 gap-10 opacity-98 hover:opacity-100'>
 
   
   {Data.map((item, index) => (
     <div 
       key={index} 
       data-aos="fade-up"
-      className='bg-black opacity-95 shadow-2xl hover:opacity-100 border border-indigo-800 hover:border-2 hover:border-indigo-600 transition duration-300 pb-2 rounded-xl '
+      className='bg-black opacity-95  shadow-2xl hover:opacity-100 border border-indigo-800 hover:border-2 hover:border-indigo-600 transition duration-300 pb-2 rounded-xl '
     >
       <motion.div
         initial={{ opacity: 0, x: -100}}  // العنصر يبدأ غير مرئي ويبدأ من اليسار
         animate={{ opacity: 1, y: 0 }}     // العنصر يظهر ويعود إلى مكانه الطبيعي
         whileInView={{ opacity: 2, x: 0 }} // عند التمرير، العنصر يظهر تدريجياً
-        whileHover={{ scale: 1, rotate: 1 }}  // عند المرور تكبير العنصر وتدويره
+        whileHover={{ scale: 1.1, rotate: 1.2 }}  // عند المرور تكبير العنصر وتدويره
         whileTap={{ scale: 1 }}          // عند الضغط، العنصر يصغر قليلاً
-        transition={{ duration: 0.6, ease: "easeInOut" }}
+        transition={{ duration: 1.2, ease: "easeInOut" }}
 
       >
         <img src={item.img} alt="" className="w-80 h-80 object-center" />
@@ -123,9 +123,9 @@ const toggleAll = () => {
         initial={{ opacity: 0, x: -100}}  // العنصر يبدأ غير مرئي ويبدأ من اليسار
         animate={{ opacity: 1, y: 0 }}     // العنصر يظهر ويعود إلى مكانه الطبيعي
         whileInView={{ opacity: 2, x: 0 }} // عند التمرير، العنصر يظهر تدريجياً
-        whileHover={{ scale: 1, rotate: 1 }}  // عند المرور تكبير العنصر وتدويره
-        whileTap={{ scale: 1 }}          // عند الضغط، العنصر يصغر قليلاً
-        transition={{ duration: 0.6, ease: "easeInOut" }}
+        whileHover={{ scale: 1.1, rotate: 1.2 }}  // عند المرور تكبير العنصر وتدويره
+        whileTap={{ scale: 1.2 }}          // عند الضغط، العنصر يصغر قليلاً
+        transition={{ duration: 1.2, ease: "easeInOut" }}
 
       >
         <img src={item.img} alt="" className="w-80 h-80 object-center" />

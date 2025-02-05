@@ -52,7 +52,7 @@ export const Icons = [
         icon: FaReact ,
     },
     {
-        name: "React Query",
+        name: "ReactQuery",
         icon: SiReactquery,
     },
     {
