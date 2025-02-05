@@ -6,8 +6,9 @@ const NavBar = () => {
 
     const [isNavbarVisible, setNavbarVisible] = useState(false);
 
-   
 
+
+   
       const toggleNavbar = () => {
         setNavbarVisible(!isNavbarVisible);
     
@@ -83,16 +84,16 @@ const NavBar = () => {
 
 
        <div className="hidden sm:hidden md:block lg:block xl:block">
-            <ul className="flex gap-6 text-md sm:text-md md:text-md lg:text-xl xl:text-xl p-4">
-           <li><a href="#home" className="relative transition duration-500 ease-in-out"> Home</a></li>
-                <li> <a  href='#about' className="relative transition duration-500 ease-in-out">About</a></li>
-                <li> <a  href='#skills' className="relative transition duration-500 ease-in-out">skills</a></li>
-                <li> <a  href='#experience' className="relative transition duration-500 ease-in-out">experience</a></li>
-                <li> <a  href='#projects' className="relative transition duration-500 ease-in-out">projects</a></li>
-                <li> <a href='#contact' className="mx-8 relative transition duration-500 ease-in-out">contact me</a></li>
+            <ul className="flex gap-6 text-md sm:text-md md:text-md lg:text-xl xl:text-xl p-4" onClick={() => changeColor()}>
+           <li><a href="#home" className="relative transition duration-500 ease-in-out hover:text-indigo-700"> Home</a></li>
+                <li> <a  href='#about' className="relative transition duration-500 ease-in-out hover:text-indigo-700">About</a></li>
+                <li> <a  href='#skills' className="relative transition duration-500 ease-in-out hover:text-indigo-700">skills</a></li>
+                <li> <a  href='#experience' className="relative transition duration-500 ease-in-out hover:text-indigo-700">experience</a></li>
+                <li> <a  href='#projects' className="relative transition duration-500 ease-in-out hover:text-indigo-700">projects</a></li>
+                <li> <a href='#contact' className="mx-8 relative transition duration-500 ease-in-out hover:text-indigo-700">contact me</a></li>
 
             </ul>
-
+          
             </div>
 
             </div>

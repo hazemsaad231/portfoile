@@ -9,7 +9,6 @@ import myimage from '../../assets/images/myProfile.jpg'
 import { FaWhatsapp } from "react-icons/fa";
 
 
-
 const Home = () => {
   return (
     <>

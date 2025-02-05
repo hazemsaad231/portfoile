@@ -16,6 +16,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import { ImHtmlFive } from "react-icons/im";
 import { SiReactquery } from "react-icons/si";
 import { SiFramer } from "react-icons/si";
+import { SiMui } from "react-icons/si";
 
 
 
@@ -46,7 +47,11 @@ export const Icons = [
         name: "Framer Motion",
         icon: SiFramer,
     },
-   
+    {
+        name: "meterial UI",
+        icon: SiMui,
+    },
+  
     {
         name: "React",
         icon: FaReact ,
@@ -71,6 +76,7 @@ export const Icons = [
         name: "Firebase",
         icon: SiFirebase,
     },
+   
   
 ];
   
