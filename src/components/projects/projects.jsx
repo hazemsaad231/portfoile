@@ -135,8 +135,7 @@ const toggleAll = () => {
         <h1 className="text-lg sm:text-lg md:text-xl lg:text-xl xl:text-xl text-white">
           {item.title}
         </h1>
-
-        <a href={item.link} className="text-indigo-600 flex gap-1 text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px]"><div className='flex gap-1'>Live <GoArrowRight size={20}/></div>  </a>
+        <a href={item.link} className="text-indigo-600 flex gap-1 text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px]"> <div>Live <GoArrowRight size={20}/></div> </a>
         {/* <a href={item.gitHub} className="text-[#4A90E2] flex gap-2 text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px] ">GitHub <FaGithub size={20}/> </a> */}
       
        
