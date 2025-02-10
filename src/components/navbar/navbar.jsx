@@ -49,7 +49,7 @@ const NavBar = () => {
           <div className="flex flex-col items-center w-full">
 
           <ul className="flex flex-col font-semibold gap-y-4 my-8 mx-4">
-          {["home", "about", "skills", "experience", "projects", "contact"].map((item) => (
+          {["home", "about", "experience", "projects", "contact"].map((item) => (
             <motion.li
                   key={item}
                   initial={{ opacity: 0, y: 20 }}
