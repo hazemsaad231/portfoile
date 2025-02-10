@@ -7,7 +7,6 @@ const NavBar = () => {
     const [isNavbarVisible, setNavbarVisible] = useState(false);
 
 
-
    
       const toggleNavbar = () => {
         setNavbarVisible(!isNavbarVisible);
@@ -22,7 +21,7 @@ const NavBar = () => {
 <div className="fixed top-0 p-4 w-full rounded-full z-50">
 
 
-        <div className=' flex items-center justify-around w-full p-3' style={{fontFamily:"serif"}}>
+        <div className=' flex items-center justify-around w-full p-3' style={{fontFamily:"sans-serif"}}>
 
         <h1 className="tracking-[10px] font-bold text-2xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-3xl">
             Hazem
@@ -84,10 +83,9 @@ const NavBar = () => {
 
 
        <div className="hidden sm:hidden md:block lg:block xl:block">
-            <ul className="flex gap-6 text-md sm:text-md md:text-md lg:text-xl xl:text-xl p-4" onClick={() => changeColor()}>
+            <ul className='flex gap-6 text-md sm:text-md md:text-md lg:text-xl xl:text-xl p-4'>
            <li><a href="#home" className="relative transition duration-500 ease-in-out hover:text-indigo-700"> Home</a></li>
                 <li> <a  href='#about' className="relative transition duration-500 ease-in-out hover:text-indigo-700">About</a></li>
-                <li> <a  href='#skills' className="relative transition duration-500 ease-in-out hover:text-indigo-700">skills</a></li>
                 <li> <a  href='#experience' className="relative transition duration-500 ease-in-out hover:text-indigo-700">experience</a></li>
                 <li> <a  href='#projects' className="relative transition duration-500 ease-in-out hover:text-indigo-700">projects</a></li>
                 <li> <a href='#contact' className="mx-8 relative transition duration-500 ease-in-out hover:text-indigo-700">contact me</a></li>

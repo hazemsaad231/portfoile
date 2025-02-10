@@ -49,10 +49,10 @@ const toggleAll = () => {
 
     return (
      <>
-            <div className="py-16" id='projects' style={{fontFamily:"serif"}}>
+            <div className="py-16" id='projects' style={{fontFamily:"sans-serif"}}>
           
             <div className='flex flex-col justify-center items-center  gap-2'>
-                    <h1 className=" bg-gradient-to-r from-indigo-700 to-white bg-clip-text text-transparent text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl tracking-[8px]">My PROJECTS</h1>
+                    <h1 className="font-bold bg-gradient-to-r from-indigo-700 to-white bg-clip-text text-transparent text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl tracking-[2px]">Projects</h1>
                     <p className="text-gray-500 text-sm sm:text-md md:text-xl lg:text-xl xl-text-xl mb-4">
                         I have created many projects in my free time
                     </p>
