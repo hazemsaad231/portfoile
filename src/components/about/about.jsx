@@ -16,7 +16,7 @@ const About = () => {
         });
       }, []);
 
-      const [active, setActive] = useState(false);
+      const [active, setActive] = useState('skills');
 
       const [viewSkills, setViewSkills] = useState(true);
       const [viewEducation, setViewEducation] = useState(false);
@@ -48,7 +48,7 @@ const About = () => {
     
     return (
         <>
-        <div className="flex flex-col gap-10 sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center px-4 py-16" id='about'style={{fontFamily:"sans-serif"}} >
+        <div className="flex flex-col gap-10 sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center px-8 py-16" id='about'style={{fontFamily:"sans-serif"}} >
           
        
           
@@ -56,7 +56,7 @@ const About = () => {
 
             <h1 className="bg-gradient-to-r from-indigo-700 to-white bg-clip-text text-transparent text-center text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-bold tracking-[2px]">About Me</h1>
             
-            <p className="text-gray-300 w-[300px] sm:w-[350px] md:w-[400px] lg:w-[450px] xl:w-[500px] mt-4 text-lg z-1">
+            <p className="text-gray-300 w-[300px] sm:w-[350px] md:w-[400px] lg:w-[450px] xl:w-[500px] mt-8 text-lg z-1">
             I'm Hazem Mahisin Saad, a front-end expert in React.js, with experience in building modern, interactive, experimental UIs. He worked on developing free dynamic web applications.
             I've built online stores, control panels, and data management systems, and I'm interested in improving performance and user experience.
             </p>
