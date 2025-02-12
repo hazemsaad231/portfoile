@@ -23,7 +23,7 @@ const NavBar = () => {
 
         <div className=' flex items-center justify-around w-full p-3' style={{fontFamily:"sans-serif"}}>
 
-        <h1 className="tracking-[10px] font-bold text-2xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-3xl">
+        <h1 className="tracking-[10px] font-bold text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl">
             Hazem
            </h1>
 
@@ -83,7 +83,7 @@ const NavBar = () => {
 
 
        <div className="hidden sm:hidden md:block lg:block xl:block">
-            <ul className='flex gap-6 text-md sm:text-md md:text-md lg:text-xl xl:text-xl p-4'>
+            <ul className='flex gap-6 text-md sm:text-md md:text-md lg:text-xl xl:text-2xl p-4'>
            <li><a href="#home" className="relative transition duration-500 ease-in-out hover:text-indigo-700"> Home</a></li>
                 <li> <a  href='#about' className="relative transition duration-500 ease-in-out hover:text-indigo-700">About</a></li>
                 <li> <a  href='#experience' className="relative transition duration-500 ease-in-out hover:text-indigo-700">experience</a></li>
