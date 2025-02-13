@@ -49,9 +49,7 @@ const About = () => {
     return (
         <>
         <div className="flex flex-col gap-8 sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center px-8 pt-12 pb-24" id='about'style={{fontFamily:"sans-serif"}} >
-        <div className="" data-aos="fade-right">
-            <img src={img} alt="" className="w-60 sm:w-60 md:w-96 lg:w-96 xl:w-96 h-[300px] sm:h-[300px] md:h-[300px] lg:h-[500px] xl:h-[500px] rounded-xl" />
-            </div>
+       
        
           <div>
 
@@ -124,7 +122,9 @@ const About = () => {
 
 
             </div>
-           
+            <div className="" data-aos="fade-right">
+            <img src={img} alt="" className="w-60 sm:w-60 md:w-96 lg:w-96 xl:w-96 h-[300px] sm:h-[300px] md:h-[300px] lg:h-[500px] xl:h-[500px] rounded-xl" />
+            </div>
         
             </div>
 
