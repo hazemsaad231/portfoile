@@ -48,19 +48,25 @@ const About = () => {
     
     return (
         <>
-        <div className="flex flex-col gap-10 sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center px-8 py-16" id='about'style={{fontFamily:"sans-serif"}} >
-          
+        <div className="flex flex-col gap-8 sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center px-8 pt-12 pb-24" id='about'style={{fontFamily:"sans-serif"}} >
+        <div className="" data-aos="fade-right">
+            <img src={img} alt="" className="w-60 sm:w-60 md:w-96 lg:w-96 xl:w-96 h-[300px] sm:h-[300px] md:h-[300px] lg:h-[500px] xl:h-[500px] rounded-xl" />
+            </div>
        
-          
           <div>
 
-            <h1 className="bg-gradient-to-r from-indigo-700 to-white bg-clip-text text-transparent text-center text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-bold tracking-[2px]">About Me</h1>
+            <h1 className="bg-gradient-to-r from-white to-indigo-700 bg-clip-text text-transparent text-start text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-bold tracking-[2px]">About Me</h1>
             
-            <p className="text-gray-300 w-[300px] sm:w-[350px] md:w-[400px] lg:w-[450px] xl:w-[500px] mt-8 text-lg z-1">
+            <p className="text-gray-300 w-[300px] sm:w-[350px] md:w-[400px] lg:w-[400px] xl:w-[600px] mt-8 text-lg z-1">
             I'm Hazem Mahisin Saad, a front-end expert in React.js, with experience in building modern, interactive, experimental UIs. He worked on developing free dynamic web applications.
             I've built online stores, control panels, and data management systems, and I'm interested in improving performance and user experience.
+            {/* <p className='mt-4'>
+            I stay up-to-date with the evolving landscape of web technologies to ensure that I always deliver cutting-edge solutions. Whether it's collaborating on a small project or developing a large-scale web application,
+            I bring dedication and expertise to every task.
+            </p> */}
+           
             </p>
-            <ul className='flex gap-x-5 mt-5 text-xl text-gray-300 cursor-pointer'>
+          <ul className='flex gap-x-5 mt-5 text-xl text-gray-300 cursor-pointer'>
             <li 
      onClick={() => {
        toggleActive('skills'),
@@ -83,7 +89,7 @@ const About = () => {
                  <span className={`absolute left-0 -bottom-1 h-[2px] bg-indigo-600 transition-all duration-700 ease-in-out ${active==='certifications' ? 'w-full' : 'w-0'}`}></span></li>
             </ul>
 
-            <div className='mt-5 ml-4 text-gray-300 cursor-pointer text-xl'>
+            <div className='h-44 mt-6 ml-4 text-gray-300 cursor-pointer text-xl'>
             {viewSkills &&
               <ul className='grid grid-cols-2 list-disc' data-aos="fade-up">
                 <li>html</li>
@@ -109,20 +115,17 @@ const About = () => {
 
              {viewCourse &&
               <ul className='grid grid-cols-1 list-disc' data-aos="fade-up">
+               <li>upskilling</li>
                 <li>udemy</li>
-                <li>upskilling</li>
               </ul>
              }
             </div>
-
-
-            </div>
-            <div className="" data-aos="fade-right">
-            <img src={img} alt="" className="w-60 sm:w-60 md:w-96 lg:w-96 xl:w-96 h-[300px] sm:h-[300px] md:h-[300px] lg:h-[500px] xl:h-[500px] rounded-full" />
-            </div>
-          
        
 
+
+            </div>
+           
+        
             </div>
 
         </>

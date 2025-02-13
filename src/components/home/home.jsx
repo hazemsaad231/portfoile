@@ -14,7 +14,7 @@ const Home = () => {
     <>
     <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center px-10 py-48' id='home' style={{fontFamily:"sans-serif"}}>
 
-    <div className='mb-12'>
+    <div className='mb-10'>
         <motion.h1 className='text-5xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl font-bold  bg-gradient-to-r from-indigo-600 to-white bg-clip-text text-transparent  mb-4' animate={{marginBottom:"20px"}} transition={{ duration: 1 }}>
            Hello I'm <span>Hazem</span>
         </motion.h1>

@@ -83,7 +83,7 @@ const NavBar = () => {
 
 
        <div className="hidden sm:hidden md:block lg:block xl:block">
-            <ul className='flex gap-6 text-md sm:text-md md:text-md lg:text-xl xl:text-2xl p-4'>
+            <ul className='flex gap-6 text-md sm:text-md md:text-md lg:text-xl xl:text-xl p-4'>
            <li><a href="#home" className="relative transition duration-500 ease-in-out hover:text-indigo-700"> Home</a></li>
                 <li> <a  href='#about' className="relative transition duration-500 ease-in-out hover:text-indigo-700">About</a></li>
                 <li> <a  href='#experience' className="relative transition duration-500 ease-in-out hover:text-indigo-700">experience</a></li>
