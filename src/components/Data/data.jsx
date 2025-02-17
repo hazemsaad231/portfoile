@@ -101,7 +101,7 @@ const Data = [
         title: "user dashboard",
         img: dashboard,
         link: "https://dashboard25-beta.vercel.app",
-        gitHub: "https://github.com/hazemsaad231/Dashboard"
+        gitHub:"https://github.com/hazemsaad231/dashboard25"
     },
     
 ]
