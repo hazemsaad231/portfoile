@@ -44,11 +44,11 @@ const NavBar = () => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -100 }} // ❌ تأثير الاختفاء
           transition={{ duration: 0.5, ease: "easeInOut" }}
-          className="fixed top-0 right-0 inset-0 w-[40%] h-max p-1 bg-indigo-800 z-10"
+          className="fixed top-0 right-0 inset-0 w-[40%] h-max p-1 bg-indigo-800 z-40 "
         >
-          <div className="flex flex-col items-center w-full">
+          <div className="flex flex-col gap-2 items-center w-full">
 
-          <ul className="flex flex-col font-semibold gap-y-4 my-8 mx-4">
+          <ul className="flex flex-col gap-x-3 font-semibold gap-y-4 my-8 mx-4">
           {["home", "about", "experience", "projects", "contact"].map((item) => (
             <motion.li
                   key={item}
