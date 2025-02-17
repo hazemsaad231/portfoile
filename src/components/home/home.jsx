@@ -1,23 +1,24 @@
 import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import { motion } from 'framer-motion';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin, FaW } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 import { TypeAnimation } from 'react-type-animation';
-import myimage from '../../assets/images/myProfile.jpg'
 import { FaWhatsapp } from "react-icons/fa";
 
 
 const Home = () => {
   return (
     <>
-    <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center px-10 py-48' id='home' style={{fontFamily:"sans-serif"}}>
+    <div className='flex flex-col px-4 sm:px-4 md:px-24 lg:px-24 xl:px-24 pt-48 pb-28' id='home'>
 
     <div className='mb-10'>
-        <motion.h1 className='text-5xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl font-bold  bg-gradient-to-r from-indigo-600 to-white bg-clip-text text-transparent  mb-4' animate={{marginBottom:"20px"}} transition={{ duration: 1 }}>
-           Hello I'm <span>Hazem</span>
-        </motion.h1>
+        <h1
+       className='font-bold bg-gradient-to-t from-indigo-700 to-indigo-100 bg-clip-text text-transparent text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl tracking-[1px]' 
+        >
+           Hello I'm Hazem
+        </h1>
+
         <h1 className='text-3xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-6xl mb-3'>
 
           
@@ -40,52 +41,27 @@ const Home = () => {
         I'm professional web developer 
 
         </p>
-        <div className='flex '>
+        <div className='flex mb-8'>
 
-        <a href="/CV.pdf" download="HazemSaad_CV.pdf"><button className='text-md rounded-full bg-gradient-to-r from-indigo-800 to-indigo-100 hover:bg-gradient-to-l hover:from-indigo-700 hover:to-gray-100 px-4 py-2'>Download cv <i className="fas fa-download"></i></button></a>
+        <a href="/CV.pdf" download="HazemSaad_CV.pdf"><button className='text-md rounded-full bg-gradient-to-r from-indigo-600 to-indigo-100 hover:bg-gradient-to-l hover:from-purple-700 hover:to-gray-100 px-4 py-2'>Download cv <i className="fas fa-download"></i></button></a>
 
-        <a href="https://github.com/dashboard"><FaGithub className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl mx-3 text-indigo-700'/></a>
+        <a href="https://github.com/dashboard"><FaGithub className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl mx-3 text-white'/></a>
         <a href="https://www.linkedin.com/in/hazem-saad-719083282"><FaLinkedin className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl'/></a>
-        <a href="https://www.facebook.com/hazem.mahisin"> <FaFacebookSquare className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl mx-3 text-indigo-700'/></a>
-        <a href="https://wa.me/201062588052"> <FaWhatsapp className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl text-indigo-700'/></a>
+        <a href="https://www.facebook.com/hazem.mahisin"> <FaFacebookSquare className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl mx-3 text-white'/></a>
+        <a href="https://wa.me/201062588052"> <FaWhatsapp className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl text-white'/></a>
 
 
         </div>
     </div>
-   
 
-    <div className="flex items-center justify-center">
-    <motion.div
-  className="relative w-60 sm:w-60 md:w-68 lg:w-72 xl:w-72 h-60 sm:h-60 md:h-68 lg:h-72 xl:h-72 rounded-full shadow-xl"
-  animate={{
-    clipPath: [
-      "circle(50% at 40% 40%)", 
-      "circle(50% at 45% 45%)", // تموج باتجاه اليمين
-      "circle(50% at 50% 50%)", // العودة إلى الدائرة المثالية
-      "circle(50% at 55% 55%)", // تموج باتجاه اليسار
-      "circle(50% at 60% 60%)" // العودة إلى الدائرة المثالية
-    ],
-  }}
-  transition={{
-    duration: 5,
-    repeat: Infinity,
-    ease: "linear",
-  }}
-  whileHover={{
-    scale: 1.1, // تأثير تكبير خفيف عند المرور بالفأرة
-  }}
->
-  <img
-    src={myimage}
-    alt="Profile"
-    className="w-full h-full object-cover rounded-full shadow-lg"
-  />
-</motion.div>
+<div className='border-2 border-indigo-600 shadow-xl w-[100%] sm:w-[90%] md:w-[80%] lg:w-[80%]  xl:w-[50%] p-4 m-auto sm:m-auto md:m-2 lg:m-2 xl:m-2'>
+  <ul className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-center items-center gap-8 sm:gap-8 md:gap-16 lg:gap-24 xl:gap-24'> 
+    <li className='flex gap-2'> <span className='font-bold text-5xl'>2+ </span><span className='text-sm font-sans relative top-4'>Years of Experience</span></li>
+    <li className='flex gap-2'> <span className='font-bold text-5xl'>12+ </span><span className='text-sm font-sans relative top-4'>Projects Completed</span></li>
+    <li></li>
+  </ul>
+</div> 
 
-
-
-
-    </div>
 </div>
 
 </>

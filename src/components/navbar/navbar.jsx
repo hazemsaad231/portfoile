@@ -1,12 +1,11 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { motion, AnimatePresence } from 'framer-motion';
+import { CiLocationArrow1 } from "react-icons/ci";
 
 const NavBar = () => {
 
     const [isNavbarVisible, setNavbarVisible] = useState(false);
-
-
    
       const toggleNavbar = () => {
         setNavbarVisible(!isNavbarVisible);
@@ -21,20 +20,38 @@ const NavBar = () => {
 <div className="fixed top-0 p-4 w-full rounded-full z-50">
 
 
-        <div className=' flex items-center justify-around w-full p-3' style={{fontFamily:"sans-serif"}}>
-
-        <h1 className="tracking-[10px] font-bold text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl">
-            Hazem
-           </h1>
-
-        <GiHamburgerMenu className='text-2xl mt-1 cursor-pointer block sm:block md:hidden lg:hidden xl:hidden' onClick={toggleNavbar} />
-
-       
+<div className='flex items-center justify-around w-full'>
 
 
+<div>
+<h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl" style={{fontFamily:"serif"}}>
+  H<span className='text-indigo-700 relative right-2'>M</span>
+  </h1>
+  <h6 className="text-[10px] font-serif m-auto"> Hazem Mahisin</h6>
+</div>
+        
+
+
+        <div className="hidden sm:hidden md:block lg:block xl:block">
+            <ul className='flex gap-6 text-md sm:text-md md:text-md lg:text-xl xl:text-xl p-2'>
+           <li><a href="#home" className="relative transition duration-500 ease-in-out hover:text-indigo-700"> Home</a></li>
+                <li> <a  href='#about' className="relative transition duration-500 ease-in-out hover:text-indigo-700">About</a></li>
+                <li> <a  href='#experience' className="relative transition duration-500 ease-in-out hover:text-indigo-700">experience</a></li>
+                <li> <a  href='#projects' className="relative transition duration-500 ease-in-out hover:text-indigo-700">projects</a></li>
+          </ul>
+        </div>
+
+
+
+     <button className="flex text-md sm:text-md md:text-md lg:text-xl xl:text-xl bg-indigo-700 px-4 py-2 rounded-full hover:bg-transparent"> 
+   <CiLocationArrow1 color="white" size={20} className="relative top-1 right-1"/>
+    <a href='#contact'>contact me</a> 
+    </button>
 
            
-         
+
+<GiHamburgerMenu className='text-2xl mt-1 cursor-pointer block sm:block md:hidden lg:hidden xl:hidden' onClick={toggleNavbar} />
+
 
 {/* {القاءمه المنسدله} */}
 <AnimatePresence>
@@ -79,21 +96,7 @@ const NavBar = () => {
   </motion.div>
   )}
  </AnimatePresence> 
-
-
-
-       <div className="hidden sm:hidden md:block lg:block xl:block">
-            <ul className='flex gap-6 text-md sm:text-md md:text-md lg:text-xl xl:text-xl p-4'>
-           <li><a href="#home" className="relative transition duration-500 ease-in-out hover:text-indigo-700"> Home</a></li>
-                <li> <a  href='#about' className="relative transition duration-500 ease-in-out hover:text-indigo-700">About</a></li>
-                <li> <a  href='#experience' className="relative transition duration-500 ease-in-out hover:text-indigo-700">experience</a></li>
-                <li> <a  href='#projects' className="relative transition duration-500 ease-in-out hover:text-indigo-700">projects</a></li>
-                <li> <a href='#contact' className="mx-8 relative transition duration-500 ease-in-out hover:text-indigo-700">contact me</a></li>
-
-            </ul>
-          
-            </div>
-
+    
             </div>
         </div>
 

@@ -58,7 +58,7 @@ function Contact() {
     <div id="contact" className='px-8 pb-8' style={{fontFamily:"sans-serif"}}>
       <div className=" flex flex-col justify-center items-center gap-4" data-aos="fade-up">
         <div className="">
-          <h1 className='font-bold text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl bg-gradient-to-r from-indigo-700 to-white bg-clip-text text-transparent text-center py-10 tracking-[2px]'>Contact Me</h1>
+          <h1 className='font-bold text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl bg-gradient-to-t from-indigo-700 to-white bg-clip-text text-transparent text-center py-10 tracking-[2px]'>Contact Me</h1>
            <div className='flex justify-center items-center gap-2 pb-4 '>
                     
                   <a href="https://github.com/dashboard"><FaGithub className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl mx-3 text-indigo-700'/></a>
