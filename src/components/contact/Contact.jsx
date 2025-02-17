@@ -61,10 +61,9 @@ function Contact() {
           <h1 className='font-bold text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl bg-gradient-to-t from-indigo-700 to-white bg-clip-text text-transparent text-center py-10 tracking-[2px]'>Contact Me</h1>
            <div className='flex justify-center items-center gap-2 pb-4 '>
                     
-                  <a href="https://github.com/dashboard"><FaGithub className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl mx-3 text-indigo-700'/></a>
-                  <a href="https://www.linkedin.com/in/hazem-saad-719083282"><FaLinkedin className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl'/></a>
-                  <a href="https://www.facebook.com/hazem.mahisin"> <FaFacebookSquare className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl mx-3 text-indigo-700'/></a>
-                  <a href="https://wa.me/201062588052"> <FaWhatsapp className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl text-indigo-700'/></a>
+                  <a href="https://www.linkedin.com/in/hazem-saad-719083282"><FaLinkedin className='text-4xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl'/></a>
+                  <a href="https://www.facebook.com/hazem.mahisin"> <FaFacebookSquare className='text-4xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl mx-3 text-indigo-700'/></a>
+                  <a href="https://wa.me/201062588052"> <FaWhatsapp className='text-4xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl text-indigo-700'/></a>
           
           
                   </div>
