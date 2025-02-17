@@ -9,7 +9,6 @@ import { useEffect } from 'react';
 import { FaGithub } from "react-icons/fa";
 import { useState } from 'react';
 import { Data2 } from '../Data/data';
-import { GoArrowRight } from "react-icons/go";
 
 const Projects = () => {
 
