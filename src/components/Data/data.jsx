@@ -93,7 +93,7 @@ const Data = [
         id: 2,
         title: "BookStore",
         img: bookStore,
-        link: "http://bookstore2322.netlify.app/",
+        link: "https://bookstore-three-delta.vercel.app/",
         gitHub: "https://github.com/hazemsaad231/BookStore"
     },
     {
