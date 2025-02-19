@@ -25,7 +25,7 @@ const NavBar = () => {
 
 <div>
 <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl" style={{fontFamily:"serif"}}>
-  H<span className='text-indigo-700 relative right-2'>M</span>
+  H<span className='text-indigo-700 relative right-1'>M</span>
   </h1>
   <h6 className="text-[10px] font-serif m-auto"> Hazem Mahisin</h6>
 </div>
