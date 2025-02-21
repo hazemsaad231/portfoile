@@ -1,9 +1,12 @@
 import Ecommerce from '../../assets/images/e-commerce.png';
-import Crud from "../../assets/images/Screenshot 2024-09-28 124435.png";
+import Crud from "../../assets/images/cruds.png";
 import Quiz from '../../assets/images/Screenshot 2024-09-28 124729.png'
 import rentCar from '../../assets/images/rentCar.jpeg'
 import bookStore from '../../assets/images/bookstore.jpeg'
 import dashboard from '../../assets/images/dashboard.jpeg'
+import xo  from '../../assets/images/xo-game.png'
+import calc  from '../../assets/images/calc.png'
+import editor  from '../../assets/images/editor.png'
 import { SiCss3 } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
@@ -130,7 +133,28 @@ export const Data2 = [
         id: 3,
         title: "Quiz app",
         img: Quiz,
-        link: "https://quiz-rouge.vercel.app/",
+        link:"https://hazemsaad231.github.io/Quiz-app/",
         gitHub: "https://github.com/hazemsaad231/Quiz-app"
     },
+    {
+        id: 4,
+        title: "XO game",
+        img: xo,
+        link: "https://hazemsaad231.github.io/XO-Game/",
+        gitHub: "https://github.com/hazemsaad231/XO-Game"
+    },
+    {
+        id: 5,
+        title: "Calculator",
+        img: calc,
+        link:"https://hazemsaad231.github.io/Calc/",
+        gitHub:"https://github.com/hazemsaad231/Calc"
+    },
+    {
+        id: 6,
+        title:"filter-image",
+        img: editor,
+        link:"https://hazemsaad231.github.io/Editor/",
+        gitHub:"https://github.com/hazemsaad231/Editor"
+    }
 ]
