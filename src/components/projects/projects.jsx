@@ -86,7 +86,7 @@ const toggleAll = () => {
         transition={{ duration: 1.2, ease: "easeInOut" }}
 
       >
-        <img src={item.img} alt="" className="w-full h-[350px] object-center" />
+        <img src={item.img} alt="" className="w-full h-[350px] object-center rounded-t-xl" />
       </motion.div>
 
       <div className="flex justify-between p-2">
@@ -130,7 +130,7 @@ const toggleAll = () => {
         transition={{ duration: 1.2, ease: "easeInOut" }}
 
       >
-        <img src={item.img} alt="" className="w-full h-[350px] object-center" />
+        <img src={item.img} alt="" className="w-full h-[350px] object-center rounded-t-xl" />
       </motion.div>
 
       <div className="flex justify-between p-2">
