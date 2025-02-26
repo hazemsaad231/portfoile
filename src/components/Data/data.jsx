@@ -5,6 +5,7 @@ import rentCar from '../../assets/images/rentCar.jpeg'
 import bookStore from '../../assets/images/bookstore.jpeg'
 import dashboard from '../../assets/images/dashboard.jpeg'
 import xo  from '../../assets/images/xo-game.png'
+import apple  from '../../assets/images/apple.png'
 import calc  from '../../assets/images/calc.png'
 import editor  from '../../assets/images/editor.png'
 import { SiCss3 } from "react-icons/si";
@@ -101,7 +102,7 @@ const Data = [
     },
     {
         id: 3,
-        title: "user dashboard",
+        title: "User dashboard",
         img: dashboard,
         link: "https://dashboard25-beta.vercel.app",
         gitHub:"https://github.com/hazemsaad231/dashboard25"
@@ -152,9 +153,16 @@ export const Data2 = [
     },
     {
         id: 6,
-        title:"filter-image",
+        title:"Filter-image",
         img: editor,
         link:"https://hazemsaad231.github.io/Editor/",
         gitHub:"https://github.com/hazemsaad231/Editor"
+    },
+    {
+        id: 7,
+        title:"Iphone",
+        img: apple,
+        link:"https://hazemsaad231.github.io/apple/",
+        gitHub:"https://github.com/hazemsaad231/apple"
     }
 ]
