@@ -166,3 +166,26 @@ export const Data2 = [
         gitHub:"https://github.com/hazemsaad231/apple"
     }
 ]
+
+export const Data3 = [
+
+    {
+        name: "Front-End Developer",
+        title: "Freelance",
+        text : ' Developing web interfaces using React.js, Tailwind CSS, and JavaScript.Enhancing user experience (UX/UI) and website performance.',
+        date : "2025 - Present"
+    },
+    {
+        name: "Freelance",
+        title: "Car E-Commerce Platform",
+        text : 'Developed an online car marketplace with features for both admin and user roles.Implemented dynamic search and pagination. Integrated Firebase for data storage,allowing real-time updates and secure data management. Retrieved and displayed car data via API for seamless user  interaction.',
+        date : "2024 - Present"
+    },
+    {
+        name: "Front-End Intern ",
+        title: "Web Master (Mar 2024 – May 2024)",
+        text : ' Worked on React projects, UI development, and API integration. Assisted in optimizing web applications ',
+        date : "2024 - Present"
+    }
+  
+]
