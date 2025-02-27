@@ -39,7 +39,7 @@ const About = () => {
     
     return (
         <>
-        <div className='flex flex-col px-4 sm:px-4 md:px-20 lg:px-20 xl:px-20 py-12' id='about'style={{fontFamily:"sans-serif"}} >
+        <div className='flex flex-col px-4 sm:px-4 md:px-8 lg:px-16 xl:px-20 py-12' id='about'style={{fontFamily:"sans-serif"}} >
        
           <div>
 
@@ -80,16 +80,16 @@ const About = () => {
 
             <div className='h-80 mt-10 text-gray-300 cursor-pointer text-xl'>
             {viewSkills &&
-              <ul className='grid grid-cols-2 gap-3' data-aos="fade-up">
+              <ul className='grid grid-cols-2 gap-4' data-aos="fade-up">
                 <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>html</li>
                 <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>ReactQuery</li>
                 <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>css</li>
                 <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>tailwind</li>
                 <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>javascript</li>
                 <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>redux</li>
+                <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>react</li>
                 <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>framer motion</li>
                 <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>firebase</li>
-                <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>react</li>
                 <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>figma</li>
                 <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>material ui</li>
                 <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>basics of c++</li>
