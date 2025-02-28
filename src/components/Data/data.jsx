@@ -120,8 +120,8 @@ export const Data2 = [
         id: 1,
         title: "Shoes e-commerce",
         img: Ecommerce,
-        link: "https://hazemsaad231.github.io/E-commerce/",
-        gitHub: "https://github.com/hazemsaad231/e-commerce"
+        link: "https://hazemsaad231.github.io/shoes-ecommerce/",
+        gitHub: "https://github.com/hazemsaad231/shoes-ecommerce"
     },
     {
         id: 2,
