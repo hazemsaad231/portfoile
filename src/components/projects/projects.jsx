@@ -16,7 +16,13 @@ const Projects = () => {
 const [isReact, setIsReact] = useState(true);
 const [isJs, setIsJs] = useState(false);
 
+const [active, setActive] = useState('react');
 
+
+const toggleActive = (e) => {
+  setActive(e);
+  
+}
 
 
 const toggleReact = () => {
@@ -56,9 +62,9 @@ const toggleAll = () => {
                         I have created many projects in my free time
                     </p>
                     <ul className='flex  gap-1 sm:gap-2 md:gap-20 lg:gap-20 xl:gap-20 p-4 text-white text-xl cursor-pointer'>
-                      <li className='bg-gradient-to-r from-indigo-700 to-white w-24 text-center rounded-full' onClick={toggleReact}>React</li>
-                      <li className='bg-gradient-to-r from-indigo-700 to-white w-24 text-center rounded-full' onClick={toggleJs}>js</li>
-                      <li className='bg-gradient-to-r from-indigo-700 to-white w-24 text-center rounded-full' onClick={toggleAll}>All</li>
+                      <li className={` ${active === 'react' ? 'bg-gradient-to-r from-indigo-700 to-white transform -rotate-12 transition-all duration-500  w-24 text-center rounded-full' : 'bg-gradient-to-r from-indigo-700 to-white w-24 text-center rounded-full'}`} onClick={()=>{toggleReact(); toggleActive('react')}}>React</li>
+                      <li  className={` ${active === 'js' ? 'bg-gradient-to-r from-indigo-700 to-white transform rotate-12 transition-all duration-500  w-24 text-center rounded-full' : 'bg-gradient-to-r from-indigo-700 to-white w-24 text-center rounded-full'}`} onClick={()=>{toggleJs() ;toggleActive('js')}}>js</li>
+                      <li className={` ${active === 'all' ? 'bg-gradient-to-r from-indigo-700 to-white transform rotate-12 transition-all duration-500  w-24 text-center rounded-full' : 'bg-gradient-to-r from-indigo-700 to-white w-24 text-center rounded-full'}`}   onClick={()=>{toggleAll(); toggleActive('all')}}>All</li>
                     </ul>
 
                    

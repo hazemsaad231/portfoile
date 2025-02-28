@@ -118,10 +118,10 @@ export const Data2 = [
 
     {
         id: 1,
-        title: "Shoes e-commerce",
-        img: Ecommerce,
-        link: "https://hazemsaad231.github.io/shoes-ecommerce/",
-        gitHub: "https://github.com/hazemsaad231/shoes-ecommerce"
+        title: "XO game",
+        img: xo,
+        link: "https://hazemsaad231.github.io/XO-Game/",
+        gitHub: "https://github.com/hazemsaad231/XO-Game"
     },
     {
         id: 2,
@@ -137,12 +137,13 @@ export const Data2 = [
         link:"https://hazemsaad231.github.io/Quiz-app/",
         gitHub: "https://github.com/hazemsaad231/Quiz-app"
     },
+  
     {
         id: 4,
-        title: "XO game",
-        img: xo,
-        link: "https://hazemsaad231.github.io/XO-Game/",
-        gitHub: "https://github.com/hazemsaad231/XO-Game"
+        title: "Shoes e-commerce",
+        img: Ecommerce,
+        link: "https://hazemsaad231.github.io/shoes-ecommerce/",
+        gitHub: "https://github.com/hazemsaad231/shoes-ecommerce"
     },
     {
         id: 5,
