@@ -7,7 +7,6 @@ import emailjs from '@emailjs/browser';
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import { Toaster, toast } from 'react-hot-toast';
-import { FaGithub } from "react-icons/fa";
 import { FaLinkedin, FaW } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
