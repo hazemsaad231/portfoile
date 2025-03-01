@@ -39,7 +39,7 @@ const About = () => {
     
     return (
         <>
-        <div className='flex flex-col px-4 sm:px-4 md:px-8 lg:px-16 xl:px-20 py-12' id='about'style={{fontFamily:"sans-serif"}} >
+        <div className='flex flex-col px-4 sm:px-4 md:px-8 lg:px-16 xl:px-24 py-12' id='about'style={{fontFamily:"sans-serif"}} >
        
           <div>
 
