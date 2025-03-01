@@ -9,7 +9,7 @@ import { Data3 } from "../Data/data";
 function Experience() {
   return (
     <div>
-    <div style={{ fontFamily: "sans-serif" }} className="py-12">
+    <div style={{ fontFamily: "sans-serif" }} className="py-12" id="experience">
     <h1 className='font-bold text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl bg-gradient-to-t from-indigo-700 to-white bg-clip-text text-transparent text-center mb-8'>Experience</h1>
       <VerticalTimeline lineColor="white">
       {Data3.map((data, index) => (
