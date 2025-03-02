@@ -190,3 +190,33 @@ export const Data3 = [
     }
   
 ]
+
+
+export const Data4 = [
+{
+    level1: "HTML",
+    level2: "Redux",
+},
+{
+    level1: "CSS",
+    level2: "Figma",
+},
+{
+    level1: "js",
+    level2: "TypeScript",
+},
+{
+    level1: "React",
+    level2: "React-query",
+},
+{
+    level1: "Firebase",
+    level2: "Framer-motion",
+},
+
+{
+    level1: "Tailwind",
+    level2: "Mui",
+},
+
+]

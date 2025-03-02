@@ -2,6 +2,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import { useEffect, useState } from 'react';
+import { Data4 } from '../Data/data';
 
 
 
@@ -78,22 +79,17 @@ const About = () => {
    className={`absolute left-0 -bottom-1 h-[2px] bg-indigo-600 transition-all duration-700 ease-in-out ${active==='education' ? 'w-full' : 'w-0'}`}></span></li>
             </ul>
 
+
             <div className='h-80 mt-10 text-gray-300 cursor-pointer text-xl'>
             {viewSkills &&
-              <ul className='grid grid-cols-2 gap-4' data-aos="fade-up">
-                <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>html</li>
-                <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>ReactQuery</li>
-                <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>css</li>
-                <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>tailwind</li>
-                <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>javascript</li>
-                <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>redux</li>
-                <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>react</li>
-                <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>framer motion</li>
-                <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>firebase</li>
-                <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>figma</li>
-                <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>material ui</li>
-                <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>basics of c++</li>
+            <>
+            {Data4.map((item, index) => (
+              <ul key={index} data-aos="fade-up" className='grid grid-cols-2 gap-4'>
+                <li className='bg-indigo-600 text-white px-4 m-1 w-max rounded-full'>{item.level1}</li>
+                <li className='bg-indigo-600 text-white px-4 m-1 w-max rounded-full'>{item.level2}</li>
                 </ul>
+            ))}
+            </>
               }
               {viewEducation &&
               <ul className='grid grid-cols-1 gap-3' data-aos="fade-up">
@@ -102,6 +98,7 @@ const About = () => {
               </ul>
               }
             </div>
+          
             </div>
           
             
