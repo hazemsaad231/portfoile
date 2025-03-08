@@ -210,8 +210,8 @@ export const Data4 = [
     level2: "React-query",
 },
 {
-    level1: "Firebase",
-    level2: "Framer-motion",
+    level1: "FramerMotion",
+    level2: "Firebase",
 },
 
 {
