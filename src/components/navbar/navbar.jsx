@@ -38,14 +38,16 @@ const NavBar = () => {
                 <li> <a  href='#about' className="relative transition duration-500 ease-in-out hover:text-indigo-700">About</a></li>
                 <li> <a  href='#experience' className="relative transition duration-500 ease-in-out hover:text-indigo-700">experience</a></li>
                 <li> <a  href='#projects' className="relative transition duration-500 ease-in-out hover:text-indigo-700">projects</a></li>
+                <li> <a  href='#contact' className="relative transition duration-500 ease-in-out hover:text-indigo-700">contact</a></li>
+
           </ul>
         </div>
 
 
 
-     <button className="flex text-md sm:text-md md:text-md lg:text-xl xl:text-xl bg-indigo-700 px-4 py-2 rounded-full hover:bg-transparent"> 
+     <button className="flex text-md sm:text-md md:text-md lg:text-lg xl:text-lg bg-indigo-700 px-4 py-2 rounded-full hover:bg-transparent"> 
    <CiLocationArrow1 color="white" size={20} className="relative top-1 right-1"/>
-    <a href='https://wa.me/201062588052'>contact me</a> 
+    <a href='https://wa.me/201062588052'>Lets Talk</a> 
     </button>
 
            
@@ -66,7 +68,7 @@ const NavBar = () => {
           <div className="flex flex-col gap-2 items-center w-full">
 
           <ul className="flex flex-col gap-x-3 font-semibold gap-y-4 my-8 mx-4">
-          {["home", "about", "experience", "projects" ].map((item) => (
+          {["home", "about", "experience", "projects", "contact" ].map((item) => (
             <motion.li
                   key={item}
                   initial={{ opacity: 0, y: 20 }}

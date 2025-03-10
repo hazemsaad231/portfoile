@@ -1,7 +1,7 @@
 import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { FaGithub } from "react-icons/fa";
-import { FaLinkedin, FaW } from "react-icons/fa6";
+import { FaLinkedin} from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 import { TypeAnimation } from 'react-type-animation';
 import { FaWhatsapp } from "react-icons/fa";
@@ -43,7 +43,7 @@ const Home = () => {
         </p>
         <div className='flex mb-8'>
 
-        <a href="/CV.pdf" download="HazemSaad_CV.pdf"><button className='text-md rounded-full bg-gradient-to-r from-indigo-600 to-indigo-100 hover:bg-gradient-to-l hover:from-purple-700 hover:to-gray-100 px-4 py-2'>Download cv <i className="fas fa-download"></i></button></a>
+        <a href="/CV.pdf" download="HazemSaad_CV.pdf"><button className='text-md rounded-full bg-gradient-to-r from-indigo-600 to-indigo-100 hover:bg-transparent hover:text-indigo-600 px-4 py-2'>Download cv <i className="fas fa-download"></i></button></a>
 
         <a href="https://github.com/dashboard"><FaGithub className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl mx-3 text-white'/></a>
         <a href="https://www.linkedin.com/in/hazem-saad-719083282"><FaLinkedin className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl'/></a>
