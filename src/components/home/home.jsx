@@ -54,10 +54,10 @@ const Home = () => {
         </div>
     </div>
 
-<div className='border-2 border-indigo-600 shadow-xl w-[100%] sm:w-[90%] md:w-[80%] lg:w-[80%]  xl:w-[50%] p-4 m-auto sm:m-auto md:m-2 lg:m-2 xl:m-2'>
+<div className='border-2 border-indigo-800 shadow-xl hover:border-indigo-500 w-[100%] sm:w-[90%] md:w-[80%] lg:w-[80%]  xl:w-[50%] p-4 m-auto sm:m-auto md:m-2 lg:m-2 xl:m-2'>
   <ul className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-center items-center gap-8 sm:gap-8 md:gap-16 lg:gap-24 xl:gap-24'> 
-    <li className='flex gap-2'> <span className='font-bold text-5xl'>2+ </span><span className='text-sm font-sans relative top-4'>Years of Experience</span></li>
-    <li className='flex gap-2'> <span className='font-bold text-5xl'>10+ </span><span className='text-sm font-sans relative top-4'>Projects Completed</span></li>
+    <li className='flex gap-2'> <span className='font-bold text-5xl'>2+ </span><span className='text-sm font-sans relative top-3'>Years of Experience</span></li>
+    <li className='flex gap-2'> <span className='font-bold text-5xl'>10+ </span><span className='text-sm font-sans relative top-3'>Projects Completed</span></li>
     <li></li>
   </ul>
 </div> 
