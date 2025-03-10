@@ -10,16 +10,16 @@ import { FaWhatsapp } from "react-icons/fa";
 const Home = () => {
   return (
     <>
-    <div className='flex flex-col px-4 sm:px-4 md:px-24 lg:px-24 xl:px-24 pt-40 pb-28' id='home'>
+    <div className='flex flex-col px-4 sm:px-4 md:px-24 lg:px-28 xl:px-40 pt-40 pb-28' id='home'>
 
     <div className='mb-10'>
         <h1
-       className='font-bold bg-gradient-to-t from-indigo-700 to-indigo-100 bg-clip-text text-transparent text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl tracking-[1px]' 
+       className='font-bold bg-gradient-to-r from-indigo-700 via-white to-white bg-clip-text text-transparent text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl tracking-[1px]' 
         >
            Hello I'm Hazem
         </h1>
 
-        <h1 className='text-3xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-6xl mb-3'>
+        <h1 className='text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl my-3'>
 
           
           <TypeAnimation
