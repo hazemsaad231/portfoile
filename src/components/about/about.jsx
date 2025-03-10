@@ -40,11 +40,11 @@ const About = () => {
     
     return (
         <>
-        <div className='flex flex-col px-4 sm:px-4 md:px-8 lg:px-28 xl:px-40 py-12' id='about'style={{fontFamily:"sans-serif"}} >
+        <div className='flex flex-col px-4 sm:px-4 md:px-6 lg:px-8 xl:px-32 py-12' id='about'style={{fontFamily:"sans-serif"}} >
        
           <div>
 
-            <h1 className="bg-gradient-to-l from-white via-white to-indigo-700 bg-clip-text text-transparent text-start text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-bold tracking-[2px]">About Me</h1>
+            <h1 className="bg-gradient-to-b from-indigo-700 via-indigo-600 to-white bg-clip-text text-transparent text-start text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-bold tracking-[2px]">About Me</h1>
             
             <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row gap-6 sm:gap-6 md:gap-10 lg:gap-10 xl:gap-12'
              data-aos="fade-right">

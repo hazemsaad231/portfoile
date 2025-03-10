@@ -10,7 +10,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const Home = () => {
   return (
     <>
-    <div className='flex flex-col px-4 sm:px-4 md:px-24 lg:px-28 xl:px-40 pt-40 pb-28' id='home'>
+    <div className='flex flex-col px-4 sm:px-4 md:px-6 lg:px-8 xl:px-40 pt-40 pb-28' id='home'>
 
     <div className='mb-10'>
         <h1

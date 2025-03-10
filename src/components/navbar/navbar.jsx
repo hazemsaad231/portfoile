@@ -30,7 +30,7 @@ const NavBar = () => {
   <h6 className="text-[10px] font-serif m-auto"> Hazem Mahisin</h6>
 </div>
         
-
+{/* القاءمه العاديه */}
 
         <div className="hidden sm:hidden md:block lg:block xl:block">
             <ul className='flex gap-6 text-md sm:text-md md:text-md lg:text-xl xl:text-xl p-2'>
