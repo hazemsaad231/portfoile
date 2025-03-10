@@ -84,10 +84,10 @@ const toggleAll = () => {
       className='bg-black opacity-95  shadow-2xl hover:opacity-100 border border-indigo-800 hover:border-2 hover:border-indigo-600 transition duration-300 pb-2 rounded-xl '
     >
       <motion.div
-        initial={{ opacity: 0, x: -50}}  // العنصر يبدأ غير مرئي ويبدأ من اليسار
+        initial={{ opacity: 0, x: -25}}  // العنصر يبدأ غير مرئي ويبدأ من اليسار
         animate={{ opacity: 1, y: 0 }}     // العنصر يظهر ويعود إلى مكانه الطبيعي
         whileInView={{ opacity: 2, x: 0 }} // عند التمرير، العنصر يظهر تدريجياً
-        whileHover={{ scale: 1.1, rotate: 1.2 }}  // عند المرور تكبير العنصر وتدويره
+        whileHover={{ scale: 1, rotate: 5 }}  // عند المرور تكبير العنصر وتدويره
         whileTap={{ scale: 1 }}          // عند الضغط، العنصر يصغر قليلاً
         transition={{ duration: 1.2, ease: "easeInOut" }}
 
@@ -128,10 +128,10 @@ const toggleAll = () => {
       className='bg-black opacity-95 shadow-2xl hover:opacity-100 border border-indigo-800 hover:border-2 hover:border-indigo-600 transition duration-300 pb-2 rounded-xl '
     >
       <motion.div
-        initial={{ opacity: 0, x: -50}}  // العنصر يبدأ غير مرئي ويبدأ من اليسار
+        initial={{ opacity: 0, x: -25}}  // العنصر يبدأ غير مرئي ويبدأ من اليسار
         animate={{ opacity: 1, y: 0 }}     // العنصر يظهر ويعود إلى مكانه الطبيعي
         whileInView={{ opacity: 2, x: 0 }} // عند التمرير، العنصر يظهر تدريجياً
-        whileHover={{ scale: 1.1, rotate: 1.2 }}  // عند المرور تكبير العنصر وتدويره
+        whileHover={{ scale: 1, rotate: 5 }}  // عند المرور تكبير العنصر وتدويره
         whileTap={{ scale: 1.2 }}          // عند الضغط، العنصر يصغر قليلاً
         transition={{ duration: 1.2, ease: "easeInOut" }}
 

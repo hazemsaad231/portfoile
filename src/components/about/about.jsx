@@ -89,7 +89,7 @@ const About = () => {
             <div className='grid grid-cols-2 gap-1'>
             {Data4.map((item, index) => (
               <ul key={index} data-aos="fade-up" >
-                <li className='bg-indigo-600 text-white px-4 m-1 w-max rounded-full'>{item}</li>
+                <li className='bg-indigo-600 text-white px-4 m-1 w-max rounded-full hover:bg-white hover:text-indigo-600'>{item}</li>
                
                 </ul>
             ))}
@@ -97,8 +97,8 @@ const About = () => {
               }
               {viewEducation &&
               <ul className='grid grid-cols-1 gap-3' data-aos="fade-up">
-                <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>computer science</li>
-                <li className='bg-indigo-600 text-white px-4 w-max rounded-full'>university of banha (2020-2024)</li>
+                <li className='bg-indigo-600 text-white px-4 w-max rounded-full hover:bg-white hover:text-indigo-600'>computer science</li>
+                <li className='bg-indigo-600 text-white px-4 w-max rounded-full hover:bg-white hover:text-indigo-600'>university of banha (2020-2024)</li>
               </ul>
               }
             </div>

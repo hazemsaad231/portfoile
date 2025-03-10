@@ -114,7 +114,7 @@ function Contact() {
               label="Message"
               placeholder="Send me any inquiries or questions"
               multiline
-              rows={10}
+              rows={5}
               value={message}
               sx={{bgcolor:"white",borderRadius:"10px"}}
               onChange={(e) => {
