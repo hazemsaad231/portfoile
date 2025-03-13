@@ -72,92 +72,147 @@ const toggleAll = () => {
 
                       <div className='flex flex-col justify-center items-center p-10' data-aos="fade-up">
 
-                
-                    {isReact && (
-<div className='grid grid-cols-1 sm:grid-cols-1 rounded-xl md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 mb-10 gap-10 opacity-98 hover:opacity-100'>
+                      {isReact && (
+        <motion.div
+          className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 mb-10 gap-10 opacity-98 hover:opacity-100"
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: { opacity: 0 },
+            visible: {
+              opacity: 1,
+              transition: { staggerChildren: 0.2 }, // ظهور العناصر بالتدريج
+            },
+          }}
+        >
+          {Data.map((item, index) => (
+            <motion.div
+              key={index}
+              variants={{
+                hidden: { opacity: 0, y: 50 },
+                visible: { opacity: 1, y: 0 },
+              }}
+              whileHover={{ scale: 1.05, rotate: 1 }}
+              transition={{ duration: 0.5, ease: "easeInOut" }}
+              className="bg-black opacity-95 shadow-2xl hover:opacity-100 border border-indigo-800 hover:border-2 hover:border-indigo-600 transition duration-300 pb-2 rounded-xl"
+            >
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                whileHover={{ scale: 1.02 }}
+                transition={{ duration: 0.6 }}
+              >
+                <img
+                  src={item.img}
+                  alt={item.title}
+                  className="w-full h-[350px] object-center rounded-t-xl"
+                />
+              </motion.div>
 
-  
-  {Data.map((item, index) => (
-    <div 
-      key={index} 
-      data-aos="fade-up"
-      className='bg-black opacity-95  shadow-2xl hover:opacity-100 border border-indigo-800 hover:border-2 hover:border-indigo-600 transition duration-300 pb-2 rounded-xl '
-    >
-      <motion.div
-        initial={{ opacity: 0, x: -25}}  // العنصر يبدأ غير مرئي ويبدأ من اليسار
-        animate={{ opacity: 1, y: 0 }}     // العنصر يظهر ويعود إلى مكانه الطبيعي
-        whileInView={{ opacity: 2, x: 0 }} // عند التمرير، العنصر يظهر تدريجياً
-        whileHover={{ scale: 1, rotate: 5 }}  // عند المرور تكبير العنصر وتدويره
-        whileTap={{ scale: 1 }}          // عند الضغط، العنصر يصغر قليلاً
-        transition={{ duration: 1.2, ease: "easeInOut" }}
-
-      >
-        <img src={item.img} alt="" className="w-full h-[350px] object-center rounded-t-xl" />
-      </motion.div>
-
-      <div className="flex justify-between p-2">
-        <h1 className="text-lg sm:text-lg md:text-xl lg:text-xl xl:text-xl text-white">
-          {item.title}
-        </h1>
-
-<div className='flex gap-2'>
-<a href={item.gitHub} className="text-[#4A90E2] text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px] "><FaGithub size={25}/> </a>
-<a href={item.link} className="text-[#4A90E2] text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px]"><RiExternalLinkLine size={25}/></a>
-</div>
-        
-      
-       
-      </div>
-      <div className='ml-1 sm:ml-1 md:ml-20 lg:ml-60 xl:ml-80'></div>
-    </div>
-  ))}
-
-
-</div>
-)}
+              <div className="flex justify-between p-2">
+                <motion.h1
+                  className="text-lg sm:text-lg md:text-xl lg:text-xl xl:text-xl text-white"
+                  initial={{ opacity: 0, x: -10 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.2 }}
+                >
+                  {item.title}
+                </motion.h1>
+                <div className="flex gap-2">
+                  <motion.a
+                    href={item.gitHub}
+                    whileHover={{ scale: 1.2 }}
+                    transition={{ type: "spring", stiffness: 200 }}
+                    className="text-[#4A90E2] text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px]"
+                  >
+                    <FaGithub size={25} />
+                  </motion.a>
+                  <motion.a
+                    href={item.link}
+                    whileHover={{ scale: 1.2 }}
+                    transition={{ type: "spring", stiffness: 200 }}
+                    className="text-[#4A90E2] text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px]"
+                  >
+                    <RiExternalLinkLine size={25} />
+                  </motion.a>
+                </div>
+              </div>
+            </motion.div>
+          ))}
+        </motion.div>
+      )}
+    
 
 
 {isJs && (
-<div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 mb-10 gap-10 opacity-98 hover:opacity-100'>
+        <motion.div
+          className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 mb-10 gap-10 opacity-98 hover:opacity-100"
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: { opacity: 0 },
+            visible: {
+              opacity: 1,
+              transition: { staggerChildren: 0.2 }, // ظهور العناصر بالتدريج
+            },
+          }}
+        >
+          {Data2.map((item, index) => (
+            <motion.div
+              key={index}
+              variants={{
+                hidden: { opacity: 0, y: 50 },
+                visible: { opacity: 1, y: 0 },
+              }}
+              whileHover={{ scale: 1.05, rotate: 1 }}
+              transition={{ duration: 0.5, ease: "easeInOut" }}
+              className="bg-black opacity-95 shadow-2xl hover:opacity-100 border border-indigo-800 hover:border-2 hover:border-indigo-600 transition duration-300 pb-2 rounded-xl"
+            >
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                whileHover={{ scale: 1.02 }}
+                transition={{ duration: 0.6 }}
+              >
+                <img
+                  src={item.img}
+                  alt={item.title}
+                  className="w-full h-[350px] object-center rounded-t-xl"
+                />
+              </motion.div>
 
-  
-  {Data2.map((item, index) => (
-    <div 
-      key={index} 
-      data-aos="fade-up"
-      className='bg-black opacity-95 shadow-2xl hover:opacity-100 border border-indigo-800 hover:border-2 hover:border-indigo-600 transition duration-300 pb-2 rounded-xl '
-    >
-      <motion.div
-        initial={{ opacity: 0, x: -25}}  // العنصر يبدأ غير مرئي ويبدأ من اليسار
-        animate={{ opacity: 1, y: 0 }}     // العنصر يظهر ويعود إلى مكانه الطبيعي
-        whileInView={{ opacity: 2, x: 0 }} // عند التمرير، العنصر يظهر تدريجياً
-        whileHover={{ scale: 1, rotate: 5 }}  // عند المرور تكبير العنصر وتدويره
-        whileTap={{ scale: 1.2 }}          // عند الضغط، العنصر يصغر قليلاً
-        transition={{ duration: 1.2, ease: "easeInOut" }}
-
-      >
-        <img src={item.img} alt="" className="w-full h-[350px] object-center rounded-t-xl" />
-      </motion.div>
-
-      <div className="flex justify-between p-2">
-        <h1 className="text-lg sm:text-lg md:text-xl lg:text-xl xl:text-xl text-white">
-          {item.title}
-        </h1>
-        <div className='flex gap-2'>
-<a href={item.gitHub} className="text-[#4A90E2] text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px] "><FaGithub size={25}/> </a>
-<a href={item.link} className="text-[#4A90E2] text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px]"><RiExternalLinkLine size={25}/></a>
-</div>
-      
-       
-      </div>
-      <div className='ml-1 sm:ml-1 md:ml-20 lg:ml-60 xl:ml-80'></div>
-    </div>
-  ))}
-
-
-</div>
-)}
-
+              <div className="flex justify-between p-2">
+                <motion.h1
+                  className="text-lg sm:text-lg md:text-xl lg:text-xl xl:text-xl text-white"
+                  initial={{ opacity: 0, x: -10 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.2 }}
+                >
+                  {item.title}
+                </motion.h1>
+                <div className="flex gap-2">
+                  <motion.a
+                    href={item.gitHub}
+                    whileHover={{ scale: 1.2 }}
+                    transition={{ type: "spring", stiffness: 200 }}
+                    className="text-[#4A90E2] text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px]"
+                  >
+                    <FaGithub size={25} />
+                  </motion.a>
+                  <motion.a
+                    href={item.link}
+                    whileHover={{ scale: 1.2 }}
+                    transition={{ type: "spring", stiffness: 200 }}
+                    className="text-[#4A90E2] text-[12px] sm:text-[12px] md:text-[15px] lg:text-[16px] xl:text-[16px]"
+                  >
+                    <RiExternalLinkLine size={25} />
+                  </motion.a>
+                </div>
+              </div>
+            </motion.div>
+          ))}
+        </motion.div>
+      )}
 
 
 
@@ -175,3 +230,5 @@ const toggleAll = () => {
 };
 
 export default Projects;
+
+
