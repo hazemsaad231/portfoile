@@ -46,18 +46,14 @@ function Contact() {
     <Toaster/>
     <div id="contact" className='px-8 pb-8'>
       <div className=" flex flex-col justify-center items-center gap-4">
-        <div className="">
-          <h1 className='font-bold text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl bg-gradient-to-r from-[#8750f7] to-white bg-clip-text  text-center py-10 tracking-[2px]'
-             style={{ WebkitTextFillColor: "transparent" }}
->Contact Me</h1>
-           {/* <div className='flex justify-center items-center gap-2 pb-4 '>
-                    
-                  <a href="https://www.linkedin.com/in/hazem-saad-719083282"><FaLinkedin className='text-4xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl'/></a>
-                  <a href="https://www.facebook.com/hazem.mahisin"> <FaFacebookSquare className='text-4xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl mx-3 text-[#8750f7]'/></a>
-                  <a href="https://wa.me/201062588052"> <FaWhatsapp className='text-4xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl text-[#8750f7]'/></a>
-          
-          
-                  </div> */}
+        <div>
+        <div className="text-center w-full my-10">
+<h1 
+   className="bg-gradient-to-r from-[#8750f7] to-white bg-clip-text text-transparent text-5xl font-bold inline-block"
+   style={{ WebkitTextFillColor: "transparent" }}>
+  Contact Me
+  </h1>
+</div>
           <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
           <Box
             noValidate
