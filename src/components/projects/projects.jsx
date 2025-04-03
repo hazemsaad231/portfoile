@@ -48,7 +48,7 @@ const Projects = () => {
           }}
           whileHover={{ scale: 1.05, rotate: 1 }}
           transition={{ duration: 0.5, ease: "easeInOut" }}
-          className="bg-black opacity-95 shadow-2xl hover:opacity-100 border border-primary hover:border-2 transition duration-300 pb-2 rounded-xl"
+          className="card rounded-xl border border-black shadow-2xl cursor-pointer"
         >
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -63,7 +63,7 @@ const Projects = () => {
             />
           </motion.div>
 
-          <div className="flex justify-between p-2">
+          <div className="flex justify-between p-2 bg-gray-900 shadow-2xl rounded-b-xl">
             <motion.h1
               className="text-lg sm:text-lg md:text-xl lg:text-xl xl:text-xl text-white"
               initial={{ opacity: 0, x: -10 }}
@@ -100,8 +100,8 @@ const Projects = () => {
     <>
       <div className="pt-12 pb-4" id="projects">
         <div className="flex flex-col justify-center items-center gap-2">
-          <h1 className="bg-gradient-to-r from-primary to-white bg-clip-text text-transparent text-5xl font-bold inline-block" style={{ WebkitTextFillColor: "transparent" }}>
-            Projects
+          <h1 className="bg-gradient-to-r from-primary to-white bg-clip-text text-transparent text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold inline-block" style={{ WebkitTextFillColor: "transparent" }}>
+            Projects <span className='w-4 h-4 bg-primary inline-block rounded-full'></span>
           </h1>
           <p className="text-gray-500 text-sm sm:text-md md:text-xl lg:text-xl xl-text-xl mb-4">
             I have created many projects in my free time

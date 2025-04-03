@@ -15,7 +15,7 @@ const Home = () => {
     <div className='mb-10'>
       
     <h1 
-  className="bg-gradient-to-r from-primary to-white bg-clip-text text-transparent text-6xl font-bold tracking-[2px] inline-block"
+  className="bg-gradient-to-r from-primary to-white bg-clip-text text-transparent text-5xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-6xl font-bold tracking-[2px] inline-block"
   style={{ WebkitTextFillColor: "transparent" }}
 >
   I'm Hazem
@@ -55,7 +55,7 @@ const Home = () => {
         </div>
     </div>
 
-<div className='border-2 border-primary shadow-xl w-[100%] sm:w-[90%] md:w-[80%] lg:w-[80%] transition-all duration-500 ease-in-out hover:bg-primary xl:w-[50%] p-4'>
+<div className='card rounded-xl border-2 border-primary shadow-xl w-[100%] sm:w-[90%] md:w-[80%] lg:w-[80%] transition-all duration-500 ease-in-out xl:w-[50%] p-4'>
   <ul className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-center items-center gap-8 sm:gap-8 md:gap-16 lg:gap-24 xl:gap-24'> 
     <li className='flex gap-2'> <span className='font-bold text-5xl'>2+ </span><span className='text-sm font-sans relative top-4'>Years of Experience</span></li>
     <li className='flex gap-2'> <span className='font-bold text-5xl'>10+ </span><span className='text-sm font-sans relative top-4'>Projects Completed</span></li>

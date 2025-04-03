@@ -9,13 +9,13 @@ import { Data3 } from "../Data/data";
 function Experience() {
   return (
     <div>
-    <div className="py-12" id="experience">
+    <div className="py-8" id="experience">
 
 <div className="text-center w-full my-10">
 <h1 
-   className="bg-gradient-to-r from-primary to-white bg-clip-text text-transparent text-5xl font-bold inline-block"
+   className="bg-gradient-to-r from-primary to-white bg-clip-text text-transparent text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold inline-block"
    style={{ WebkitTextFillColor: "transparent" }}>
-  Experience
+  Experience <span className='w-4 h-4 bg-primary inline-block rounded-full'></span>
   </h1>
 </div>
     

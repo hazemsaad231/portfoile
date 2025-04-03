@@ -33,14 +33,14 @@ const About = () => {
     
     return (
         <>
-        <div className='flex flex-col px-4 sm:px-4 md:px-6 lg:px-8 xl:px-32 py-12' id='about'>
+        <div className='flex flex-col px-4 sm:px-4 md:px-6 lg:px-8 xl:px-32 py-8' id='about'>
        
           <div>
           <h1 
-  className="bg-gradient-to-r from-primary to-white bg-clip-text text-transparent text-5xl font-bold inline-block"
+  className="bg-gradient-to-r from-primary to-white bg-clip-text text-transparent text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold inline-block"
   style={{ WebkitTextFillColor: "transparent" }}
 >
-  About Me
+  About Me <span className='w-4 h-4 bg-primary inline-block rounded-full'></span>
 </h1>
             
             <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row gap-6 sm:gap-6 md:gap-10 lg:gap-10 xl:gap-12'

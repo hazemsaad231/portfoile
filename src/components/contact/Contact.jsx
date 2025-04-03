@@ -49,9 +49,9 @@ function Contact() {
         <div>
         <div className="text-center w-full my-10">
 <h1 
-   className="bg-gradient-to-r from-primary to-white bg-clip-text text-transparent text-5xl font-bold inline-block"
+   className="bg-gradient-to-r from-primary to-white bg-clip-text text-transparent text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold inline-block"
    style={{ WebkitTextFillColor: "transparent" }}>
-  Contact Me
+  Contact Me <span className='w-4 h-4 bg-primary inline-block rounded-full'></span>
   </h1>
 </div>
           <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>

@@ -95,7 +95,7 @@ const Data = [
     },
     {
         id: 2,
-        title: "BookStore",
+        title: "Book store",
         img: bookStore,
         link: "https://bookstore-three-delta.vercel.app/",
         gitHub: "https://github.com/hazemsaad231/BookStore"
