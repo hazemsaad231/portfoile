@@ -10,7 +10,16 @@ function Experience() {
   return (
     <div>
     <div style={{ fontFamily: "sans-serif" }} className="py-12" id="experience">
-    <h1 className='font-bold text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl bg-gradient-to-t from-indigo-700 to-white bg-clip-text text-transparent text-center mb-8'>Experience</h1>
+
+<div className="text-center w-full my-10">
+<h1 
+   className="bg-gradient-to-r from-[#8750f7] to-white bg-clip-text text-transparent text-5xl font-bold inline-block"
+   style={{ WebkitTextFillColor: "transparent" }}>
+  Experience
+  </h1>
+</div>
+    
+
       <VerticalTimeline lineColor="white">
       {Data3.map((data, index) => (
         <VerticalTimelineElement
@@ -20,7 +29,7 @@ function Experience() {
           key={index}
         >
           
-          <div className="bg-gradient-to-r from-indigo-500 to-gray-100 bg-clip-text text-transparent">
+          <div className="bg-gradient-to-r from-[#8750f7] to-gray-100 bg-clip-text text-transparent">
           <h3>{data.name}</h3>
           <h4>{data.title}</h4>
           <p>

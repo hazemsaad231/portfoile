@@ -57,14 +57,19 @@ const toggleAll = () => {
             <div className="pt-12 pb-4" id='projects' style={{fontFamily:"sans-serif"}}>
           
             <div className='flex flex-col justify-center items-center gap-2'>
-                    <h1 className="font-bold bg-gradient-to-t from-indigo-700 to-white bg-clip-text text-transparent text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl tracking-[2px]">Projects</h1>
+                    <h1 
+   className="bg-gradient-to-r from-[#8750f7] to-white bg-clip-text text-transparent text-5xl font-bold inline-block"
+   style={{ WebkitTextFillColor: "transparent" }}>
+  Projects
+  </h1>
                     <p className="text-gray-500 text-sm sm:text-md md:text-xl lg:text-xl xl-text-xl mb-4">
+
                         I have created many projects in my free time
                     </p>
                     <ul className='flex  gap-1 sm:gap-2 md:gap-20 lg:gap-20 xl:gap-20 p-4 text-white text-xl cursor-pointer'>
-                      <li className={` ${active === 'react' ? 'bg-gradient-to-r from-indigo-700 to-white transform -rotate-12 transition-all duration-500  w-24 text-center rounded-full' : 'bg-gradient-to-r from-indigo-700 to-white w-24 text-center rounded-full'}`} onClick={()=>{toggleReact(); toggleActive('react')}}>React</li>
-                      <li  className={` ${active === 'js' ? 'bg-gradient-to-r from-indigo-700 to-white transform rotate-12 transition-all duration-500  w-24 text-center rounded-full' : 'bg-gradient-to-r from-indigo-700 to-white w-24 text-center rounded-full'}`} onClick={()=>{toggleJs() ;toggleActive('js')}}>js</li>
-                      <li className={` ${active === 'all' ? 'bg-gradient-to-r from-indigo-700 to-white transform rotate-12 transition-all duration-500  w-24 text-center rounded-full' : 'bg-gradient-to-r from-indigo-700 to-white w-24 text-center rounded-full'}`}   onClick={()=>{toggleAll(); toggleActive('all')}}>All</li>
+                      <li className={` ${active === 'react' ? 'bg-gradient-to-r from-[#8750f7] to-white transform -rotate-12 transition-all duration-500  w-24 text-center rounded-full' : 'bg-gradient-to-r from-[#8750f7] to-white w-24 text-center rounded-full'}`} onClick={()=>{toggleReact(); toggleActive('react')}}>React</li>
+                      <li  className={` ${active === 'js' ? 'bg-gradient-to-r from-[#8750f7] to-white transform rotate-12 transition-all duration-500  w-24 text-center rounded-full' : 'bg-gradient-to-r from-[#8750f7] to-white w-24 text-center rounded-full'}`} onClick={()=>{toggleJs() ;toggleActive('js')}}>js</li>
+                      <li className={` ${active === 'all' ? 'bg-gradient-to-r from-[#8750f7] to-white transform rotate-12 transition-all duration-500  w-24 text-center rounded-full' : 'bg-gradient-to-r from-[#8750f7] to-white w-24 text-center rounded-full'}`}   onClick={()=>{toggleAll(); toggleActive('all')}}>All</li>
                     </ul>
 
                    
@@ -94,7 +99,7 @@ const toggleAll = () => {
               }}
               whileHover={{ scale: 1.05, rotate: 1 }}
               transition={{ duration: 0.5, ease: "easeInOut" }}
-              className="bg-black opacity-95 shadow-2xl hover:opacity-100 border border-indigo-800 hover:border-2 hover:border-indigo-600 transition duration-300 pb-2 rounded-xl"
+              className="bg-black opacity-95 shadow-2xl hover:opacity-100 border border-[#8750f7] hover:border-2 transition duration-300 pb-2 rounded-xl"
             >
               <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
@@ -166,7 +171,7 @@ const toggleAll = () => {
               }}
               whileHover={{ scale: 1.05, rotate: 1 }}
               transition={{ duration: 0.5, ease: "easeInOut" }}
-              className="bg-black opacity-95 shadow-2xl hover:opacity-100 border border-indigo-800 hover:border-2 hover:border-indigo-600 transition duration-300 pb-2 rounded-xl"
+              className="bg-black opacity-95 shadow-2xl hover:opacity-100 border border-[#8750f7] hover:border-2 hover:border-[#9950f7] transition duration-300 pb-2 rounded-xl"
             >
               <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}

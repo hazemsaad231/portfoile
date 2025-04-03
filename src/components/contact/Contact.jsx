@@ -1,15 +1,11 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useState} from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import TextField from '@mui/material/TextField';
 import emailjs from '@emailjs/browser';
-import Aos from "aos";
-import 'aos/dist/aos.css';
 import { Toaster, toast } from 'react-hot-toast';
-import { FaLinkedin, FaW } from "react-icons/fa6";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
+
 function Contact() {
 
   const [name, setName] = useState('');
@@ -21,12 +17,6 @@ function Contact() {
   const [messageError, setMessageError] = useState(false);
 
 
-    useEffect(() => {
-        Aos.init({
-          duration: 1000,  // مدة التأثير
-          once: true,  // التأثير يتم مرة واحدة فقط عند التمرير
-        });
-      }, []);
 
 
 
@@ -54,18 +44,20 @@ function Contact() {
   return (
     <>
     <Toaster/>
-    <div id="contact" className='px-8 pb-8' style={{fontFamily:"sans-serif"}}>
-      <div className=" flex flex-col justify-center items-center gap-4" data-aos="fade-up">
+    <div id="contact" className='px-8 pb-8'>
+      <div className=" flex flex-col justify-center items-center gap-4">
         <div className="">
-          <h1 className='font-bold text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl bg-gradient-to-r from-indigo-700 to-white bg-clip-text text-transparent text-center py-10 tracking-[2px]'>Contact Me</h1>
-           <div className='flex justify-center items-center gap-2 pb-4 '>
+          <h1 className='font-bold text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl bg-gradient-to-r from-[#8750f7] to-white bg-clip-text  text-center py-10 tracking-[2px]'
+             style={{ WebkitTextFillColor: "transparent" }}
+>Contact Me</h1>
+           {/* <div className='flex justify-center items-center gap-2 pb-4 '>
                     
                   <a href="https://www.linkedin.com/in/hazem-saad-719083282"><FaLinkedin className='text-4xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl'/></a>
-                  <a href="https://www.facebook.com/hazem.mahisin"> <FaFacebookSquare className='text-4xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl mx-3 text-indigo-700'/></a>
-                  <a href="https://wa.me/201062588052"> <FaWhatsapp className='text-4xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl text-indigo-700'/></a>
+                  <a href="https://www.facebook.com/hazem.mahisin"> <FaFacebookSquare className='text-4xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl mx-3 text-[#8750f7]'/></a>
+                  <a href="https://wa.me/201062588052"> <FaWhatsapp className='text-4xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl text-[#8750f7]'/></a>
           
           
-                  </div>
+                  </div> */}
           <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
           <Box
             noValidate
@@ -123,7 +115,7 @@ function Contact() {
               error={messageError}
               helperText={messageError ? "Please enter the message" : ""}
             />
-            <Button type='submit' variant = 'contained'  endIcon={<SendIcon />}className='bg-gradient-to-r from-indigo-700 to-gray-100 rounded-full'>
+            <Button type='submit' variant = 'contained'  endIcon={<SendIcon />}className='bg-gradient-to-r from-[#8750f7] to-gray-100 rounded-full'>
               Send
             </Button>
            
