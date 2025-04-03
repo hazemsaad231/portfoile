@@ -37,7 +37,7 @@ const About = () => {
        
           <div>
           <h1 
-  className="bg-gradient-to-r from-[#8750f7] to-white bg-clip-text text-transparent text-5xl font-bold inline-block"
+  className="bg-gradient-to-r from-primary to-white bg-clip-text text-transparent text-5xl font-bold inline-block"
   style={{ WebkitTextFillColor: "transparent" }}
 >
   About Me
@@ -64,19 +64,19 @@ const About = () => {
       toggleView();
   }} 
   className={`text-2xl font-bold relative cursor-pointer transition-all duration-700 ease-in-out 
-    ${active === 'skills' ? 'text-[#8750f7]' : 'text-gray-300'}
+    ${active === 'skills' ? 'text-primary' : 'text-gray-300'}
   `}
 >
   Skills
-  <span className={`absolute left-0 -bottom-1 h-[2px] bg-[#8750f7] transition-all duration-700 ease-in-out 
+  <span className={`absolute left-0 -bottom-1 h-[2px] bg-primary transition-all duration-700 ease-in-out 
     ${active === 'skills' ? 'w-full' : 'w-0'}`}>
   </span>
 </li>
   <li onClick={()=>{toggleActive('education');
     toggleView2()}} className={`text-2xl font-bold  relative cursor-pointer transition-all duration-700 ease-in-out
-     ${active==='education' ? 'text-[#8750f7]' : 'text-gray-300'}`}>
+     ${active==='education' ? 'text-primary' : 'text-gray-300'}`}>
       Education <span
-   className={`absolute left-0 -bottom-1 h-[2px] bg-[#8750f7] transition-all duration-700 ease-in-out
+   className={`absolute left-0 -bottom-1 h-[2px] bg-primary transition-all duration-700 ease-in-out
     ${active==='education' ? 'w-full' : 'w-0'}`}></span></li>
             </ul>
 
@@ -86,7 +86,7 @@ const About = () => {
             <div className='grid grid-cols-2 gap-1'>
             {Data4.map((item, index) => (
               <ul key={index}>
-                <li className='bg-[#8750f7] text-white px-4 m-1 w-max rounded-full hover:bg-white hover:text-[#8750f7]'>{item}</li>
+                <li className='bg-primary text-white px-4 m-1 w-max rounded-full hover:bg-white hover:text-primary'>{item}</li>
                
                 </ul>
             ))}
@@ -94,8 +94,8 @@ const About = () => {
               }
               {viewEducation &&
               <ul className='grid grid-cols-1 gap-3'>
-                <li className='bg-[#8750f7] text-white px-4 w-max rounded-full hover:bg-white hover:text-[#8750f7]'>computer science</li>
-                <li className='bg-[#8750f7] text-white px-4 w-max rounded-full hover:bg-white hover:text-[#8750f7]'>university of banha (2020-2024)</li>
+                <li className='bg-primary text-white px-4 w-max rounded-full hover:bg-white hover:text-primary'>computer science</li>
+                <li className='bg-primary text-white px-4 w-max rounded-full hover:bg-white hover:text-primary'>university of banha (2020-2024)</li>
               </ul>
               }
             </div>

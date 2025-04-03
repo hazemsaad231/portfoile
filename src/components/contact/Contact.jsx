@@ -49,7 +49,7 @@ function Contact() {
         <div>
         <div className="text-center w-full my-10">
 <h1 
-   className="bg-gradient-to-r from-[#8750f7] to-white bg-clip-text text-transparent text-5xl font-bold inline-block"
+   className="bg-gradient-to-r from-primary to-white bg-clip-text text-transparent text-5xl font-bold inline-block"
    style={{ WebkitTextFillColor: "transparent" }}>
   Contact Me
   </h1>
@@ -102,7 +102,7 @@ function Contact() {
               label="Message"
               placeholder="Send me any inquiries or questions"
               multiline
-              rows={5}
+              rows={3}
               value={message}
               sx={{bgcolor:"white",borderRadius:"10px"}}
               onChange={(e) => {
@@ -111,7 +111,7 @@ function Contact() {
               error={messageError}
               helperText={messageError ? "Please enter the message" : ""}
             />
-            <Button type='submit' variant = 'contained'  endIcon={<SendIcon />}className='bg-gradient-to-r from-[#8750f7] to-gray-100 rounded-full'>
+            <Button type='submit' variant = 'contained'  endIcon={<SendIcon />}className='bg-gradient-to-r from-primary to-gray-100 rounded-full'>
               Send
             </Button>
            

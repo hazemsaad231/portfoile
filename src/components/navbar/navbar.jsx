@@ -35,18 +35,18 @@ const NavBar = () => {
 
         <div className="hidden sm:hidden md:block lg:block xl:block">
             <ul className='flex gap-6 text-md sm:text-md md:text-md lg:text-xl xl:text-xl p-2'>
-           <li><a href="#home" className="relative transition duration-500 ease-in-out hover:text-[#8750f7]"> Home</a></li>
-                <li> <a  href='#about' className="relative transition duration-500 ease-in-out hover:text-[#8750f7]">About</a></li>
-                <li> <a  href='#experience' className="relative transition duration-500 ease-in-out hover:text-[#8750f7]">experience</a></li>
-                <li> <a  href='#projects' className="relative transition duration-500 ease-in-out hover:text-[#8750f7]">projects</a></li>
-                <li> <a  href='#contact' className="relative transition duration-500 ease-in-out hover:text-[#8750f7]">contact</a></li>
+           <li><a href="#home" className="relative transition duration-500 ease-in-out hover:text-primary"> Home</a></li>
+                <li> <a  href='#about' className="relative transition duration-500 ease-in-out hover:text-primary">About</a></li>
+                <li> <a  href='#experience' className="relative transition duration-500 ease-in-out hover:text-primary">experience</a></li>
+                <li> <a  href='#projects' className="relative transition duration-500 ease-in-out hover:text-primary">projects</a></li>
+                <li> <a  href='#contact' className="relative transition duration-500 ease-in-out hover:text-primary">contact</a></li>
 
           </ul>
         </div>
 
 
 
-     <button className="flex text-md sm:text-md md:text-md lg:text-lg xl:text-lg bg-[#8750f7] px-4 py-2 rounded-full hover:bg-transparent"> 
+     <button className="flex text-md sm:text-md md:text-md lg:text-lg xl:text-lg bg-primary px-4 py-2 rounded-full hover:bg-transparent"> 
    <CiLocationArrow1 color="white" size={20} className="relative top-1 right-1"/>
     <a href='https://wa.me/201062588052'>Lets Talk</a> 
     </button>
@@ -64,7 +64,7 @@ const NavBar = () => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -100 }} // ❌ تأثير الاختفاء
           transition={{ duration: 0.5, ease: "easeInOut" }}
-          className="fixed top-0 right-0 inset-0 w-[40%] h-max p-1 bg-[#8750f7] z-40 "
+          className="fixed top-0 right-0 inset-0 w-[40%] h-max p-1 bg-primary z-40 "
         >
           <div className="flex flex-col gap-2 items-center w-full">
 

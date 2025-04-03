@@ -9,11 +9,11 @@ import { Data3 } from "../Data/data";
 function Experience() {
   return (
     <div>
-    <div style={{ fontFamily: "sans-serif" }} className="py-12" id="experience">
+    <div className="py-12" id="experience">
 
 <div className="text-center w-full my-10">
 <h1 
-   className="bg-gradient-to-r from-[#8750f7] to-white bg-clip-text text-transparent text-5xl font-bold inline-block"
+   className="bg-gradient-to-r from-primary to-white bg-clip-text text-transparent text-5xl font-bold inline-block"
    style={{ WebkitTextFillColor: "transparent" }}>
   Experience
   </h1>
@@ -29,7 +29,7 @@ function Experience() {
           key={index}
         >
           
-          <div className="bg-gradient-to-r from-[#8750f7] to-gray-100 bg-clip-text text-transparent">
+          <div className="bg-gradient-to-r from-primary to-gray-100 bg-clip-text text-transparent">
           <h3>{data.name}</h3>
           <h4>{data.title}</h4>
           <p>
