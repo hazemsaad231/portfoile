@@ -15,7 +15,7 @@ const Home = () => {
     <div className='mb-10'>
       
     <h1 
-  className="bg-gradient-to-r from-primary to-white bg-clip-text text-transparent text-5xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-6xl font-bold tracking-[2px] inline-block"
+  className="bg-gradient-to-r from-primary to-white bg-clip-text text-5xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-6xl font-bold tracking-[2px] inline-block"
   style={{ WebkitTextFillColor: "transparent" }}
 >
   I'm Hazem
@@ -44,7 +44,7 @@ const Home = () => {
         </p>
         <div className='flex mb-8'>
 
-        <a href="/CV.pdf" download="HazemSaad_CV.pdf"><button className='text-md rounded-full bg-gradient-to-r from-primary via-primary to-white px-4 py-2'>Download cv <i className="fas fa-download"></i></button></a>
+        <a href="/CV.pdf" download="HazemSaad_CV.pdf"><button className='text-md rounded-full bg-[#8820f1] hover:bg-transparent border border-primary text-white px-4 py-2'>Download cv <i className="fas fa-download"></i></button></a>
 
         <a href="https://github.com/dashboard"><FaGithub className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl mx-3 text-white'/></a>
         <a href="https://www.linkedin.com/in/hazem-saad-719083282"><FaLinkedin className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl'/></a>

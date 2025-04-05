@@ -46,7 +46,7 @@ const NavBar = () => {
 
 
 
-     <button className="flex text-md sm:text-md md:text-md lg:text-lg xl:text-lg bg-primary px-4 py-2 rounded-full hover:bg-transparent"> 
+     <button className="flex text-md sm:text-md md:text-md lg:text-lg xl:text-lg bg-[#8818f1] px-4 py-2 rounded-full hover:bg-transparent"> 
    <CiLocationArrow1 color="white" size={20} className="relative top-1 right-1"/>
     <a href='https://wa.me/201062588052'>Lets Talk</a> 
     </button>
@@ -99,6 +99,7 @@ const NavBar = () => {
   </motion.div>
   )}
  </AnimatePresence> 
+ 
     
             </div>
         </div>

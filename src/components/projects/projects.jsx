@@ -48,7 +48,7 @@ const Projects = () => {
           }}
           whileHover={{ scale: 1.05, rotate: 1 }}
           transition={{ duration: 0.5, ease: "easeInOut" }}
-          className="card rounded-xl border border-black shadow-2xl cursor-pointer"
+          className="card rounded-xl border border-gray-600 shadow-2xl cursor-pointer"
         >
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
