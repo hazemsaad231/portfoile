@@ -83,7 +83,7 @@ const About = () => {
 
             <div className='h-80 mt-10 text-gray-300 cursor-pointer text-xl'>
             {viewSkills &&
-            <div className='grid grid-cols-2 gap-1'>
+            <div className='grid grid-cols-2 w-max gap-1'>
             {Data4.map((item, index) => (
               <ul key={index}>
                 <li className='bg-primary text-white px-4 m-1 w-max rounded-full hover:bg-white hover:text-primary'>{item}</li>
@@ -94,8 +94,8 @@ const About = () => {
               }
               {viewEducation &&
               <ul className='grid grid-cols-1 gap-3'>
-                <li className='bg-primary text-white px-4 w-max rounded-full hover:bg-white hover:text-primary'>computer science</li>
-                <li className='bg-primary text-white px-4 w-max rounded-full hover:bg-white hover:text-primary'>university of banha (2020-2024)</li>
+                <li className='bg-primary text-white px-2 w-max rounded-full hover:bg-white hover:text-primary'>computer science</li>
+                <li className='bg-primary text-white px-2 w-max rounded-full hover:bg-white hover:text-primary'>university of banha (2020-2024)</li>
               </ul>
               }
             </div>
