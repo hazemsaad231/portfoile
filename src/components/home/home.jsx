@@ -27,7 +27,7 @@ const Home = () => {
           sequence={[
       'software engineer',
       1000,
-      'web developer',
+      'front end developer',
       1000,
           ]}
           wrapper="h1"
