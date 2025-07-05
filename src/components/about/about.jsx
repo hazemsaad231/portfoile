@@ -45,7 +45,7 @@ const About = () => {
             
             <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row gap-6 sm:gap-6 md:gap-10 lg:gap-10 xl:gap-12'
              >
-            <p className="text-gray-300 w-[100%] sm:w-[100%] md:w-[60%] lg:w-[60%] xl:w-[600px] mt-8 text-md z-1">
+            <p className="text-gray-300 w-[100%] sm:w-[100%] md:w-[60%] lg:w-[60%] xl:w-[600px] mt-8 text-lg z-1">
             I'm Hazem Mahisin Saad, a front-end expert in React.js, with experience in building modern, interactive, experimental UIs.
              He worked on developing free dynamic web applications.
             I've built online stores, control panels, and data management systems, and I'm interested in improving performance and user experience.

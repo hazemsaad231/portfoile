@@ -4,6 +4,7 @@ import Quiz from '../../assets/images/Screenshot 2024-09-28 124729.png'
 import rentCar from '../../assets/images/rentCar.jpeg'
 import bookStore from '../../assets/images/bookstore.jpeg'
 import dashboard from '../../assets/images/dashboard.jpeg'
+import Ali from '../../assets/images/family of ali.png'
 import xo  from '../../assets/images/xo-game.png'
 import apple  from '../../assets/images/apple.png'
 import calc  from '../../assets/images/calc.png'
@@ -91,7 +92,23 @@ const Data = [
         title: "Rent cars",
         img: rentCar,
         link: "https://cars-project-tk9d.vercel.app/",
-        gitHub: "https://github.com/hazemsaad231/cars-project"
+        gitHub: "https://github.com/hazemsaad231/cars-project",
+        description: `
+     This project allows users to rent or buy cars with flexible payment options, including partial payments 
+    via Stripe integration. It offers a smooth user experience with advanced search filters, responsive design, 
+    and pagination for easy browsing.
+
+    The platform also includes a secure **Admin Dashboard**, where the admin can:
+    - Add, edit, or delete car listings.
+    - Manage services available on the platform.
+
+    **Demo Admin Access:**
+    - **Username:** hazemsaad231@gmail.com
+    - **Password:** Hh572001
+    `,
+    skills:['react','tailwand','mui','firebase','stripe']
+    
+    
     },
     {
         id: 2,
@@ -107,6 +124,13 @@ const Data = [
         link: "https://dashboard25-beta.vercel.app",
         gitHub:"https://github.com/hazemsaad231/dashboard25"
     },
+    {
+        id:4,
+        title: "Family of ali",
+        img:Ali,
+        link: "https://family-of-ali.vercel.app/",
+        gitHub: "https://github.com/hazemsaad231/family-of-ali"
+    }
     
 ]
 
@@ -117,21 +141,21 @@ export default Data
 export const Data2 = [
 
     {
-        id: 1,
+        id: 4,
         title: "XO game",
         img: xo,
         link: "https://hazemsaad231.github.io/XO-Game/",
         gitHub: "https://github.com/hazemsaad231/XO-Game"
     },
     {
-        id: 2,
+        id: 5,
         title: "Crud system",
         img: Crud,
         link: "https://hazemsaad231.github.io/cruds/",
         gitHub: "https://github.com/hazemsaad231/cruds"
     },
     {
-        id: 3,
+        id: 6,
         title: "Quiz app",
         img: Quiz,
         link:"https://hazemsaad231.github.io/Quiz-app/",
@@ -139,28 +163,28 @@ export const Data2 = [
     },
   
     {
-        id: 4,
+        id: 7,
         title: "Shoes e-commerce",
         img: Ecommerce,
         link: "https://hazemsaad231.github.io/shoes-ecommerce/",
         gitHub: "https://github.com/hazemsaad231/shoes-ecommerce"
     },
     {
-        id: 5,
+        id: 8,
         title: "Calculator",
         img: calc,
         link:"https://hazemsaad231.github.io/Calc/",
         gitHub:"https://github.com/hazemsaad231/Calc"
     },
     {
-        id: 6,
+        id: 9,
         title:"Filter-image",
         img: editor,
         link:"https://hazemsaad231.github.io/Editor/",
         gitHub:"https://github.com/hazemsaad231/Editor"
     },
     {
-        id: 7,
+        id: 10,
         title:"Iphone",
         img: apple,
         link:"https://hazemsaad231.github.io/apple/",
