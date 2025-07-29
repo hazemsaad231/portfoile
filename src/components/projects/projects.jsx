@@ -145,7 +145,7 @@ const Projects = () => {
           <li
             className={`${
               active === 'react'
-                ? 'bg-gradient-to-r from-primary to-white transform -rotate-12 transition-all duration-500 w-24 text-center rounded-full'
+                ? 'bg-gradient-to-r from-primary to-white transform scale-125 transition-all duration-700 w-24 text-center rounded-full'
                 : 'bg-gradient-to-r from-[#8750f7] to-white w-24 text-center rounded-full'
             }`}
             onClick={() => handleToggle('react')}
@@ -155,7 +155,7 @@ const Projects = () => {
           <li
             className={`${
               active === 'js'
-                ? 'bg-gradient-to-r from-primary to-white transform rotate-12 transition-all duration-500 w-24 text-center rounded-full'
+                ? 'bg-gradient-to-r from-primary to-white transform scale-125 transition-all duration-700 w-24 text-center rounded-full'
                 : 'bg-gradient-to-r from-[#8750f7] to-white w-24 text-center rounded-full'
             }`}
             onClick={() => handleToggle('js')}
@@ -165,7 +165,7 @@ const Projects = () => {
           <li
             className={`${
               active === 'all'
-                ? 'bg-gradient-to-r from-primary to-white transform rotate-12 transition-all duration-500 w-24 text-center rounded-full'
+                ? 'bg-gradient-to-r from-primary to-white transform scale-125 transition-all duration-700 w-24 text-center rounded-full'
                 : 'bg-gradient-to-r from-[#8750f7] to-white w-24 text-center rounded-full'
             }`}
             onClick={() => handleToggle('all')}
