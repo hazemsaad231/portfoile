@@ -57,7 +57,7 @@ const About = () => {
             </p>
 
             <div className="" >
-            <ul className='flex gap-x-5 mt-5 text-xl text-gray-300 cursor-pointer relative top-2 '>
+            <ul className='flex gap-x-4 mt-5 text-xl text-gray-300 cursor-pointer relative top-2 '>
             <li 
      onClick={() => {
        toggleActive('skills');
@@ -86,7 +86,7 @@ const About = () => {
             <div className='grid grid-cols-2 w-max gap-1'>
             {Data4.map((item, index) => (
               <ul key={index}>
-                <li className='bg-primary text-white px-4 m-1 w-max rounded-full hover:bg-white hover:text-primary'>{item}</li>
+                <li className='bg-primary text-white px-2 m-1 w-max rounded-full hover:bg-white hover:text-primary'>{item}</li>
                
                 </ul>
             ))}

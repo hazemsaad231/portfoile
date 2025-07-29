@@ -54,7 +54,7 @@ const Projects = () => {
 
   const renderProjects = (data) => (
     <motion.div
-      className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 mb-10 gap-10"
+      className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 mb-10 gap-8"
       initial="hidden"
       animate="visible"
       variants={{
@@ -141,7 +141,7 @@ const Projects = () => {
         <p className="text-gray-500 text-sm md:text-xl mb-4">
           I have created many projects in my free time
         </p>
-        <ul className="flex gap-4 p-4 text-white text-xl cursor-pointer">
+        <ul className="flex gap-4 p-2 text-white text-xl cursor-pointer">
           <li
             className={`${
               active === 'react'
