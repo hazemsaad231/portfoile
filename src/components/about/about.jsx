@@ -94,7 +94,7 @@ const About = () => {
               }
               {viewEducation &&
               <ul className='grid grid-cols-1 gap-3'>
-                <li className='bg-primary text-white px-2 w-max rounded-full hover:bg-white hover:text-primary'>computer science</li>
+                <li className='bg-primary text-white px-2 w-max rounded-full hover:bg-white hover:text-primary'>Bachelor's in Computer Science</li>
                 <li className='bg-primary text-white px-2 w-max rounded-full hover:bg-white hover:text-primary'>university of banha</li>
               </ul>
               }
