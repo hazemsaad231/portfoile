@@ -87,18 +87,9 @@ export const Icons = [
   
   
 const Data = [
-    {
+
+     {
         id: 1,
-        title: "Rent cars",
-        img: rentCar,
-        link: "https://cars-project-tk9d.vercel.app/",
-        gitHub: "https://github.com/hazemsaad231/cars-project",
-        description: `A simple website for selling and renting cars, allowing users to easily browse, search, and filter cars. Administrators can add and remove car listings, while customers can view details and quickly find the best options.
-    `,
-    
-    },
-    {
-        id: 2,
         title: "Book store",
         img: bookStore,
         link: "https://bookstore-three-delta.vercel.app/",
@@ -107,6 +98,17 @@ const Data = [
 
 `,
     },
+    {
+        id: 2,
+        title: "Rent cars",
+        img: rentCar,
+        link: "https://cars-project-tk9d.vercel.app/",
+        gitHub: "https://github.com/hazemsaad231/cars-project",
+        description: `A simple website for selling and renting cars, allowing users to easily browse, search, and filter cars. Administrators can add and remove car listings, while customers can view details and quickly find the best options.
+    `,
+    
+    },
+   
     {
         id: 3,
         title: "User dashboard",
