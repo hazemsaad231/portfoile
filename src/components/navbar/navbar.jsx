@@ -46,10 +46,17 @@ const NavBar = () => {
 
 
 
-     <button className="flex text-md sm:text-md md:text-md lg:text-lg xl:text-lg bg-[#8818f1] px-4 py-2 rounded-full hover:bg-transparent"> 
-   <CiLocationArrow1 color="white" size={20} className="relative top-1 right-1"/>
-    <a href='https://wa.me/201062588052'>Lets Talk</a> 
-    </button>
+     {/* <button className="flex text-md sm:text-md md:text-md lg:text-lg xl:text-lg bg-[#8818f1] px-4 py-2 rounded-full hover:bg-transparent"> 
+              <CiLocationArrow1 color="white" size={20} className="relative top-1 right-1"/>
+   <a href='https://wa.me/201062588052'>Lets Talk</a> 
+    </button> */}
+    <div className="relative z-10">
+  <button className="flex border-2 border-primary bg-transparent py-2.5 px-5 font-medium uppercase text-white rounded-full before:rounded-full transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-primary before:transition-transform before:duration-1000 before:content-[''] hover:text-white before:hover:scale-x-100">
+           <CiLocationArrow1 color="white" size={20} className="relative top-1 right-1"/>
+        <a href='https://wa.me/201062588052'>Lets Talk</a>
+      </button>
+    </div>
+    
 
            
 

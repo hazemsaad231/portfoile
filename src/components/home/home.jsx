@@ -44,8 +44,11 @@ const Home = () => {
         </p>
         <div className='flex mb-8'>
 
-        <a href="/CV.pdf" download="HazemSaad_CV.pdf"><button className='text-md rounded-full bg-[#8820f1] hover:bg-transparent border border-primary text-white px-4 py-2'>Download cv <i className="fas fa-download"></i></button></a>
-
+<div className="relative z-10">
+  <a href='/CV.pdf' download={"HazemSaad_CV.pdf"}><button className="flex bg-transparent border-2 border-primary py-2.5 px-5 font-medium uppercase text-white rounded-full before:rounded-full transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-y-0 before:bg-primary before:transition-transform before:duration-1000 before:content-[''] hover:text-white before:hover:scale-y-100">
+        Download Cv
+      </button></a>
+    </div>
         <a href="https://github.com/dashboard"><FaGithub className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl mx-3 text-white'/></a>
         <a href="https://www.linkedin.com/in/hazem-saad-719083282"><FaLinkedin className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl'/></a>
         <a href="https://www.facebook.com/hazem.mahisin"> <FaFacebookSquare className='text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl mx-3 text-white'/></a>
