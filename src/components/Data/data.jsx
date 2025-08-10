@@ -241,4 +241,4 @@ export const Data3 = [
 ]
 
 
-export const Data4 = ['HTML', 'CSS', 'JavaScript','TypeScript', 'React', 'Tailwind','MUI', 'Redux', 'Firebase','React Query','Framer Motion']
+export const Data4 = ['HTML', 'CSS', 'JavaScript','TypeScript', 'React', 'Next', 'Tailwind','MUI', 'Redux', 'Firebase','React Query','Framer Motion']
