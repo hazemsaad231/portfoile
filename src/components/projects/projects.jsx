@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { RiExternalLinkLine } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
-import Data from '../Data/data';
-import { Data2 } from '../Data/data';
+import  {Js } from '../Data/data';
+import { Next } from '../Data/data';
+import  React  from '../Data/data';
 import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -30,6 +31,7 @@ const Projects = () => {
   const [active, setActive] = useState('react');
   const [isReact, setIsReact] = useState(true);
   const [isJs, setIsJs] = useState(false);
+  const [isNext, setIsNext] = useState(false);
   const [expanded, setExpanded] = useState(null); // ✅ كل كارت حسب الـ ID
 
   const handleExpandClick = (id) => {
@@ -43,12 +45,15 @@ const Projects = () => {
     if (type === 'react') {
       setIsReact(true);
       setIsJs(false);
+      setIsNext(false);
     } else if (type === 'js') {
+        setIsJs(true);
       setIsReact(false);
-      setIsJs(true);
-    } else {
-      setIsReact(true);
-      setIsJs(true);
+      setIsNext(false);
+    } else if (type === 'next') {
+      setIsNext(true);
+      setIsReact(false);
+      setIsJs(false);
     }
   };
 
@@ -164,20 +169,21 @@ const Projects = () => {
           </li>
           <li
             className={`${
-              active === 'all'
+              active === 'next'
                 ? 'bg-gradient-to-r from-primary to-white transform scale-125 transition-all duration-700 w-24 text-center rounded-full'
                 : 'bg-gradient-to-r from-[#8750f7] to-white w-24 text-center rounded-full'
             }`}
-            onClick={() => handleToggle('all')}
+            onClick={() => handleToggle('next')}
           >
-            All
+            Next
           </li>
         </ul>
       </div>
 
       <div className="flex flex-col justify-center items-center py-12 px-4">
-        {isReact && renderProjects(Data)}
-        {isJs && renderProjects(Data2)}
+        {isReact && renderProjects(React)}
+        {isJs && renderProjects(Js)}
+        {isNext && renderProjects(Next)}
       </div>
     </div>
   );

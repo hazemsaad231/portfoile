@@ -9,6 +9,7 @@ import xo  from '../../assets/images/xo-game.png'
 import apple  from '../../assets/images/apple.png'
 import calc  from '../../assets/images/calc.png'
 import editor  from '../../assets/images/editor.png'
+import coffee  from '../../assets/images/coffee.png'
 import { SiCss3 } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
@@ -86,7 +87,7 @@ export const Icons = [
 ];
   
   
-const Data = [
+const React = [
 
      {
         id: 1,
@@ -131,11 +132,11 @@ const Data = [
     
 ]
 
-export default Data
+export default React;
 
 
 
-export const Data2 = [
+export const Js = [
 
     {
         id: 4,
@@ -202,6 +203,19 @@ export const Data2 = [
 `
     }
 ]
+
+export const Next = [
+    {
+        id: 1,
+        title:"Bean Scene Coffee ",
+        img: coffee,
+        link: "https://my-coffie.vercel.app/",
+        gitHub:"https://github.com/hazemsaad231/my-coffie",
+        description: `A coffee website that offers a unique and visually stunning experience. It features a sleek design, highlighting the coffee's delicate flavors and unique blend.`
+    }
+]
+
+
 
 export const Data3 = [
 
