@@ -45,7 +45,7 @@ const Home = () => {
         <div className='flex mb-8'>
 
 <div className="relative z-10">
-  <a href='/CV.pdf' download={"HazemSaad_CV.pdf"}><button className="flex bg-transparent border-2 border-primary py-2.5 px-5 font-medium uppercase text-white rounded-full before:rounded-full transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-y-0 before:bg-primary before:transition-transform before:duration-1000 before:content-[''] hover:text-white before:hover:scale-y-100">
+  <a href='/CV.pdf' download={"HazemSaad_CV.pdf"}><button className="flex bg-gradient-to-t from-primary to-white border-2 border-primary py-2.5 px-5 font-medium uppercase text-white rounded-full ">
         Download Cv
       </button></a>
     </div>
