@@ -14,6 +14,17 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { List } from '@mui/material';
+// Swiper
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+
+
+
+
+
+
 
 // ✅ تعديل هنا: مكون لتدوير السهم عند الفتح
 const ExpandMore = styled((props) => {
@@ -59,7 +70,7 @@ const Projects = () => {
 
   const renderProjects = (data) => (
     <motion.div
-      className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 mb-10 gap-8"
+      className="w-full"
       initial="hidden"
       animate="visible"
       variants={{
@@ -70,8 +81,24 @@ const Projects = () => {
         },
       }}
     >
-      {data.map((item) => (
-        <Card sx={{ maxWidth: 400 , bgcolor:"transparent"}} key={item.id}>
+
+
+ <Swiper
+            modules={[Pagination]}
+            pagination={{ clickable: true }}
+            spaceBetween={10}
+            loop
+            breakpoints={{
+              1536: { slidesPerView: 3 },
+              1024: { slidesPerView: 2 },
+              768: { slidesPerView: 2 },
+              480: { slidesPerView: 1 },
+            }}
+          >
+        {data.map((item) => (
+              <SwiperSlide>
+
+        <Card sx={{ maxWidth: 420 , bgcolor:"transparent" , margin:"auto" }} key={item.id}>
          
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -82,7 +109,7 @@ const Projects = () => {
             <img
               src={item.img}
               alt={item.title}
-              className="w-full h-[350px] object-center rounded-t-sm"
+              className="w-full h-[340px] object-center rounded-t-sm"
             />
           </motion.div>
            <motion.div className="flex justify-between p-2 bg-white rounded-b-sm">
@@ -133,7 +160,18 @@ const Projects = () => {
             </CardContent>
           </Collapse>
         </Card>
-      ))}
+      
+              </SwiperSlide>
+          ))}
+          </Swiper>
+
+
+
+
+
+
+
+    
     </motion.div>
   );
 
@@ -180,7 +218,7 @@ const Projects = () => {
         </ul>
       </div>
 
-      <div className="flex flex-col justify-center items-center py-12 px-4">
+      <div className="flex flex-col justify-center items-center p-4 md:p-8">
         {isReact && renderProjects(React)}
         {isJs && renderProjects(Js)}
         {isNext && renderProjects(Next)}
