@@ -26,7 +26,7 @@ import "swiper/css/pagination";
 
 
 
-// ✅ تعديل هنا: مكون لتدوير السهم عند الفتح
+
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
