@@ -43,7 +43,7 @@ const Projects = () => {
   const [isReact, setIsReact] = useState(true);
   const [isJs, setIsJs] = useState(false);
   const [isNext, setIsNext] = useState(false);
-  const [expanded, setExpanded] = useState(null); // ✅ كل كارت حسب الـ ID
+  const [expanded, setExpanded] = useState(null); 
 
   const handleExpandClick = (id) => {
     console.log(`Toggling: ${id}`);
@@ -87,12 +87,18 @@ const Projects = () => {
             modules={[Pagination]}
             pagination={{ clickable: true }}
             spaceBetween={10}
+            slidesPerView={3}
             loop
             breakpoints={{
-              1536: { slidesPerView: 3 },
-              1024: { slidesPerView: 2 },
-              768: { slidesPerView: 2 },
-              480: { slidesPerView: 1 },
+              0: {
+                slidesPerView: 1,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              1024: {
+                slidesPerView: 3,
+              },
             }}
           >
         {data.map((item) => (

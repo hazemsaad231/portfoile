@@ -218,26 +218,25 @@ export const Next = [
 
 
 export const Data3 = [
+    {
+    "name": "Front-End Developer",
+    "title": "Freelance",
+    "text": "Built responsive web interfaces using React.js, Tailwind CSS, and JavaScript. Focused on enhancing user experience (UX/UI) and optimizing website performance. Learned state management and reusable components. Integrated API calls to fetch dynamic data. Ensured cross-browser compatibility and mobile responsiveness.",
+    "date": "2025 – Present"
+  },
+  {
+    "name": "Front-End Intern",
+    "title": "Web Master",
+    "text": "Assisted in React projects, UI development, and API integration. Helped optimize web applications for performance and usability. Participated in testing, debugging, and implementing modern design patterns.",
+    "date": "Mar 2024 – May 2024"
+  },
+  {
+    "name": "Courses & Certifications",
+    "title": "Upskilling Front-End Development",
+    "text": "Completed a course covering React.js, JavaScript, Tailwind CSS, and modern web development practices. Gained hands-on experience in building responsive and dynamic web applications.",
+    "date": "2024"
+  },
 
-    {
-        name: "Front-End Developer",
-        title: "Freelance",
-        text : ' Developing web interfaces using React.js, Tailwind CSS, and JavaScript.Enhancing user experience (UX/UI) and website performance.',
-        date : "2025 - Present"
-    },
-    {
-        name: "Freelance",
-        title: "Car E-Commerce Platform",
-        text : 'Developed an online car marketplace with features for both admin and user roles.Implemented dynamic search and pagination. Integrated Firebase for data storage,allowing real-time updates and secure data management. Retrieved and displayed car data via API for seamless user  interaction.',
-        date : "2024 - Present"
-    },
-    {
-        name: "Front-End Intern ",
-        title: "Web Master (Mar 2024 – May 2024)",
-        text : ' Worked on React projects, UI development, and API integration. Assisted in optimizing web applications ',
-        date : "2024 - Present"
-    }
-  
 ]
 
 
