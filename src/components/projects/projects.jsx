@@ -187,7 +187,7 @@ const Projects = () => {
         <h1 className="bg-gradient-to-r from-primary to-white bg-clip-text text-transparent text-4xl font-bold">
           Projects <span className="w-4 h-4 bg-primary inline-block rounded-full"></span>
         </h1>
-        <p className="text-gray-500 text-sm md:text-xl mb-4">
+        <p className="text-white text-sm md:text-xl mb-4">
           I have created many projects in my free time
         </p>
         <ul className="flex gap-4 p-2 text-white text-xl cursor-pointer">

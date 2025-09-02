@@ -29,7 +29,7 @@ function Experience() {
           key={index}
         >
           
-          <div className="bg-gradient-to-r from-primary to-gray-100 bg-clip-text text-transparent">
+          <div className="text-white">
           <h3>{data.name}</h3>
           <h4>{data.title}</h4>
           <p>
