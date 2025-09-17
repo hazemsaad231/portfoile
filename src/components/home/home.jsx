@@ -45,7 +45,7 @@ const Home = () => {
         <div className='flex mb-8'>
 
 <div className="relative z-10">
-  <a href='/CV.pdf' download={"HazemSaad_CV.pdf"}><button className="flex bg-gradient-to-t from-primary to-white py-2.5 px-5 font-medium uppercase text-white rounded-full ">
+  <a href='/CV.pdf' download={"HazemSaad_CV.pdf"}><button className="text-sm flex bg-gradient-to-t from-primary to-white py-2.5 px-4 font-medium uppercase text-white rounded-full ">
         Download Cv
       </button></a>
     </div>

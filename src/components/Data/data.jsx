@@ -217,12 +217,18 @@ export const Next = [
 
 
 
-export const Data3 = [
-    {
+export const experience = [
+  {
+    "name": "Front-End Developer",
+    "title": "Tadbeer Company",
+    "text": "built responsive, user-friendly web applications. Using React.js, Tailwind CSS, and JavaScript to develop scalable components, optimize performance, and deliver engaging user experiences. Collaborating with team members to integrate APIs, ensure cross-browser compatibility, and maintain code quality.",
+    "date": "2025 – Present"
+  },
+  {
     "name": "Front-End Developer",
     "title": "Freelance",
     "text": "Built responsive web interfaces using React.js, Tailwind CSS, and JavaScript. Focused on enhancing user experience (UX/UI) and optimizing website performance. Learned state management and reusable components. Integrated API calls to fetch dynamic data. Ensured cross-browser compatibility and mobile responsiveness.",
-    "date": "2025 – Present"
+    "date": "2024 – 2025"
   },
   {
     "name": "Front-End Intern",
@@ -235,9 +241,9 @@ export const Data3 = [
     "title": "Upskilling Front-End Development",
     "text": "Completed a course covering React.js, JavaScript, Tailwind CSS, and modern web development practices. Gained hands-on experience in building responsive and dynamic web applications.",
     "date": "2024"
-  },
-
+  }
 ]
 
 
-export const Data4 = ['HTML', 'CSS', 'JavaScript','TypeScript', 'React', 'Next', 'Tailwind','MUI', 'Redux', 'Firebase','React Query','Framer Motion']
+
+export const skills = ['HTML', 'CSS', 'JavaScript','TypeScript', 'React', 'Next', 'Tailwind','MUI', 'Redux', 'Firebase','React Query','Framer Motion']

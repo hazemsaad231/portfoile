@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { Data3 } from "../Data/data";
+import { experience } from "../Data/data";
 
 function Experience() {
   return (
@@ -21,7 +21,7 @@ function Experience() {
     
 
       <VerticalTimeline lineColor="white">
-      {Data3.map((data, index) => (
+      {experience.map((data, index) => (
         <VerticalTimelineElement
           date={data.date}
           icon={<FontAwesomeIcon icon={faBriefcase} className="text-white" />}
@@ -30,8 +30,8 @@ function Experience() {
         >
           
           <div className="text-white">
-          <h3>{data.name}</h3>
-          <h4>{data.title}</h4>
+          <h3 className="bg-gradient-to-t from-primary to-white bg-clip-text text-transparent font-bold">{data.name}</h3>
+          <h4 className="bg-gradient-to-t from-primary to-white bg-clip-text text-transparent font-semibold">{data.title}</h4>
           <p>
             {data.text}
           </p>

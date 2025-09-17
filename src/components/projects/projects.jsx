@@ -14,6 +14,10 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { List } from '@mui/material';
+import { FaReact } from "react-icons/fa";
+import { MdJavascript } from "react-icons/md";
+import { RiNextjsFill } from "react-icons/ri";
+
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
@@ -171,15 +175,11 @@ const Projects = () => {
           ))}
           </Swiper>
 
-
-
-
-
-
-
     
     </motion.div>
-  );
+  )
+
+  
 
   return (
     <div className="pt-12 pb-4" id="projects">
@@ -187,9 +187,6 @@ const Projects = () => {
         <h1 className="bg-gradient-to-r from-primary to-white bg-clip-text text-transparent text-4xl font-bold">
           Projects <span className="w-4 h-4 bg-primary inline-block rounded-full"></span>
         </h1>
-        <p className="text-white text-sm md:text-xl mb-4">
-          I have created many projects in my free time
-        </p>
         <ul className="flex gap-4 p-2 text-white text-xl cursor-pointer">
           <li
             className={`${
@@ -201,6 +198,7 @@ const Projects = () => {
           >
             React
           </li>
+         
           <li
             className={`${
               active === 'js'
