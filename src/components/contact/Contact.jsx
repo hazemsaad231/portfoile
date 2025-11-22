@@ -44,7 +44,7 @@ function Contact() {
   return (
     <>
     <Toaster/>
-    <div id="contact" className='px-8 pb-8'>
+    <div id="contact" className='px-8 pb-8 mt-20'>
       <div className=" flex flex-col justify-center items-center gap-4">
         <div>
         <div className="text-center w-full my-10">
