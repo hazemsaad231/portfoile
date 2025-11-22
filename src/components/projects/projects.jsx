@@ -343,7 +343,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="pt-12 pb-4 min-h-screen" id="projects">
+    <div className="pt-12 pb-10 min-h-screen" id="projects">
       {/* Header */}
 <div className="text-center w-full my-10">
 <h1 
@@ -398,7 +398,7 @@ const Projects = () => {
             {/* Slider Container */}
             <div className="overflow-hidden">
               <motion.div
-                className="flex gap-6"
+                className="flex gap-0 md:gap-5"
                 animate={{
                   x: `-${currentSlide * (100 / slidesPerView)}%`
                 }}
@@ -535,7 +535,7 @@ const Projects = () => {
                   className={`absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 w-12 h-12 rounded-full bg-slate-800/90 backdrop-blur-sm border border-slate-700 flex items-center justify-center transition-all ${
                     currentSlide === 0
                       ? 'opacity-30 cursor-not-allowed'
-                      : 'hover:bg-blue-600 hover:border-blue-500'
+                      : 'hover:bg-primary hover:border-primary'
                   }`}
                   aria-label="Previous slide"
                 >
