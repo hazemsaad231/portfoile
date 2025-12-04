@@ -4,7 +4,6 @@
 
 body {
   overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;
 }
 
 .app{
@@ -14,6 +13,7 @@ body {
  object-fit: cover;
  background-color: black;
  color: white;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 
