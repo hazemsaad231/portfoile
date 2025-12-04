@@ -3,13 +3,14 @@ import Crud from "../../assets/images/cruds.png";
 import Quiz from '../../assets/images/Screenshot 2024-09-28 124729.png'
 import rentCar from '../../assets/images/rentCar.jpeg'
 import bookStore from '../../assets/images/bookstore.jpeg'
-import dashboard from '../../assets/images/dashboard.jpeg'
-import Ali from '../../assets/images/family of ali.png'
 import xo  from '../../assets/images/xo-game.png'
 import apple  from '../../assets/images/apple.png'
 import calc  from '../../assets/images/calc.png'
 import editor  from '../../assets/images/editor.png'
-import coffee  from '../../assets/images/coffee.png'
+import ali  from '../../assets/images/ali.png'
+import coffee  from '../../assets/images/coffee.png';
+import ecommerce  from '../../assets/images/next.png';
+import tadbeer  from '../../assets/images/tadbeer.png';
 import { SiCss3 } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
@@ -23,7 +24,6 @@ import { ImHtmlFive } from "react-icons/im";
 import { SiReactquery } from "react-icons/si";
 import { SiFramer } from "react-icons/si";
 import { SiMui } from "react-icons/si";
-
 
 
 
@@ -101,6 +101,15 @@ const React = [
     },
     {
         id: 2,
+        title: "family of mohammed ali",
+        img: ali,
+        link: "https://ali-dynasty-chronicles.netlify.app/",
+        gitHub: ""
+        ,description: `A captivating website dedicated to the illustrious family of Mohammed Ali, showcasing their rich history and contributions. The site features an elegant design, engaging content, and a user-friendly interface to explore the legacy of this remarkable family.
+`
+    },
+    {
+        id: 3,
         title: "Rent cars",
         img: rentCar,
         link: "https://cars-project-tk9d.vercel.app/",
@@ -109,26 +118,8 @@ const React = [
     `,
     
     },
-   
-    {
-        id: 3,
-        title: "User dashboard",
-        img: dashboard,
-        link: "https://dashboard25-beta.vercel.app",
-        gitHub:"https://github.com/hazemsaad231/dashboard25",
-        description: `A user management dashboard that allows admins to view, add, update, and delete users. It includes login functionality and an API connection for handling user data securely and efficiently.
 
-`,
-    },
-    {
-        id:4,
-        title: "Family of ali",
-        img:Ali,
-        link: "https://family-of-ali.vercel.app/",
-        gitHub: "https://github.com/hazemsaad231/family-of-ali",
-        description: `A personal website showcasing the family of Ali, featuring a simple and elegant design. It includes sections for family members, photos, and a contact form, providing a platform to share family stories and memories.
-`,
-    }
+   
     
 ]
 
@@ -205,14 +196,33 @@ export const Js = [
 ]
 
 export const Next = [
+
     {
         id: 1,
+        title: "Tadbeer Company",
+        img: tadbeer,
+        link: "https://tadbeer.sa/",
+        gitHub: "https://github.com/hazemsaad231/tadbeer-company",
+        description: `A professional website for Tadbeer Company, built with Next.js. It features a modern design, showcasing the company's services, team, and contact information to attract potential clients.`
+    },
+
+        {
+        id: 2,
+        title: "E-commerce",
+        img: ecommerce,
+        link: "https://demo.saleor.io/",
+        gitHub: "https://github.com/hazemsaad231/e-commerce-next-js",
+        description: `An e-commerce website built with Next.js, showcasing a wide range of products and providing a seamless shopping experience.`
+    },
+    {
+        id: 3,
         title:"Bean Scene Coffee ",
         img: coffee,
         link: "https://my-coffie.vercel.app/",
         gitHub:"https://github.com/hazemsaad231/my-coffie",
         description: `A coffee website that offers a unique and visually stunning experience. It features a sleek design, highlighting the coffee's delicate flavors and unique blend.`
-    }
+    },
+
 ]
 
 

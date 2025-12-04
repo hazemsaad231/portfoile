@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Github, ExternalLink, ChevronDown, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ExternalLink, ChevronDown, ChevronLeft, ChevronRight } from 'lucide-react';
 import  {Js } from '../Data/data';
 import { Next } from '../Data/data';
 import  React  from '../Data/data';
@@ -12,9 +12,10 @@ const Projects = () => {
   const [slidesPerView, setSlidesPerView] = useState(3);
 
   const tabs = [
+     { id: 'next', label: 'Next' },
     { id: 'react', label: 'React' },
-    { id: 'js', label: 'JS' },
-    { id: 'next', label: 'Next' }
+    { id: 'js', label: 'JS' }
+   
   ];
 
   const getCurrentProjects = () => {
@@ -125,7 +126,6 @@ const Projects = () => {
                           <div className="flex items-center justify-between mt-auto">
                             <div className="flex gap-3">
                               <motion.a href={item.gitHub} target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.2 }} transition={{ type: 'spring', stiffness: 200 }} className="text-gray-600 hover:text-blue-500">
-                                <Github size={25} />
                               </motion.a>
                               <motion.a href={item.link} target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.2 }} transition={{ type: 'spring', stiffness: 200 }} className="text-gray-600 hover:text-blue-500">
                                 <ExternalLink size={25} />
