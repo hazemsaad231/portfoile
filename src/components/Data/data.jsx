@@ -103,8 +103,8 @@ const React = [
         id: 2,
         title: "family of mohammed ali",
         img: ali,
-        link: "https://ali-dynasty-chronicles.netlify.app/",
-        gitHub: ""
+        link: "https://ali-family22.vercel.app/",
+        gitHub: "https://github.com/hazemsaad231/Ali-dynasty-chronicles.git"
         ,description: `A captivating website dedicated to the illustrious family of Mohammed Ali, showcasing their rich history and contributions. The site features an elegant design, engaging content, and a user-friendly interface to explore the legacy of this remarkable family.
 `
     },
