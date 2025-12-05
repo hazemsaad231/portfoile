@@ -11,6 +11,7 @@ import ali  from '../../assets/images/ali.png'
 import coffee  from '../../assets/images/coffee.png';
 import ecommerce  from '../../assets/images/next.png';
 import tadbeer  from '../../assets/images/tadbeer.png';
+import netflix  from '../../assets/images/netfilx.png';
 import { SiCss3 } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
@@ -101,6 +102,16 @@ const React = [
     },
     {
         id: 2,
+        title: "Netflix-clone",
+        img: netflix,
+        link: "https://streamflix25.netlify.app/",
+        gitHub: "https://github.com/hazemsaad231/netflix-clone",
+        description: `A Netflix clone website that offers a seamless streaming experience. It features a sleek design, user authentication, and a vast library of movies and TV shows, allowing users to browse, search, and watch their favorite content with ease.
+`
+
+    },
+    {
+        id: 3,
         title: "family of mohammed ali",
         img: ali,
         link: "https://ali-family22.vercel.app/",
@@ -109,7 +120,7 @@ const React = [
 `
     },
     {
-        id: 3,
+        id: 4,
         title: "Rent cars",
         img: rentCar,
         link: "https://cars-project-tk9d.vercel.app/",
