@@ -94,7 +94,7 @@ const React = [
         id: 1,
         title: "Book store",
         img: bookStore,
-        link: "https://bookstore-three-delta.vercel.app/",
+        link: "https://bookstore-qvw8.vercel.app/",
         gitHub: "https://github.com/hazemsaad231/BookStore",
         description: `An online bookstore with a full authentication system. Admins can add and remove books and manage orders, while customers can create accounts, add books to favorites and cart, and place or manage their orders easily.
 
