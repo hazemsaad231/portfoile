@@ -12,6 +12,7 @@ import coffee  from '../../assets/images/coffee.png';
 import ecommerce  from '../../assets/images/next.png';
 import tadbeer  from '../../assets/images/tadbeer.png';
 import netflix  from '../../assets/images/netfilx.png';
+import portfoilo  from '../../assets/images/portfoilo.png';
 import { SiCss3 } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
@@ -212,13 +213,21 @@ export const Next = [
         id: 1,
         title: "Tadbeer Company",
         img: tadbeer,
-        link: "https://tadbeer.sa/",
+        link: "https://azure-quail-473776.hostingersite.com",
         gitHub: "https://github.com/hazemsaad231/tadbeer-company",
         description: `A professional website for Tadbeer Company, built with Next.js. It features a modern design, showcasing the company's services, team, and contact information to attract potential clients.`
     },
+    {
+        id: 2,
+        title: "Platform Portfolio",
+        img: portfoilo,
+        link: "https://portfoliify-three.vercel.app/",
+        gitHub: "https://github.com/hazemsaad231/portfoilo-website",
+        description: `platform portfolio website built with Next.js, showcasing various projects and skills. It features a sleek design, easy navigation, and responsive layout to provide an engaging user experience.`
+    },
 
         {
-        id: 2,
+        id: 3,
         title: "E-commerce",
         img: ecommerce,
         link: "https://demo.saleor.io/",
@@ -226,7 +235,7 @@ export const Next = [
         description: `An e-commerce website built with Next.js, showcasing a wide range of products and providing a seamless shopping experience.`
     },
     {
-        id: 3,
+        id: 4,
         title:"Bean Scene Coffee ",
         img: coffee,
         link: "https://my-coffie.vercel.app/",
