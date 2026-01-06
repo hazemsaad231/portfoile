@@ -276,4 +276,4 @@ export const experience = [
 
 
 
-export const skills = ['HTML', 'CSS', 'JavaScript','TypeScript', 'React', 'Next', 'Tailwind','MUI', 'Redux', 'Firebase','React Query','Framer Motion']
+export const skills = ['HTML', 'CSS', 'JavaScript','TypeScript', 'React', 'Next', 'Tailwind','MUI', 'Redux', 'Firebase','React Query','Framer Motion','React-native','Supabase']
